@@ -1,0 +1,9 @@
+etc/xdg
+usr/bin
+usr/lib/*/kconf_update_bin
+usr/lib/*/libexec
+usr/lib/*/qml
+usr/lib/*/qt5
+usr/lib/*/*.so.*
+usr/lib/*/libkdeinit5_kwin.so
+usr/lib/*/libkdeinit5_kwin_rules_dialog.so
