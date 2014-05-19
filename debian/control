@@ -15,16 +15,19 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  libkf5coreaddons-dev (>= 4.99.0), libkf5auth-dev (>= 4.99.0),
  libkf5codecs-dev (>= 4.99.0), libkf5guiaddons-dev (>= 4.99.0),
  libkf5itemviews-dev (>= 4.99.0), libkf5dbusaddons-dev (>= 4.99.0),
- libkf5windowsystem-dev (>= 4.99.0), qtdeclarative5-dev, plasma-framework-dev (>= 4.99.0), kf5-kio-dev (>= 4.99.0), libkf5bookmarks-dev (>= 4.99.0),
- libkf5xmlgui-dev (>= 4.99.0), libkf5globalaccel-dev (>= 4.99.0),
- libkf5textwidgets-dev (>= 4.99.0), libkf5attica-dev (>= 4.99.0),
- libkf5jobwidgets-dev (>= 4.99.0), libkf5solid-dev (>= 4.99.0),
- libkf5threadweaver-dev (>= 4.99.0), libkf5unitconversion-dev (>= 4.99.0),
- libkf5service-dev (>= 4.99.0), libkf5sonnet-dev (>= 4.99.0), libkf5itemmodels-dev (>= 4.99.0), libkf5emoticons-dev (>= 4.99.0), kgendesignerplugin (>= 4.99.0), kdoctools-dev (>= 4.99.0), libkf5crash-dev (>= 4.99.0), libkf5i18n-dev (>= 4.99.0),
- libkf5declarative-dev (>= 4.99.0)
+ libkf5windowsystem-dev (>= 4.99.0), qtdeclarative5-dev,
+ plasma-framework-dev (>= 4.99.0), kf5-kio-dev (>= 4.99.0),
+ libkf5bookmarks-dev (>= 4.99.0), libkf5xmlgui-dev (>= 4.99.0),
+ libkf5globalaccel-dev (>= 4.99.0), libkf5textwidgets-dev (>= 4.99.0),
+ libkf5attica-dev (>= 4.99.0), libkf5jobwidgets-dev (>= 4.99.0),
+ libkf5solid-dev (>= 4.99.0), libkf5threadweaver-dev (>= 4.99.0), libkf5unitconversion-dev (>= 4.99.0), libkf5service-dev (>= 4.99.0),
+ libkf5sonnet-dev (>= 4.99.0), libkf5itemmodels-dev (>= 4.99.0),
+ libkf5emoticons-dev (>= 4.99.0), kgendesignerplugin (>= 4.99.0),
+ kdoctools-dev (>= 4.99.0), libkf5crash-dev (>= 4.99.0),
+ libkf5i18n-dev (>= 4.99.0), libkf5declarative-dev (>= 4.99.0)
 Standards-Version: 3.9.5
 Section: libs
-Homepage: https://projects.kde.org/projects/kde/unstable/plasma/kmenuedit
+Homepage: https://projects.kde.org/projects/kde/unstable/plasma/kwin
 
 Package: kwin-dev
 Section: devel
@@ -44,11 +47,13 @@ Description: KDE window manager - devel files
 Package: kwin
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, kwin-data (= ${binary:Version})
+Conflicts: kde-window-manager
+Recommends: kwin-decoration-oxygen
 Description: KDE window manager
- KWin (pronounced "kwin") is the window manager for  
- the KDE Plasma Desktop. It gives you complete control
- over your windows, making sure they're not in the way
+ KWin (pronounced as one syllable "kwin") is the window 
+ manager for  the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
  but aid you in your task. It paints the window decoration,
  the bar on top of every window with (configurable) buttons
  like close, maximize and minimize. It also handles placing
@@ -59,11 +64,11 @@ Description: KDE window manager
 Package: kwin-data
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kwin (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: KDE window manager
- KWin (pronounced "kwin") is the window manager for  
- the KDE Plasma Desktop. It gives you complete control
- over your windows, making sure they're not in the way
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
  but aid you in your task. It paints the window decoration,
  the bar on top of every window with (configurable) buttons
  like close, maximize and minimize. It also handles placing
@@ -77,9 +82,9 @@ Architecture: any
 Recommends: qtbase5-dbg
 Depends: ${misc:Depends}, kwin (= ${binary:Version})
 Description: KDE window manager - debug files
- KWin (pronounced "kwin") is the window manager for  
- the KDE Plasma Desktop. It gives you complete control
- over your windows, making sure they're not in the way
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
  but aid you in your task. It paints the window decoration,
  the bar on top of every window with (configurable) buttons
  like close, maximize and minimize. It also handles placing
