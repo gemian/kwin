@@ -1,2 +1,2 @@
 version=3
-ftp://ftp.kde.org/pub/kde/unstable/plasma/kwin/([\d\.]+)/src/kwin-(.*)\.tar\.xz
+ftp://ftp.kde.org/pub/kde/unstable/plasma/([\d\.]+)/src/kwin-(.*)\.tar\.xz
