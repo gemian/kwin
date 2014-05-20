@@ -4,8 +4,8 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  extra-cmake-modules (>= 0.0.13), pkg-kde-tools, xvfb, qtbase5-dev,
- libkf5kdelibs4support5-bin (>= 4.99.0), libkf5kdelibs4support-dev (>= 4.99.0), libkf5config-dev (>= 4.99.0), xauth, xvfb,
- openbox, qtbase5-dev, qtscript5-dev,
+ libkf5kdelibs4support5-bin (>= 4.99.0), libkf5kdelibs4support-dev (>= 4.99.0), libkf5config-dev (>= 4.99.0), xauth, xvfb, libqt5x11extras5-dev,
+ openbox, qtbase5-dev, qtscript5-dev, qttools5-dev,
  plasma-framework-dev (>= 4.99.0), libkf5newstuff-dev (>= 4.99.0),
  libkf5iconthemes-dev (>= 4.99.0), libkf5configwidgets-dev (>= 4.99.0),
  kinit-dev (>= 4.99.0), libkf5notifications-dev (>= 4.99.0),
@@ -25,7 +25,14 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  libkf5sonnet-dev (>= 4.99.0), libkf5itemmodels-dev (>= 4.99.0),
  libkf5emoticons-dev (>= 4.99.0), kgendesignerplugin (>= 4.99.0),
  kdoctools-dev (>= 4.99.0), libkf5crash-dev (>= 4.99.0),
- libkf5i18n-dev (>= 4.99.0), libkf5declarative-dev (>= 4.99.0)
+ libkf5i18n-dev (>= 4.99.0), libkf5declarative-dev (>= 4.99.0),
+ libkf5kcmutils-dev (>= 4.99.0), pkg-config, libwayland-dev,
+ libxkbcommon-dev, libx11-xcb-dev, libxcb-render0-dev,
+ libxcb-shape0-dev, libxcb-xfixes0-dev, libxcb-shm0-dev,
+ libxcb-composite0-dev, libxcb-damage0-dev, libxcb-image0-dev,
+ libxcb-keysyms1-dev, libxcb-randr0-dev, libxcb-sync-dev,
+ libxcb-xtest0-dev, libxcb-icccm4-dev, libsm-dev,
+ libkf5activities-dev (>= 4.99.0), libice-dev, libxcursor-dev
 Standards-Version: 3.9.5
 Section: libs
 Homepage: https://projects.kde.org/projects/kde/unstable/plasma/kwin
@@ -53,7 +60,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, kwin-data (= ${binary:Version}),
  libkdecorations5, libkwin4-effect-builtins1, libkwineffects5,
  libkwinglutils5, libkwinxrenderutils5
 Conflicts: kde-window-manager
-Recommends: kwin-decoration-oxygen
+Recommends: kwin-decoration-oxygen, libqt5multimedia5
 Description: KDE window manager
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
