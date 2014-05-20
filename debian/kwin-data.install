@@ -1,1 +1,8 @@
-/usr/share
+usr/share/icons/
+usr/share/kwin/
+usr/share/doc/
+usr/share/knotifications5/
+usr/share/kservices5/
+usr/share/kservicetypes5/
+usr/share/kwincompositing/
+usr/share/config.kcfg/
