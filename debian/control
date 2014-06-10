@@ -163,6 +163,7 @@ Package: kwin-data
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends} 
+Conflicts: kde-window-manager-common
 Description: KDE window manager data files
  KWin (pronounced as one syllable "kwin") is the window 
  manager for the KDE Plasma Desktop. It gives you complete
