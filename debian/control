@@ -2,49 +2,85 @@ Source: kwin
 Priority: extra
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.14), pkg-kde-tools, xvfb, qtbase5-dev,
- libkf5kdelibs4support5-bin (>= 4.100.0), libkf5kdelibs4support-dev (>= 4.100.0), libkf5config-dev (>= 4.100.0), xauth, xvfb, libqt5x11extras5-dev,
- openbox, qtbase5-dev, qtscript5-dev, qttools5-dev,
- plasma-framework-dev (>= 4.100.0), libkf5newstuff-dev (>= 4.100.0),
- libkf5iconthemes-dev (>= 4.100.0), libkf5configwidgets-dev (>= 4.100.0),
- kinit-dev (>= 4.100.0), libkf5notifications-dev (>= 4.100.0),
- libkf5parts-dev (>= 4.100.0), libkf5textwidgets-dev (>= 4.100.0), libkf5kdelibs4support5-bin (>= 4.100.0), libkf5kdelibs4support-dev (>= 4.100.0),
- libkf5config-dev (>= 4.100.0), xauth, xvfb, openbox, qtbase5-dev,
- qtscript5-dev, plasma-framework-dev ( >= 4.100.0),
- libkf5newstuff-dev ( >= 4.100.0), libkf5iconthemes-dev ( >= 4.100.0), libkf5configwidgets-dev ( >= 4.100.0), kinit-dev ( >= 4.100.0),
- libkf5notifications-dev ( >= 4.100.0), libkf5parts-dev ( >= 4.100.0), libkf5textwidgets-dev ( >= 4.100.0), kio-dev (>= 4.100.0),
- libkf5xmlgui-dev (>= 4.100.0), libkf5widgetsaddons-dev (>= 4.100.0),
- libkf5completion-dev (>= 4.100.0), libkf5bookmarks-dev (>= 4.100.0),
- libkf5jobwidgets-dev (>= 4.100.0), libkf5coreaddons-dev (>= 4.100.0),
- libkf5auth-dev (>= 4.100.0), libkf5codecs-dev (>= 4.100.0),
- libkf5guiaddons-dev (>= 4.100.0), libkf5itemviews-dev (>= 4.100.0),
- libkf5dbusaddons-dev (>= 4.100.0), libkf5windowsystem-dev (>= 4.100.0),
- qtdeclarative5-dev, plasma-framework-dev (>= 4.100.0),
- kio-dev (>= 4.100.0), libkf5bookmarks-dev (>= 4.100.0),
- libkf5xmlgui-dev (>= 4.100.0), libkf5globalaccel-dev (>= 4.100.0),
- libkf5textwidgets-dev (>= 4.100.0), libkf5attica-dev (>= 4.100.0),
- libkf5jobwidgets-dev (>= 4.100.0), libkf5solid-dev (>= 4.100.0),
- libkf5threadweaver-dev (>= 4.100.0), libkf5unitconversion-dev (>= 4.100.0), libkf5service-dev (>= 4.100.0), libkf5sonnet-dev (>= 4.100.0),
- libkf5itemmodels-dev (>= 4.100.0), libkf5emoticons-dev (>= 4.100.0),
- kgendesignerplugin (>= 4.100.0), kdoctools-dev (>= 4.100.0),
- libkf5crash-dev (>= 4.100.0), libkf5i18n-dev (>= 4.100.0),
- libkf5declarative-dev (>= 4.100.0), libkf5kcmutils-dev (>= 4.100.0),
- pkg-config, libwayland-dev, libxkbcommon-dev, libx11-xcb-dev,
- libxcb-render0-dev, libxcb-shape0-dev, libxcb-xfixes0-dev,
- libxcb-shm0-dev, libxcb-composite0-dev, libxcb-damage0-dev,
- libxcb-image0-dev, libxcb-keysyms1-dev, libxcb-randr0-dev,
- libxcb-sync-dev, libxcb-xtest0-dev, libxcb-icccm4-dev, libsm-dev,
- libkf5activities-dev (>= 4.100.0), libice-dev, libxcursor-dev,
- plasma-framework-dev (>= 4.100.0), kio-dev (>= 4.100.0),
- libkf5bookmarks-dev (>= 4.100.0), libkf5xmlgui-dev (>= 4.100.0),
- libkf5globalaccel-dev (>= 4.100.0), libkf5textwidgets-dev (>= 4.100.0),
- libkf5attica-dev (>= 4.100.0), libkf5jobwidgets-dev (>= 4.100.0),
- libkf5solid-dev (>= 4.100.0), libkf5threadweaver-dev (>= 4.100.0), libkf5unitconversion-dev (>= 4.100.0), libkf5service-dev (>= 4.100.0),
- libkf5sonnet-dev (>= 4.100.0), libkf5itemmodels-dev (>= 4.100.0),
- libkf5emoticons-dev (>= 4.100.0), kgendesignerplugin (>= 4.100.0),
- kdoctools-dev (>= 4.100.0), libkf5crash-dev (>= 4.100.0),
- libkf5i18n-dev (>= 4.100.0), libkf5declarative-dev (>= 4.100.0)
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.14),
+               kdoctools-dev (>= 4.100.0),
+               kgendesignerplugin (>= 4.100.0),
+               kinit-dev ( >= 4.100.0),
+               kinit-dev (>= 4.100.0),
+               kio-dev (>= 4.100.0),
+               libice-dev,
+               libkf5activities-dev (>= 4.100.0),
+               libkf5attica-dev (>= 4.100.0),
+               libkf5auth-dev (>= 4.100.0),
+               libkf5bookmarks-dev (>= 4.100.0),
+               libkf5codecs-dev (>= 4.100.0),
+               libkf5completion-dev (>= 4.100.0),
+               libkf5config-dev (>= 4.100.0),
+               libkf5configwidgets-dev ( >= 4.100.0),
+               libkf5configwidgets-dev (>= 4.100.0),
+               libkf5coreaddons-dev (>= 4.100.0),
+               libkf5crash-dev (>= 4.100.0),
+               libkf5dbusaddons-dev (>= 4.100.0),
+               libkf5declarative-dev (>= 4.100.0),
+               libkf5emoticons-dev (>= 4.100.0),
+               libkf5globalaccel-dev (>= 4.100.0),
+               libkf5guiaddons-dev (>= 4.100.0),
+               libkf5i18n-dev (>= 4.100.0),
+               libkf5iconthemes-dev ( >= 4.100.0),
+               libkf5iconthemes-dev (>= 4.100.0),
+               libkf5itemmodels-dev (>= 4.100.0),
+               libkf5itemviews-dev (>= 4.100.0),
+               libkf5jobwidgets-dev (>= 4.100.0),
+               libkf5kcmutils-dev (>= 4.100.0),
+               libkf5kdelibs4support-dev (>= 4.100.0),
+               libkf5kdelibs4support5-bin (>= 4.100.0),
+               libkf5newstuff-dev ( >= 4.100.0),
+               libkf5newstuff-dev (>= 4.100.0),
+               libkf5notifications-dev ( >= 4.100.0),
+               libkf5notifications-dev (>= 4.100.0),
+               libkf5parts-dev ( >= 4.100.0),
+               libkf5parts-dev (>= 4.100.0),
+               libkf5service-dev (>= 4.100.0),
+               libkf5solid-dev (>= 4.100.0),
+               libkf5sonnet-dev (>= 4.100.0),
+               libkf5textwidgets-dev ( >= 4.100.0),
+               libkf5textwidgets-dev (>= 4.100.0),
+               libkf5threadweaver-dev (>= 4.100.0),
+               libkf5unitconversion-dev (>= 4.100.0),
+               libkf5widgetsaddons-dev (>= 4.100.0),
+               libkf5windowsystem-dev (>= 4.100.0),
+               libkf5xmlgui-dev (>= 4.100.0),
+               libqt5x11extras5-dev,
+               libsm-dev,
+               libwayland-dev,
+               libx11-xcb-dev,
+               libxcb-composite0-dev,
+               libxcb-damage0-dev,
+               libxcb-icccm4-dev,
+               libxcb-image0-dev,
+               libxcb-keysyms1-dev,
+               libxcb-randr0-dev,
+               libxcb-render0-dev,
+               libxcb-shape0-dev,
+               libxcb-shm0-dev,
+               libxcb-sync-dev,
+               libxcb-xfixes0-dev,
+               libxcb-xtest0-dev,
+               libxcursor-dev,
+               libxkbcommon-dev,
+               openbox,
+               pkg-config,
+               pkg-kde-tools,
+               plasma-framework-dev ( >= 4.100.0),
+               plasma-framework-dev (>= 4.100.0),
+               qtbase5-dev,
+               qtdeclarative5-dev,
+               qtscript5-dev,
+               qttools5-dev,
+               xauth,
+               xvfb
 Standards-Version: 3.9.5
 Section: libs
 Homepage: https://projects.kde.org/projects/kde/unstable/plasma/kwin
@@ -53,7 +89,7 @@ Package: kwin-dev
 Section: devel
 Architecture: any
 Conflicts: kde-workspace-dev
-Depends: ${shlibs:Depends}, ${misc:Depends}, kwin (= ${binary:Version})
+Depends: kwin (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: KDE window manager - devel files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -68,9 +104,14 @@ Description: KDE window manager - devel files
 Package: kwin
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kwin-data (= ${binary:Version}),
- libkdecorations5, libkwin4-effect-builtins1, libkwineffects5,
- libkwinglutils5, libkwinxrenderutils5
+Depends: kwin-data (= ${binary:Version}),
+         libkdecorations5,
+         libkwin4-effect-builtins1,
+         libkwineffects5,
+         libkwinglutils5,
+         libkwinxrenderutils5,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Conflicts: kde-window-manager
 Recommends: kwin-decoration-oxygen, libqt5multimedia5
 Description: KDE window manager
@@ -87,7 +128,7 @@ Description: KDE window manager
 Package: libkdecorations5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KDE window manager decoration library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -102,7 +143,7 @@ Description: KDE window manager decoration library
 Package: libkwin4-effect-builtins1
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KDE window manager effect builtins library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -117,7 +158,7 @@ Description: KDE window manager effect builtins library
 Package: libkwineffects5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KDE window manager effects library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -132,7 +173,7 @@ Description: KDE window manager effects library
 Package: libkwinglutils5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KDE window manager gl utils library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -147,7 +188,7 @@ Description: KDE window manager gl utils library
 Package: libkwinxrenderutils5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KDE window manager render utils library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -162,10 +203,10 @@ Description: KDE window manager render utils library
 Package: kwin-data
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends} 
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Conflicts: kde-window-manager-common
 Description: KDE window manager data files
- KWin (pronounced as one syllable "kwin") is the window 
+ KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
  control over your windows, making sure they're not in the way
  but aid you in your task. It paints the window decoration,
@@ -179,7 +220,7 @@ Package: kwin-dbg
 Section: debug
 Architecture: any
 Recommends: qtbase5-dbg
-Depends: ${misc:Depends}, kwin (= ${binary:Version})
+Depends: kwin (= ${binary:Version}), ${misc:Depends}
 Description: KDE window manager - debug files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
