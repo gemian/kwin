@@ -110,6 +110,7 @@ Depends: kwin-data (= ${binary:Version}),
          libkwineffects5,
          libkwinglutils5,
          libkwinxrenderutils5,
+         qml-module-qtmultimedia,
          ${misc:Depends},
          ${shlibs:Depends}
 Conflicts: kde-window-manager
