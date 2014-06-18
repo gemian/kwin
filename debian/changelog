@@ -9,4 +9,7 @@ kwin (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Fix install file 
 
+  [ José Manuel Santamaría Lema ]
+  * Build depend on libegl1-mesa-dev.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:25:41 +0100
