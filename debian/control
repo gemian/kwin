@@ -106,6 +106,7 @@ Package: kwin
 Section: utils
 Architecture: any
 Depends: kwin-data (= ${source:Version}),
+         qml-module-qtmultimedia,
          ${misc:Depends},
          ${shlibs:Depends}
 Conflicts: kde-window-manager
