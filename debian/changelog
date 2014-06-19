@@ -11,5 +11,9 @@ kwin (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * Build depend on libegl1-mesa-dev.
+  * Make kwin depend on kwin-data (= ${source:Version}) instead of
+    ${binary:Version}
+  * Remove harcoded depends on libraries from kwin, rely on ${shlibs:Depends}
+    instead.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:25:41 +0100

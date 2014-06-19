@@ -105,12 +105,7 @@ Description: KDE window manager - devel files
 Package: kwin
 Section: utils
 Architecture: any
-Depends: kwin-data (= ${binary:Version}),
-         libkdecorations5,
-         libkwin4-effect-builtins1,
-         libkwineffects5,
-         libkwinglutils5,
-         libkwinxrenderutils5,
+Depends: kwin-data (= ${source:Version}),
          qml-module-qtmultimedia,
          ${misc:Depends},
          ${shlibs:Depends}
