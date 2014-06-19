@@ -199,7 +199,7 @@ Description: KDE window manager render utils library
 
 Package: kwin-data
 Section: libs
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Conflicts: kde-window-manager-common
 Description: KDE window manager data files
