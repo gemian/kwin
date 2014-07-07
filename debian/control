@@ -109,7 +109,6 @@ Depends: kwin-data (= ${source:Version}),
          qml-module-qtmultimedia,
          ${misc:Depends},
          ${shlibs:Depends}
-Conflicts: kde-window-manager
 Recommends: kwin-decoration-oxygen, libqt5multimedia5
 Description: KDE window manager
  KWin (pronounced as one syllable "kwin") is the window
@@ -201,7 +200,6 @@ Package: kwin-data
 Section: libs
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Conflicts: kde-window-manager-common
 Description: KDE window manager data files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete

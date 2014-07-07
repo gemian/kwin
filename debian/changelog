@@ -1,4 +1,4 @@
-kwin (4:4.98.0-0ubuntu1) UNRELEASED; urgency=medium
+kwin (4:4.98.0-0ubuntu1~ubuntu14.10~ppa3) utopic; urgency=medium
 
   * New upstream RC release
 
@@ -13,7 +13,7 @@ kwin (4:4.97.0-0ubuntu1) utopic; urgency=medium
   * New upstream beta release
 
   [ Scarlett Clark ]
-  * Fix install file 
+  * Fix install file
 
   [ José Manuel Santamaría Lema ]
   * Build depend on libegl1-mesa-dev.
@@ -23,6 +23,6 @@ kwin (4:4.97.0-0ubuntu1) utopic; urgency=medium
     instead.
 
   [ Scarlett Clark ]
-  * change kwin-data to arch all 
+  * change kwin-data to arch all
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:25:41 +0100
