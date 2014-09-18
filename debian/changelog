@@ -1,4 +1,4 @@
-kwin (4:5.0.1-0ubuntu1) UNRELEASED; urgency=medium
+kwin (4:5.0.2-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -12,7 +12,10 @@ kwin (4:5.0.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * switch to new pkg-kde-tools
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 10 Aug 2014 15:43:00 +0200
+  [ Scarlett Clark ]
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 17 Sep 2014 18:17:10 -0700
 
 kwin (4:4.98.0-0ubuntu1) utopic; urgency=medium
 
