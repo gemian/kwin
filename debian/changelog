@@ -1,14 +1,5 @@
 kwin (4:5.0.2-0ubuntu1) UNRELEASED; urgency=medium
 
-  [ Jonathan Riddell ]
-  * New upstream release
-
-  [ Scarlett Clark ]
-  * Update watch to http://download.kde.org 
-
-  [ Jonathan Riddell ]
-  * New upstream bugfix release
-
   [ Harald Sitter ]
   * switch to new pkg-kde-tools
 
@@ -16,6 +7,19 @@ kwin (4:5.0.2-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 17 Sep 2014 18:17:10 -0700
+
+kwin (4:5.0.1-0ubuntu1~ubuntu14.10~ppa2) utopic; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+  [ Scarlett Clark ]
+  * Update watch to http://download.kde.org
+
+  [ Jonathan Riddell ]
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 10 Aug 2014 15:43:00 +0200
 
 kwin (4:4.98.0-0ubuntu1) utopic; urgency=medium
 
