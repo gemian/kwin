@@ -325,7 +325,7 @@ License: GPL-2.0+
 Files: kcmkwin/kwincompositing/test/modeltest.cpp
        kcmkwin/kwincompositing/test/modeltest.h
 Copyright: 2013 Digia Plc and/or its subsidiary(-ies).    
-License: LGPL 2.1 or GPL-3
+License: LGPL-2.1 or GPL-3
  ** Commercial License Usage
  ** Licensees holding valid commercial Qt licenses may use this file in
  ** accordance with the commercial license agreement provided with the
