@@ -2,6 +2,6 @@ etc/xdg
 usr/bin
 usr/lib/*/kconf_update_bin
 usr/lib/*/libexec
-usr/lib/*/qt5
 usr/lib/*/libkdeinit5_kwin_*.so
 usr/lib/*/libkwin.so.5*
+usr/lib/*/qt5

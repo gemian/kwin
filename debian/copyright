@@ -324,7 +324,7 @@ License: GPL-2.0+
 
 Files: kcmkwin/kwincompositing/test/modeltest.cpp
        kcmkwin/kwincompositing/test/modeltest.h
-Copyright: 2013 Digia Plc and/or its subsidiary(-ies).    
+Copyright: 2013 Digia Plc and/or its subsidiary(-ies).
 License: LGPL-2.1 or GPL-3
  ** Commercial License Usage
  ** Licensees holding valid commercial Qt licenses may use this file in
@@ -397,7 +397,7 @@ Files: paintredirector.cpp
        libkdecorations/* excluding:
         -? libkdecorations/CMakeLists.txt
 Copyright: 2003, 2009 Lubos Lunak <l.lunak@kde.org>
-           2012 Martin Gräßlin <mgraesslin@kde.org>          
+           2012 Martin Gräßlin <mgraesslin@kde.org>
            2005 Sandro Giessl <sandro@giessl.com>
            1999, 2000    Daniel M. Duley <mosfet@kde.org>
 License: MIT
