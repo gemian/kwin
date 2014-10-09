@@ -1,4 +1,4 @@
-kwin (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
+kwin (4:5.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream beta release
@@ -12,7 +12,10 @@ kwin (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
     + All warnings to do with kdeinit: it's not a shared lib by design
     + All warnings to do with internal/private libs having no versioned soname
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 15:27:23 +0200
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 09 Oct 2014 15:48:14 +0200
 
 kwin (4:5.0.2-0ubuntu1) utopic; urgency=medium
 
