@@ -1,3 +1,15 @@
+kwin (4:5.1.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 07 Nov 2014 03:44:39 +0000
+
+kwin (4:5.1.0.1-0ubuntu2) vivid; urgency=medium
+
+  * Add install.armhf files for armhf
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Nov 2014 17:12:18 +0100
+
 kwin (4:5.1.0.1-0ubuntu1) vivid; urgency=medium
 
   [ Jonathan Riddell ]
