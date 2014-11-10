@@ -1,0 +1,1 @@
+Libinput (required version >= 0.5) , Library to handle input devices in Wayland compositors and to provide a generic X.Org input driver. , <http://www.freedesktop.org/wiki/Software/libinput/>
