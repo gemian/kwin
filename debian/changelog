@@ -1,8 +1,9 @@
-kwin (4:5.1.1-0ubuntu1) UNRELEASED; urgency=medium
+kwin (4:5.1.1-0ubuntu1) vivid; urgency=medium
 
   * New upstream release.
+  * New package libkwinglesutils5 on armhf
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 07 Nov 2014 03:44:39 +0000
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:47:53 +0100
 
 kwin (4:5.1.0.1-0ubuntu2) vivid; urgency=medium
 
