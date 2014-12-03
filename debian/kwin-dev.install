@@ -1,6 +1,5 @@
 usr/include/
 usr/lib/*/cmake
-usr/lib/*/libkdecorations.so
 usr/lib/*/libkwin4_effect_builtins.so
 usr/lib/*/libkwineffects.so
 usr/lib/*/libkwinglutils.so

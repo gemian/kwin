@@ -394,8 +394,6 @@ License: LGPL-2+
 Files: paintredirector.cpp
        paintredirector.h
        killer/killer.cpp
-       libkdecorations/* excluding:
-        -? libkdecorations/CMakeLists.txt
 Copyright: 2003, 2009 Lubos Lunak <l.lunak@kde.org>
            2012 Martin Gräßlin <mgraesslin@kde.org>
            2005 Sandro Giessl <sandro@giessl.com>
