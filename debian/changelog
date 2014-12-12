@@ -1,8 +1,9 @@
-kwin (4:5.1.1-0ubuntu2) UNRELEASED; urgency=medium
+kwin (4:5.1.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * remove obsolete patch kubuntu_kf5-version.diff
+  * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 28 Nov 2014 13:24:27 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 12 Dec 2014 14:36:58 +0100
 
 kwin (4:5.1.1-0ubuntu1) vivid; urgency=medium
 
