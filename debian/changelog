@@ -1,8 +1,8 @@
-kwin (4:5.1.95-0ubuntu1) UNRELEASED; urgency=medium
+kwin (4:5.1.95-0ubuntu1) vivid; urgency=medium
 
   * New upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 13:25:46 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 15 Jan 2015 01:31:59 +0100
 
 kwin (4:5.1.2-0ubuntu1) vivid; urgency=medium
 
