@@ -1,1 +1,2 @@
-usr/lib/*/libkwineffects.so.*
+usr/lib/*/libkwineffects.so.5
+usr/lib/*/libkwineffects.so.5.*
