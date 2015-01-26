@@ -1,3 +1,9 @@
+kwin (4:5.2.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 26 Jan 2015 13:45:00 +0100
+
 kwin (4:5.1.95-0ubuntu2) vivid; urgency=medium
 
   * version kwayland build-dep
