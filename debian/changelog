@@ -1,6 +1,12 @@
 kwin (4:5.2.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Soversion bump properly
+  * Rename packages for 5->6 transition in library version
+  * Update install accordingly
+    + Apply more restrictive wildcards to prevent sobumps slip past us
+  * New lib packages break/replace the old ones <<5.2.0 because the
+    pre-release packages were uploaded with libfoo.so.6 in the .so.5 packages
 
  -- Harald Sitter <sitter@kde.org>  Mon, 26 Jan 2015 13:45:00 +0100
 
