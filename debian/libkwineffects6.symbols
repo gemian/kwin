@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.95+git20150122 amd64
+# SymbolsHelper-Confirmed: 5.2.0.1+git20150203.0153+15.04 amd64 i386
 libkwineffects.so.6 libkwineffects6 #MINVER#
  _ZN4KWin11EffectFrame15enableCrossFadeEb@Base 5.1.95+git20150122
  _ZN4KWin11EffectFrame20setCrossFadeProgressEd@Base 5.1.95+git20150122
@@ -265,6 +265,7 @@ libkwineffects.so.6 libkwineffects6 #MINVER#
  _ZNK4KWin12EffectWindow15isSpecialWindowEv@Base 5.1.95+git20150122
  _ZNK4KWin12EffectWindow16expandedGeometryEv@Base 5.1.95+git20150122
  _ZNK4KWin12EffectWindow17isOnAllActivitiesEv@Base 5.1.95+git20150122
+ _ZNK4KWin12EffectWindow17isOnScreenDisplayEv@Base 5.2.0.1+git20150203.0153+15.04
  _ZNK4KWin12EffectWindow18decorationHasAlphaEv@Base 5.1.95+git20150122
  _ZNK4KWin12EffectWindow18isOnCurrentDesktopEv@Base 5.1.95+git20150122
  _ZNK4KWin12EffectWindow19isOnCurrentActivityEv@Base 5.1.95+git20150122
