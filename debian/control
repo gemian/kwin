@@ -84,7 +84,7 @@ Depends: kwin-data (= ${source:Version}),
          qml-module-qtmultimedia,
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: kwin-decoration-oxygen, libqt5multimedia5
+Recommends: libqt5multimedia5
 Suggests: kwin-addons
 Description: KDE window manager
  KWin (pronounced as one syllable "kwin") is the window
