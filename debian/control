@@ -59,7 +59,7 @@ Build-Depends: cmake (>= 2.8.12),
                qttools5-dev,
                xauth,
                xvfb
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/unstable/plasma/kwin
 
 Package: kwin-dev
