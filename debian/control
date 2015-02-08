@@ -67,8 +67,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kwin.git
 Package: kwin-dev
 Section: devel
 Architecture: any
-Conflicts: kde-workspace-dev
 Depends: kwin (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Conflicts: kde-workspace-dev
 Description: KDE window manager - devel files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
