@@ -68,7 +68,15 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kwin.git
 Package: kwin-dev
 Section: libdevel
 Architecture: any
-Depends: kwin (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: kwin (= ${binary:Version}),
+         libegl1-mesa-dev,
+         libepoxy-dev (>= 1.2),
+         libkf5coreaddons-dev (>= 5.3.0),
+         libkf5windowsystem-dev (>= 5.3.0),
+         libqt5x11extras5-dev,
+         qtbase5-dev (>= 5.3.0),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Conflicts: kde-workspace-dev
 Description: KDE window manager - devel files
  KWin (pronounced as one syllable "kwin") is the window
