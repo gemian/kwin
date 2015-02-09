@@ -30,6 +30,7 @@
 
 <gcc_options>
     -fPIC
+    -std=c++11
 </gcc_options>
 
 </descriptor>
