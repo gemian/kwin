@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.95+git20150122 amd64 i386
+# SymbolsHelper-Confirmed: 5.2.1+git20150219.2227+15.04 amd64 i386
 libkwinglutils.so.6 libkwinglutils6 #MINVER#
  _ZN4KWin10GLPlatform10s_platformE@Base 5.1.95+git20150122
  _ZN4KWin10GLPlatform14driverToStringENS_6DriverE@Base 5.1.95+git20150122
@@ -106,6 +106,7 @@ libkwinglutils.so.6 libkwinglutils6 #MINVER#
  _ZN4KWin16GLTexturePrivate22s_textureObjectCounterE@Base 5.1.95+git20150122
  _ZN4KWin16GLTexturePrivate24s_supportsTextureStorageE@Base 5.1.95+git20150122
  _ZN4KWin16GLTexturePrivate24s_supportsTextureSwizzleE@Base 5.1.95+git20150122
+ _ZN4KWin16GLTexturePrivate25s_supportsTextureFormatRGE@Base 5.2.1+git20150219.2227+15.04
  _ZN4KWin16GLTexturePrivate28s_supportsFramebufferObjectsE@Base 5.1.95+git20150122
  _ZN4KWin16GLTexturePrivate5s_fboE@Base 5.1.95+git20150122
  _ZN4KWin16GLTexturePrivate7cleanupEv@Base 5.1.95+git20150122
@@ -170,6 +171,7 @@ libkwinglutils.so.6 libkwinglutils6 #MINVER#
  _ZN4KWin9GLTexture12setYInvertedEb@Base 5.1.95+git20150122
  _ZN4KWin9GLTexture15generateMipmapsEv@Base 5.1.95+git20150122
  _ZN4KWin9GLTexture15supportsSwizzleEv@Base 5.1.95+git20150122
+ _ZN4KWin9GLTexture16supportsFormatRGEv@Base 5.2.1+git20150219.2227+15.04
  _ZN4KWin9GLTexture26framebufferObjectSupportedEv@Base 5.1.95+git20150122
  _ZN4KWin9GLTexture4bindEv@Base 5.1.95+git20150122
  _ZN4KWin9GLTexture5clearEv@Base 5.1.95+git20150122
