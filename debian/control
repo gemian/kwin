@@ -60,7 +60,7 @@ Build-Depends: cmake,
                xauth,
                xvfb
 Standards-Version: 3.9.5
-Section: libs
+Section: utils
 Homepage: https://projects.kde.org/projects/kde/unstable/plasma/kwin
 
 Package: kwin-dev
@@ -80,7 +80,6 @@ Description: KDE window manager - devel files
  This package is part of the KDE base workspace module.
 
 Package: kwin
-Section: utils
 Architecture: any
 Depends: kwin-data (= ${source:Version}),
          qml-module-qtmultimedia,
@@ -183,7 +182,6 @@ Description: KDE window manager render utils library
  This package is part of the KDE base workspace module.
 
 Package: kwin-data
-Section: libs
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KDE window manager data files
