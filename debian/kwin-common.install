@@ -1,9 +1,8 @@
 etc/xdg/aurorae.knsrc
 etc/xdg/kwin*.knsrc
-usr/bin/kwin*
 usr/lib/*/kconf_update_bin/kwin5_update_default_rules
 usr/lib/*/libexec/kwin*
-usr/lib/*/libkdeinit5_kwin_*.so
+usr/lib/*/libkdeinit5_kwin_rules_dialog.so
 usr/lib/*/libkwin.so.5
 usr/lib/*/libkwin.so.5.*
 usr/lib/*/qt5/plugins/kcm_kwin*.so

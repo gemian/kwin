@@ -70,7 +70,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kwin.git
 Package: kwin-dev
 Section: libdevel
 Architecture: any
-Depends: kwin (= ${binary:Version}),
+Depends: kwin-common (= ${binary:Version}),
          libegl1-mesa-dev,
          libepoxy-dev (>= 1.2),
          libkf5coreaddons-dev (>= 5.3.0),
@@ -91,7 +91,7 @@ Description: KDE window manager - devel files
  .
  This package is part of the KDE base workspace module.
 
-Package: kwin
+Package: kwin-common
 Architecture: any
 Depends: kwin-data (= ${source:Version}),
          qml-module-qtmultimedia,
@@ -99,7 +99,43 @@ Depends: kwin-data (= ${source:Version}),
          ${shlibs:Depends}
 Recommends: libqt5multimedia5
 Suggests: kwin-addons
-Description: KDE window manager
+Breaks: kwin (<= 4:5.2.0.1-1)
+Replaces: kwin (<= 4:5.2.0.1-1)
+Description: KDE window manager, common files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: kwin-x11
+Architecture: any
+Depends: kwin-common (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Provides: kwin
+Description: KDE window manager, X11 version
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: kwin-wayland
+Architecture: any
+Depends: kwin-common (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Provides: kwin
+Description: KDE window manager, wayland version
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
  control over your windows, making sure they're not in the way
