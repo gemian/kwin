@@ -245,7 +245,7 @@ Section: debug
 Priority: extra
 Architecture: any
 Recommends: qtbase5-dbg
-Depends: kwin (= ${binary:Version}), ${misc:Depends}
+Depends: kwin-x11 (= ${binary:Version}) | kwin-wayland (= ${binary:Version}), ${misc:Depends}
 Description: KDE window manager - debug files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
