@@ -1,11 +1,5 @@
 usr/share/config.kcfg/kwin.kcfg
-usr/share/doc/*/*/desktop/
-usr/share/doc/*/*/kwincompositing/
-usr/share/doc/*/*/kwindecoration/
-usr/share/doc/*/*/kwinscreenedges/
-usr/share/doc/*/*/kwintabbox/
-usr/share/doc/*/*/windowbehaviour/
-usr/share/doc/*/*/windowspecific/
+usr/share/doc/*/*/kcontrol/
 usr/share/icons/*/*/apps/kwin.*
 usr/share/knotifications5/kwin.notifyrc
 usr/share/kservices5/desktop.desktop
