@@ -24,6 +24,7 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5declarative-dev (>= 5.3.0),
                libkf5globalaccel-dev (>= 5.3.0),
                libkf5i18n-dev (>= 5.3.0),
+               libkf5iconthemes-dev (>= 5.3.0~),
                libkf5kcmutils-dev (>= 5.3.0),
                libkf5newstuff-dev (>= 5.3.0),
                libkf5notifications-dev (>= 5.3.0),
@@ -57,7 +58,7 @@ Build-Depends: cmake (>= 2.8.12),
                qtbase5-dev (>= 5.3.0),
                qtdeclarative5-dev (>= 5.3.0~),
                qtscript5-dev (>= 5.3.0~),
-               qttools5-dev (>= 5.3.0~),
+               qttools5-dev (>= 5.3.0~)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
@@ -111,9 +112,7 @@ Description: KDE window manager, common files
 
 Package: kwin-x11
 Architecture: any
-Depends: kwin-common (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: kwin-common (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Provides: kwin
 Description: KDE window manager, X11 version
  KWin (pronounced as one syllable "kwin") is the window
@@ -128,9 +127,7 @@ Description: KDE window manager, X11 version
 
 Package: kwin-wayland
 Architecture: any
-Depends: kwin-common (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: kwin-common (= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
 Provides: kwin
 Description: KDE window manager, wayland version
  KWin (pronounced as one syllable "kwin") is the window
@@ -245,7 +242,8 @@ Section: debug
 Priority: extra
 Architecture: any
 Recommends: qtbase5-dbg
-Depends: kwin-x11 (= ${binary:Version}) | kwin-wayland (= ${binary:Version}), ${misc:Depends}
+Depends: kwin-x11 (= ${binary:Version}) | kwin-wayland (= ${binary:Version}),
+         ${misc:Depends}
 Description: KDE window manager - debug files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
