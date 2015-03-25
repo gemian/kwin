@@ -60,7 +60,6 @@ libkwineffects.so.6 libkwineffects6 #MINVER#
  _ZN4KWin14EffectsHandler15windowMinimizedEPNS_12EffectWindowE@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler16staticMetaObjectE@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler17windowUnminimizedEPNS_12EffectWindowE@Base 4:5.1.95+git20150122
- _ZN4KWin14EffectsHandler18cursorShapeChangedEv@Base 4:5.2.1+git20150223.1218
  _ZN4KWin14EffectsHandler20numberScreensChangedEv@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler20screenLockingChangedEb@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler20stackingOrderChangedEv@Base 4:5.1.95+git20150122
@@ -266,7 +265,6 @@ libkwineffects.so.6 libkwineffects6 #MINVER#
  _ZNK4KWin12EffectWindow15isSpecialWindowEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow16expandedGeometryEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow17isOnAllActivitiesEv@Base 4:5.1.95+git20150122
- _ZNK4KWin12EffectWindow17isOnScreenDisplayEv@Base 4:5.2.1+git20150223.1218
  _ZNK4KWin12EffectWindow18decorationHasAlphaEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow18isOnCurrentDesktopEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow19isOnCurrentActivityEv@Base 4:5.1.95+git20150122
