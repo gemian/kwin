@@ -7,6 +7,13 @@ kwin (4:5.2.2-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 09:49:21 +0100
 
+kwin (4:5.2.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release 
+  * Batchpatch symbols file. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 23 Feb 2015 09:42:26 -0800
+
 kwin (4:5.2.0.1-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
