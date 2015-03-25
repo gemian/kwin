@@ -127,7 +127,7 @@ Description: KDE window manager, X11 version
 
 Package: kwin-wayland
 Architecture: any
-Depends: kwin-common (= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: kwin-common (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Provides: kwin
 Description: KDE window manager, wayland version
  KWin (pronounced as one syllable "kwin") is the window
