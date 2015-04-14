@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.2.1+git20150223.1218 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.2.2+git20150414.0138+15.04 amd64 i386
 libkwineffects.so.6 libkwineffects6 #MINVER#
  _ZN4KWin11EffectFrame15enableCrossFadeEb@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrame20setCrossFadeProgressEd@Base 4:5.1.95+git20150122
@@ -69,6 +69,7 @@ libkwineffects.so.6 libkwineffects6 #MINVER#
  _ZN4KWin14EffectsHandler21numberDesktopsChangedEj@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler21screenEdgeApproachingENS_14ElectricBorderEdRK5QRect@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler21screenGeometryChangedERK5QSize@Base 4:5.1.95+git20150122
+ _ZN4KWin14EffectsHandler21showingDesktopChangedEb@Base 4:5.2.2+git20150414.0138+15.04
  _ZN4KWin14EffectsHandler21windowModalityChangedEPNS_12EffectWindowE@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler22currentActivityChangedERK7QString@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler22desktopPresenceChangedEPNS_12EffectWindowEii@Base 4:5.1.95+git20150122
