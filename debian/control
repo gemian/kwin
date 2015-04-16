@@ -61,7 +61,9 @@ Build-Depends: cmake,
                xvfb
 Standards-Version: 3.9.5
 Section: utils
-Homepage: https://projects.kde.org/projects/kde/unstable/plasma/kwin
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/kwin.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kwin.git
 
 Package: kwin-dev
 Section: devel
