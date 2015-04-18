@@ -1,8 +1,12 @@
-kwin (4:5.2.2a-0ubuntu2) UNRELEASED; urgency=medium
+kwin (4:5.2.95-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Manual merge kubuntu_stable.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 24 Mar 2015 17:47:38 -0700
+  [ Jonathan Riddell ]
+  * Plasma 5.3 beta
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 18 Apr 2015 14:46:58 +0200
 
 kwin (4:5.2.2a-0ubuntu1) vivid; urgency=medium
 
