@@ -84,6 +84,7 @@ Description: KDE window manager - devel files
 Package: kwin
 Architecture: any
 Depends: kwin-data (= ${source:Version}),
+         qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtmultimedia,
          ${misc:Depends},
          ${shlibs:Depends}
@@ -186,6 +187,10 @@ Description: KDE window manager render utils library
 Package: kwin-data
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: plasma-framework,
+            qml-module-qtquick-layouts,
+            qml-module-qtquick-window2,
+            qml-module-qtquick2
 Description: KDE window manager data files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
