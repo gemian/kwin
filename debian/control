@@ -188,6 +188,7 @@ Package: kwin-data
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: plasma-framework,
+            qml-module-qtmultimedia,
             qml-module-qtquick-layouts,
             qml-module-qtquick-window2,
             qml-module-qtquick2
