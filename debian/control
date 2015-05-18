@@ -57,6 +57,7 @@ Build-Depends: cmake (>= 2.8.12),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                plasma-framework-dev (>= 5.8.0~),
                qtbase5-dev (>= 5.4.0~),
+               qtbase5-private-dev (>= 5.4.0~),
                qtdeclarative5-dev (>= 5.4.0~),
                qtscript5-dev (>= 5.4.0~),
                qttools5-dev (>= 5.4.0~)
