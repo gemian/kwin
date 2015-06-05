@@ -1,9 +1,10 @@
-kwin (4:5.3.0-1~) UNRELEASED; urgency=medium
+kwin (4:5.3.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.3.0).
   * Update symbols files.
+  * New upstream release (5.3.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 12 May 2015 20:02:27 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:52:39 +0200
 
 kwin (4:5.2.2-1) experimental; urgency=medium
 
