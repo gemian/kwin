@@ -1,4 +1,16 @@
-kwin (4:5.3.1-0ubuntu1) wily; urgency=medium
+kwin (4:5.3.1+git20150605.0450+15.04-0ubuntu1) vivid; urgency=medium
+
+  * build-dep on libhybris
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 02:44:00 +0200
+
+kwin (4:5.3.1+git20150605.0450+15.04-0) vivid; urgency=medium
+
+  * "Automatic Kubuntu Build"
+
+ -- Kubuntu CI <kubuntu-ci@lists.launchpad.net>  Fri, 05 Jun 2015 04:50:57 +0000
+
+kwin (4:5.3.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Manual merge kubuntu_stable.
@@ -13,7 +25,7 @@ kwin (4:5.3.1-0ubuntu1) wily; urgency=medium
   [ Jonathan Riddell ]
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 02:34:16 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Jun 2015 20:27:57 +0200
 
 kwin (4:5.2.2a-0ubuntu1) vivid; urgency=medium
 
