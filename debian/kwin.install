@@ -4,11 +4,4 @@ usr/lib/*/kconf_update_bin
 usr/lib/*/libexec
 usr/lib/*/libkdeinit5_kwin_*.so
 usr/lib/*/libkwin.so.5*
-usr/lib/*/qt5/plugins/kcm*
-usr/lib/*/qt5/plugins/kwin*
-usr/lib/*/qt5/plugins/org.kde.kdecoration2
-usr/lib/*/qt5/plugins/org.kde.kwin.waylandbackends/KWinWaylandDrmBackend.so
-usr/lib/*/qt5/plugins/org.kde.kwin.waylandbackends/KWinWaylandFbdevBackend.so
-usr/lib/*/qt5/plugins/org.kde.kwin.waylandbackends/KWinWaylandWaylandBackend.so
-usr/lib/*/qt5/plugins/org.kde.kwin.waylandbackends/KWinWaylandX11Backend.so
-usr/lib/*/qt5/qml
+usr/lib/*/qt5
