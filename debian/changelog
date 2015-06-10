@@ -1,3 +1,9 @@
+kwin (4:5.3.1+git20150608.2024+15.04-0ubuntu1) wily; urgency=medium
+
+  * Upgrade to git snapshot for better wayland
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 10 Jun 2015 03:04:09 +0200
+
 kwin (4:5.3.1-0ubuntu2) wily; urgency=medium
 
   * build-dep on libhybris and add kwin-hwcompositor-backend package
