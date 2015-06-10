@@ -187,7 +187,7 @@ Description: KDE window manager render utils library
  .
  This package is part of the KDE base workspace module.
 
-Package: kwin-hwcompositor-backend
+Package: kwin-hwcomposer-backend
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
