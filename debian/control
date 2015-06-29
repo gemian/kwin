@@ -92,7 +92,7 @@ Description: KDE window manager - devel files
  .
  This package is part of the KDE base workspace module.
 
-Package: kwin
+Package: kwin-common
 Architecture: any
 Depends: kwin-data (= ${source:Version}),
          qml-module-org-kde-kquickcontrolsaddons,
@@ -101,8 +101,8 @@ Depends: kwin-data (= ${source:Version}),
          ${shlibs:Depends}
 Recommends: libqt5multimedia5
 Suggests: kwin-addons
-Breaks: kwin (<= 4:5.2.0.1-1)
-Replaces: kwin (<= 4:5.2.0.1-1)
+Breaks: kwin (<= 4:5.3.1-0ubuntu3)
+Replaces: kwin (<= 4:5.3.1-0ubuntu3)
 Description: KDE window manager, common files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
