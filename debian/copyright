@@ -1,380 +1,178 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kwin
-Source: ftp://ftp.kde.org/pub/kde/unstable/plasma/kwin
+Source: git://anongit.kde.org/kwin
 
 Files: *
-       debian/*
-Copyright: © 2008-2014 Martin Gräßlin <mgraesslin@kde.org> <m.graesslin@kde.org>
-           © 2001, 2003-2009 Lubos Lunak <l.lunak@kde.org> <l.lunak@suse.cz>
-           © 2004-2014 Chusslove Illich <caslav.ilic@gmx.net>
-           © 1997, 1999-2014 Free Software Foundation Inc.
-           © 2009-2011 Dalibor Djuric <dalibor.djuric@mozilla-srbija.org> <daliborddjuric@gmail.com>
-           © 2008-2010 Lucas Murray <lmurray@undefinedfire.com>
-           © 2008-2009, 2011-2014 Marce Villarino <mvillarino@kde-espana.es> <mvillarino@users.sourceforge.net>
-           © 1998-2000 Matthias Ettrich <ettrich@kde.org>
-           © 2006-2007 Rivo Laks <rivolaks@hot.ee>
-           © 2007-2008, 2010-2014 Franklin Weng <franklin@mail.everfocus.com.tw> <franklin@goodhorse.idv.tw>
-           © 2001-2002, 2007-2014 Josep Ma. Ferrer <txemaq@gmail.com>
-           © 2008-2013 Sergiu Bivol <sergiu.bivol@jurnaltv.md> <sergiu-bivol@mail.md> <sergiu@ase.md>
-           © 2003-2005 Toplica Tanaskovic <toptan@kde.org.yu>
-           © 2009-2014 Freek de Kruijf <f.de.kruijf@gmail.com> <freekdekruijf@kde.nl> <f.de.kruijf@hetnet.nl> <freek@opensuse.org>
-           © 2001, 2004, 2007, 2010, 2012-2014 Andrej Mernik <andrej.vernekar@gmail.com> <andrejm@ubuntu.si> <andrej.vernekar@moj.net>
-           © 2002-2003, 2011-2013 xavier <fjvinal@gmail.com> <ktranslator31@yahoo.fr> <xavier.besnard@neuf.fr> <javierjc@mundo-r.com>
-           © 2002-2010, 2012, 2014 Marco Martin <mart@kde.org> <notmart@gmail.com> <marcos@euskalgnu.org> <marcus.gama@gmail.com> <marcus_gama@uol.com.br>
-           © 2005-2013 Sairan Kikkarin <sairan@computer.org>
-           © 2002, 2004-2014 Stefan Asserhäll <stefan.asserhall@bredband.net>
-           © 2003-2014 Marek Laane <bald@smail.ee> <bald@starman.ee>
-           © 2009-2010 Fredrik Höglund <fredrik@kde.org>
-           © 2007 Christian Nitschkowski <christian.nitschkowski@kdemail.net>
-           © 2007-2014 Park Shinjo <peremen@gmail.com> <kde@peremen.name>
-           © 2000-2008, 2010 Rinse de Vries <rinsedevries@kde.nl> <rinse@kde.nl> <i18n@kde.nl> <rinsedevries@home.nl>
-           © 2004-2006, 2008-2009, 2012-2013 Diego Iastrubni <elcuco@kde.org>
-           © 2008-2014 Martin Schlander <mschlander@opensuse.org>
-           © 2003-2005, 2007-2008 Teemu Rytilahti <teemu.rytilahti@kde-fi.org> <teemu.rytilahti@d5k.net> <tpr@d5k.net>
-           © 2006-2010, 2012-2014 Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw> <franklin@mail.everfocus.com.tw>
-           © 2005-2008 Spiros Georgaras <sng@hellug.gr> <sngeorgaras@otenet.gr>
-           © 2012-2014 Roman Paholík <wizzardsk@gmail.com>
-           © 2012-2013 Chetan Khona <chetan@kompkin.com>
-           © 2009-2013 Frederik Schwarzer <schwarzer@kde.org>
-           © 2008-2014 André Marcelo Alvarenga <alvarenga@kde.org>
-           © 2002, 2005, 2007-2014 Bjørn Steensrud <bjornst@skogkatt.homelinux.org>
-           © 2010-2014 Lasse Liehu <lasse.liehu@gmail.com> <lliehu@kolumbus.fi>
-           © 2005-2006, 2009-2010, 2012-2014 Eloy Cuadra <ecuadra@eloihr.net>
-           © 2007-2012 Serdar Soytetir <tulliana@gmail.com>
-           © 2008-2014 Yuri Chornoivan <yurchor@ukr.net>
-           © 2008-2014 Burkhard Lück <lueck@hube-lueck.de>
-           © 2012-2014 Liudas Ališauskas <liudas.alisauskas@gmail.com> <liudas@akmc.lt>
-           © 2004-2010, 2012 Donatas Glodenis <dgvirtual@akl.lt>
-           © 2011-2014 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
-           © 2004-2009, 2014 Sönke Dibbern <s_dibbern@web.de>
-           © 2007-2013 Marta Rybczyńska <kde-i18n@rybczynska.net>
-           © 2013-2014 Volkan Gezer <volkangezer@gmail.com>
-           © 2012-2014 Balázs Úr <urbalazs@gmail.com>
-           © 2005-2013 Jure Repinc <jlp@holodeck1.com>
-           © 2003, 2005, 2007-2009 Jaime Robles <jaime@robles.nu> <jaime@kde.org>
-           © 2004-2005 Albert Astals Cid <aacid@kde.org>
-           © 2010-2012, 2014 Kristóf Kiszel <ulysses@kubuntu.org>
-           © 2005, 2007-2009 Toussis Manolis <manolis@koppermind.homelinux.org> <koppermind@yahoo.com>
-           © 2006-2010, 2012 Khoem Sokhem <khoemsokhem@khmeros.info>
-           © 2008-2012 Manfred Wiese <m.j.wiese@web.de>
-           © 2010-2014 Vít Pelčák <vit@pelcak.org>
-           © 2002-2005 Lisiane Sztoltz Teixeira <lisiane@conectiva.com.br> <lisiane@kdemail.net>
-           © 2011-2013 Cristian Oneț <onet.cristian@gmail.com>
-           © 2009-2014 Tommi Nieminen <translator@legisign.org> <tommi.nieminen@legisign.org>
-           © 2011-2013 Weng Xuetian <wengxt@gmail.com>
-           © 2010-2011 Thomas Lübking <thomas.luebking@web.de>
-           © 2012-2014 Antonis Geralis <capoiosct@gmail.com>
-           © 2005, 2009, 2011 Andrey Cherepanov <skull@kde.ru> <sibskull@mail.ru>
-           © 2013 Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>
-           © 2010-2014 g.sora <g.sora@tiscali.it>
-           © 2009-2012 Luiz Fernando Ranghetti <elchevive@opensuse.org>
-           © 2011-2014 Dimitrios Glentadakis <dglent@gmail.com>
-           © 2005-2010 Thomas Reitelbach <tr@erdfunkstelle.de>
-           © 2010-2011 Tomas Straupis <tomasstraupis@gmail.com>
-           © 2008-2011, 2014 Iñigo Salvador Azurmendi <xalba@euskalnet.net>
-           © 2009-2012 Alexander Potashev <aspotashev@gmail.com>
-           © 2009-2011 Michal Sulek <misurel@gmail.com>
-           © 2006-2007, 2009-2010, 2012 Richard Fric <richard.fric@kdemail.net>
-           © 2010-2013 Lukáš Tinkl <ltinkl@redhat.com> <lukas@kde.org>
-           © 2007-2010 Lie Ex <lilith.ex@gmail.com>
-           © 2009-2013 Ni Hui <shuizhuyuanluo@126.com>
-           © 2000 Strahinja Radic <rstraxy@sezampro.yu>
-           © 2001-2004 Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz> <visnovsky@kde.org> <stano@ms.mff.cuni.cz>
-           © 1998-2002, 2004-2006 Sebastià Pla i Sanz <sps@sastia.com>
-           © 2004-2005, 2007-2008, 2010, 2012 Nicolas Ternisien <nicolas.ternisien@gmail.com> <nicolast@libertysurf.fr>
-           © 2004-2008 Ivan Petrouchtchak <fr.ivan@ukrainian-orthodox.org> <ivanpetrouchtchak@yahoo.com>
-           © 2001-2004, 2006 Pablo de Vicente <p.devicente@wanadoo.es> <vicente@oan.es> <vicnte@oan.es> <pablo.devicente@gmail.com>
-           © 2012-2013 Stelios <sstavra@gmail.com>
-           © 2010-2011 Cristina Yenyxe González García <the.blue.valkyrie@gmail.com>
-           © 2007-2008 Diniz Bortolotto <diniz.bortolotto@gmail.com>
-           © 2010-2013 Yuri Efremov <yur.arh@gmail.com>
-           © 2002, 2004-2005, 2008 Funda Wang <fundawang@linux.net.cn>
-           © 2009 Sandeep Shedmake <sandeep.shedmake@gmail.com>
-           © 2005-2011 Nick Shaforostoff <shafff@ukr.net> <shaforostoff@kde.ru>
-           © 2007-2009 mvillarino <mvillarino@users.sourceforge.net>
-           © 2010-2011, 2013-2014 Feng Chao <chaofeng111@gmail.com> <rainofchaos@gmail.com>
-           © 2003-2005, 2007 Andrea Rizzi <rizzi@sns.it> <rizzi@kde.org>
-           © 2013 Antonis Tsiapaliokas <kok3rs@gmail.com>
-           © 2003-2006, 2012 Matthieu Robin <kde@macolu.org> <matthieu@macolu.org>
-           © 2013 Alexander Lakhin <exclusion@gmail.com>
-           © 2007-2012 Luciano Montanaro <mikelima@cirulla.net>
-           © 2008, 2010-2013 Sébastien Renard <renard@kde.org> <sebastien.renard@digitalfox.org>
-           © 2009-2010 Johannes Obermayr <johannesobermayr@gmx.de>
-           © 2010-2011 Jorma Karvonen <karvonen.jorma@gmail.com>
-           © 2002-2005, 2007-2010 Michal Rudolf <mrudolf@kdewebdev.org>
-           © 2008-2009 Laurenţiu Buzdugan <lbuz@rolix.org>
-           © 2004-2005, 2008 Leonid Kanter <leon@asplinux.ru>
-           © 2012-2013 Tomáš Chvátal <tomas.chvatal@gmail.com>
-           © 2003-2005 Sandro Giessl <sandro@giessl.com>
-           © 2011 Remigijus Jarmalavičius <remigijus@jarmalavicius.lt>
-           © 2004-2006, 2012 Krzysztof Lichota <x-men@mixbox.pl> <lichota@mimuw.edu.pl> <krzysiek@lichota.net>
-           © 2001, 2003 Karol Szwed <kszwed@kde.org> <gallium@kde.org>
-           © 2007-2008, 2011 Enrique Matias Sanchez (aka Quique) <cronopios@gmail.com>
-           © 2007 Philip Falkner <philip.falkner@gmail.com>
-           © 2011 Arthur Arlt <a.arlt@stud.uni-heidelberg.de>
-           © 1998, 2000-2002, 2011 KDE <megaribi@epn.ba> <i18n@kde.nl>
-           © 2012-2013 Julia Dronova <juliette.tux@gmail.com>
-           © 2003, 2011-2013 Antoni Bella Pérez <antonibella5@orange.es>
-           © 2002-2004, 2006 Andriy Rysin <rysin@kde.org>
-           © 2005-2006 Stephan Johach <hunsum@gmx.de>
-           © 2000-2001, 2005 Gregory Mokhin <mokhin@bog.msu.ru> <mok@kde.ru>
-           © 2002, 2004-2005 Eugene Onischenko <oneugene@ukr.net>
-           © 2009-2010 Petros Vidalis <p_vidalis@hotmail.com>
-           © 2010 Rohan Prabhu <rohan@rohanprabhu.com>
-           © 2007-2008 Auk Piseth <piseth_dv@khmeros.info>
-           © 2009-2013 Federico Zenith <federico.zenith@member.fsf.org>
-           © 2001 Rik Hemsley <rik@kde.org>
-           © 2001-2005 Görkem Çetin <gorkem@kde.org> <gorkem@gorkemcetin.com>
-           © 2002-2006 Erik Kjær Pedersen <erik@binghamton.edu>
-           © 2001, 2005, 2007 Tamas Szanto <tszanto@interware.hu>
-           © 2003, 2005-2007 Axel Bojer <axelb@skolelinux.no>
-           © 1998, 2000 Wang Jian <lark@linux.net.cn> <lark@linux.ustc.edu.cn>
-           © 2004-2008, 2010 Bram Schoenmakers <bramschoenmakers@kde.nl>
-           © 2004-2005 Ilpo Kantonen <ilpo@iki.fi>
-           © 2010 Onur Küçük <onur@pardus.org.tr>
-           © 2002-2004 Thomas Diehl <thd@kde.org>
-           © 2003-2005 Gregor Rakar <gregor.rakar@kiss.si>
-           © 2003 Tiron Andric <tiron@beotel.yu>
-           © 2008-2009 Kristof Bal <kristof.bal@gmail.com>
-           © 2007 Eng Vannak <evannak@khmeros.info>
-           © 2006 Xabi G. Feal <xabigf@gmx.net>
-           © 2008-2010 Maciej Wikło <maciej.wiklo@wp.pl>
-           © 1999, 2002-2003 Hasso Tepper <hasso@estpak.ee> <hasso@linux.ee>
-           © 2004-2005 Juan Irigoien <juanirigoien@irakasle.net> <juanirigoien@yahoo.es>
-           © 2011-2012 Philipp Knechtges <philipp-dev@knechtges.com>
-           © 2002-2003, 2005-2006 Kim Enkovaara <kim.enkovaara@iki.fi>
-           © 2008 Cédric Borgese <cedric.borgese@gmail.com>
-           © 2010-2011, 2013 Ozan Çağlayan <ozan@pardus.org.tr>
-           © 2003-2004 Miguel Revilla Rodríguez <yo@miguelrevilla.com>
-           © 2001 Waldo Bastian <bastian@kde.org>
-           © 2004 Tom Albers <tomalbers@kde.nl>
-           © 2009-2013 Nicola Ruggero <nicola@nxnt.org>
-           © 2010, 2012 Serdar SOYTETİR <tulliana@gmail.com>
-           © 2008 Asier Urio Larrea <asieriko@gmail.com>
-           © 2010 Jorge Mata <matamax123@gmail.com>
-           © 2002-2003, 2005-2006 Knut Yrvin <knuty@skolelinux.no>
-           © 2006-2008, 2010 marcos <marcos@euskalgnu.org>
-           © 2004 Andrea RIZZI <arizzi@pi.infn.it>
-           © 2011 Cristian Buzduga <cristianbzdg@gmail.com>
-           © 2010 Andreas Demmer <ademmer@opensuse.org>
-           © 2000-2004 Mattias Newzella <newzella@linux.nu>
-           © 2009-2010, 2012-2013 Joëlle Cornavin <jcorn@free.fr>
-           © 2012 Filip Wieladek <wattos@gmail.com>
-           © 2010 Alexandre Pereira <pereira.alex@gmail.com>
-           © 2003-2004 Wilbert Berendsen <wbsoft@xs4all.nl>
-           © 2007-2013 Bruno Patri <bruno.patri@gmail.com>
-           © 2003 Xiong Jiang <jxiong@offtopic.org>
-           © 2010 Sebastian Sauer <sebsauer@kdab.com>
-           © 2008 Goodhorse <franklin@goodhorse.idv.tw>
-           © 1999-2000 Daniel M. Duley <mosfet@kde.org>
-           © 1999-2002 Meni Livne <livne@kde.org>
-           © 2004 Tapio Kautto <eleknader@phnet.fi>
-           © 2004-2005 Adem Alp Yıldız <ademalp@kde.org.tr> <ademalp@linux-sevenler.org>
-           © 2005-2006 Xabier Villar <xabier.villar@gmail.com>
-           © 2007-2008 Mikko Piippo <piippo@cc.helsinki.fi>
-           © 2010 Laszlo Papp <djszapi@archlinux.us>
-           © 2003 Henrique Pinto <stampede@coltec.ufmg.br>
-           © 2012 Casian Andrei <skeletk13@gmail.com>
-           © 2002-2004 Gérard Delafond <gerard@delafond.org>
-           © 2012 Martin Gr\xE4\xDFlin <mgraesslin@kde.org>
-           © 2008 tahmar1900 <tahmar1900@gmail.com>
-           © 2004 Adil Yıldız <adil@linux-sevenler.org>
-           © 2011-2012 Frank Steinmetzger <warp_7@gmx.de>
-           © 2008 Fernando Boaglio <boaglio@kde.org>
-           © 2002 Dmytro Kovalov <kov@tokyo.email.ne.jp>
-           © 2013 Kai Uwe Broulik <kde@privat.broulik.de>
-           © 2002-2004 Stergios Dramis <sdramis@egnatia.ee.auth.gr>
-           © 2003-2005 Claudiu Costin <claudiuc@kde.org>
-           © 2011, 2013 FengChao <rainofchaos@gmail.com>
-           © 2010 Mirek Sabiniewicz <m.sabiniewicz@gmail.com>
-           © 2010-2011 H. İbrahim Güngör <ibrahim@pardus.org.tr>
-           © 2005 Juan Manuel Garcia Molina <juanma@superiodico.net>
-           © 2009-2013 Anne-Marie Mahfouf <annemarie.mahfouf@free.fr> <annma@kde.org>
-           © 2004 Heiko Evermann <heiko@evermann.de>
-           © 2011 Tamas Krutki <ktamasw@gmail.com>
-           © 2014 Dimitris Kardarakos <dimkard@gmail.com>
-           © 2001 Dimitris Kamenopoulos <d.kamenopoulos@mail.ntua.gr> <el97146@mail.ntua.gr>
-           © 1997, 2002 Cristian Tibirna <tibirna@kde.org>
-           © 2007 Bjørn Kvisli <bjorn.kvisli@gmail.com>
-           © 2008 Keld Simonsen <keld@dkuug.dk>
-           © 1998-1999 Marcell Lengyel <miketkf@yahoo.com>
-           © 2005 Ion Gaztañaga <igaztanaga@gmail.com>
-           ©  Poch <sokun_poch@khmeros.info>
-           © 1998-2000 Hans Petter Bieker <bieker@kde.org>
-           ©  Norbert Popiołek <norbert@kde.com.pl>
-           © 2009 Michael Zanetti <michael_zanetti@gmx.net>
-           © 2012 Alexey D. <lq07829icatm@rambler.ru>
-           © 2012-2013 Giovanni Sora <g.sora@tiscali.it>
-           © 2006, 2012 Pino Toscano <toscano.pino@tiscali.it>
-           © 2009 Urs Wolfer
-           © 2011-2012 Cédric Bellegarde <gnumdk@gmail.com>
-           © 2012 Bouklis Panos <panos@echidna-band.com>
-           © 2010 Panagiotis Papadopoulos <pano_90@gmx.net>
-           © 2003 Gilles CAULIER <caulier.gilles@free.fr>
-           © 1997 Patrick Dowler <dowler@morgul.fsh.uvic.ca>
-           © 1998-2000 Anders Widell <awl@hem.passagen.se> <d95-awi@nada.kth.se>
-           © 2009-2010 Markus Slopianka <markus.s@kdemail.net> <kamikazow@fishmouth.net>
-           © 2005 Santiago Fernandez Sancho <santi@kde-es.org>
-           © 2000 Jesús Bravo Álvarez. <jba@pobox.com>
-           © 2010 Kiszel Kristóf <ulysses@kubuntu.org>
-           © 2004 Delafond <gerard@delafond.org>
-           © 2009 Manuel Tortosa Moreno <manutortosa@gmail.com>
-           © 2011 Lionel Chauvin <megabigbug@yahoo.fr>
-           © 2003 Knut Erik Hollund <khollund@responze.net>
-           © 2005 Aleix Pol Gonzàlez <aleixpol@gmail.com>
-           © 2003 Xabi García <xabigf@gmx.net>
-           © 2011 Aracele Torres <araceletorres@gmail.com>
-           © 2010, 2012 FIRST <email@address>
-           © 2013 Rocío Gallego <traducciones@rociogallego.com>
-           © 2000 Roman Maurer <roman.maurer@amis.net> <roman.maurer@hermes.si>
-           © 2010, 2012 Canonical Ltd
-           © 2000 Per Lindström <pelinsr@algonet.se> <pelinstr@algonet.se>
-           © 2007 Nils Kristian Tomren <slx@nilsk.net>
-           © 2005 Sven Harald Klein Bakke <sirius@nonline.org>
-           © 2001 Kenduest Lee <kenduest@i18n.linux.org.tw>
-           © 2010 Yury G. Kudryashov <urkud.urkud@gmail.com>
-           © 2002 Nagelezen door Peter
-           © 2011 Arve Eriksson <031299870@telia.com>
-           © 2000 Murat Sisman <muratsisman@mailcity.com>
-           © 2009 Netanel_h <netanel@gmx.com>
-           © 2007 Richard J. Moore <rich@kde.org>
-           © 2008 sparc3 <sparc3@azet.sk>
-           © 2001 KIM KyungHeon <tody@teoal.net>
-           © 2008 Matas Brazdeikis <matasbbb@gmail.com>
-           © 2012 Jiri Grönroos <jiri.gronroos+kde@iki.fi>
-           © 2004 Torstein Dybdahl <torsted@runbox.no>
-           © 1998 Thomas Tanghus <tanghus@earthling.net>
-           © 1999-2000 Boris Wesslowski <boris@wesslowski.com>
-           © 2003 Ömer Fadıl USTA <omer_fad@hotmail.com>
-           © 2013 Anıl Özbek <ozbekanil@gmail.com>
-           © 2004-2005 Aivaras Kirejevas <office@smaltija.lt>
-           © 2002 Leon Kanter <leon@blackcatlinux.com>
-           © 2000 Theodore J. Soldatos <theodore@eexi.gr>
-           © 2005 Eskild Hustvedt <zerodogg@skolelinux.no>
-           © 2010 Gama <marcus.gama@gmail.com>
-           © 2005 Israel Berger <israelb@gmail.com>
-           © 2002 Yuan-Chen Cheng <ycheng@slat.org>
-           © 2013 Vincent PINON <vincent.pinon@st.com>
-           © 2001 Serdar Cevher <scevher@anet.com.tr>
-           © 2004-2005, 2007, 2010 Mikolaj Machowski <mikmach@wp.pl>
-           © 2003 Tsung-Chien Ho <iitze@hotmail.com>
-           © 2000 Hermann Zheboldov <hermann.zheboldov@shq.ru>
-           © 1998 Csaba Major <major@terrasoft.hu>
-           © 2010 Felix Schweighofer <felix.schweighofer@googlemail.com>
-           © 2005 Erik K. Pedersen <erik@binghamton.edu>
-           © 2004 R.F. Pels <ruurd@tiscali.nl>
-           © 2004-2005 Yann Verley <yann.verley@free.fr>
-           © 2000 Alex Miller <asm@som.kiev.ua>
-           © 2007-2010, 2012 Mickael Sibelle <kimael@gmail.com>
-           © 2005 Wong King Chi <stanley18fan0k@yahoo.com.hk>
-           © 1997 John Zero <johnzero@telnet.hu>
-           © 2004 Simon DEPIETS <2df@tuxfamily.org>
-           © 2001 Yeo SunHwa <sunwt@mizi.com>
-           © 2007 doutor.zero <doutor.zero@gmail.com>
-           © 2014 Ludovic Grossard <ludovic.grossard@unilim.fr>
-           © 1999-2013 The KDE
-           © 2002-2003 Jiang Xiong <jxiong@offtopic.org>
-           © 2012 Svetlana Kolyada <kolyadas89@gmail.com>
-           © 2004 Xabier García Feal <xabigf@gmx.net>
-           ©  Roszatycki <dexter@debian.org>
-           © 2003 Yıldız Kardeşler <turkishprogram@xposta.com>
-           © 1999 Bo Thorsen <gobo@imada.sdu.dk>
-           © 2008 George Pantsis <gpantsis@gmail.com>
-           © 2013 Luigi Toscano <luigi.toscano@tiscali.it>
-           © 2005 Stanley Wong <stanley18fan0k@yahoo.com.hk>
-           © 2002 Iñaki Ibarrola Atxa <etxaurre@teleline.es>
-           © 1997-1998 Magnus Reftel <d96reftl@dtek.chalmers.se>
-           © 2010 Holíček <jan.holicek@gmail.com>
-           © 2011 Hendrik Knackstedt <kn.hendrik@gmail.com>
-           © 2007 Uğur Çetin <jnmbk@users.sourceforge.net>
-           © 2005 Bekir SONAT <cortexbs@yahoo.com>
-           © 2005 Izbasarov M.I. <mambet@sci.kz>
-           © 1998 Balazs Nagy <julian7@kva.hu>
-           © 2002 Peace Lu <hepinglu@linpus.com.tw>
-           © 2008 Antanas Uršulis <antanas.ursulis@gmail.com>
-           © 2009 Andrius Štikonas <andrius@stikonas.eu>
-           © 2010 Guillaume Pujol <guill.p@gmail.com>
-           © 2007 Niklas Laxström <niklas.laxstrom+kdetrans@gmail.com>
-           © 2008 Gintautas Miselis <gintautas@miselis.lt>
-           © 1999 Co. <kde@linuxkorea.co.kr>
-           © 1998 Denis Pershin <dyp@perchine.com>
-           © 1999 Linux Korea
-           © 2001 Li Zongliang <li-zongliang@21cn.com>
-           © 2002 Bosch <peter.bosch@hccnet.nl>
-           © 2013 Vit Pelcak <vit@pelcak.org>
-           © 2001 Sae-keun Kim <segni@susekorea.net>
-           © 2000 Marko Samastur <markos@elite.org>
-             2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
-License: GPL-2.0+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
+Copyright: 2010, Alexandre Pereira <pereira.alex@gmail.com>
+           2010, Andreas Demmer <ademmer@opensuse.org>
+           2013, Antonis Tsiapaliokas <kok3rs@gmail.com>
+           2011, Arthur Arlt <a.arlt@stud.uni-heidelberg.de>
+           2012, Casian Andrei <skeletk13@gmail.com>
+           2007, Christian Nitschkowski <christian.nitschkowski@kdemail.net>
+           2011-2012, Cédric Bellegarde <gnumdk@gmail.com>
+           2008, Cédric Borgese <cedric.borgese@gmail.com>
+           2012, Filip Wieladek <wattos@gmail.com>
+           2009-2014, Fredrik Höglund <fredrik@kde.org>
+           1989-1991, Free Software Foundation, Inc
+           2010, Jorge Mata <matamax123@gmail.com>
+           2013, Kai Uwe Broulik <kde@privat.broulik.de>
+           2003, Karol Szwed <kszwed@kde.org>
+           2011, Lionel Chauvin <megabigbug@yahoo.fr>
+           2001-2008, Lubos Lunak <l.lunak@kde.org>
+           2008, Lubos Lunak <l.lunak@suse.cz>
+           2008-2010, Lucas Murray <lmurray@undefinedfire.com>
+           2014, Marco Martin <mart@kde.org>
+           2009, Marco Martin <notmart@gmail.com>
+           2008-2011, Martin Gräßlin <kde@martin-graesslin.com>
+           2012, Martin Gräßlin <m.graesslin@kde.org>
+           2008-2014, Martin Gräßlin <mgraesslin@kde.org>
+           1998-2000, Matthias Ettrich <ettrich@kde.org>
+           2009, Michael Zanetti <michael_zanetti@gmx.net>
+           2011, NVIDIA Corporation
+           2010, Nokia Corporation and/or its subsidiary(-ies)
+           1997, Patrick Dowler <dowler@morgul.fsh.uvic.ca>
+           2007, Philip Falkner <philip.falkner@gmail.com>
+           2011-2012, Philipp Knechtges <philipp-dev@knechtges.com>
+           2001, Rik Hemsley (rikkus) <rik@kde.org>
+           2006-2007, Rivo Laks <rivolaks@hot.ee>
+           2010, Rohan Prabhu <rohan@rohanprabhu.com>
+           2003-2005, Sandro Giessl <sandro@giessl.com>
+           2010, Sebastian Sauer <sebsauer@kdab.com>
+           2011, Tamas Krutki <ktamasw@gmail.com>
+           2011-2012, The KWin team <kwin@kde.org>
+           2010-2011, Thomas Lübking <thomas.luebking@web.de>
+           2001, Waldo Bastian <bastian@kde.org>
+License: GPL-2+
+
+Files: kcmkwin/kwindecoration/declarative-plugin/buttonsmodel.cpp
+       kcmkwin/kwindecoration/declarative-plugin/buttonsmodel.h
+       kcmkwin/kwindecoration/declarative-plugin/plugin.cpp
+       kcmkwin/kwindecoration/declarative-plugin/plugin.h
+       kcmkwin/kwindecoration/declarative-plugin/previewbridge.cpp
+       kcmkwin/kwindecoration/declarative-plugin/previewbridge.h
+       kcmkwin/kwindecoration/declarative-plugin/previewbutton.cpp
+       kcmkwin/kwindecoration/declarative-plugin/previewbutton.h
+       kcmkwin/kwindecoration/declarative-plugin/previewclient.cpp
+       kcmkwin/kwindecoration/declarative-plugin/previewclient.h
+       kcmkwin/kwindecoration/declarative-plugin/previewitem.cpp
+       kcmkwin/kwindecoration/declarative-plugin/previewitem.h
+       kcmkwin/kwindecoration/declarative-plugin/previewsettings.cpp
+       kcmkwin/kwindecoration/declarative-plugin/previewsettings.h
+       kcmkwin/kwindecoration/decorationmodel.cpp
+       kcmkwin/kwindecoration/decorationmodel.h
+       kcmkwin/kwindecoration/kcm.cpp
+       kcmkwin/kwindecoration/kcm.h
+       kcmkwin/kwindecoration/qml/ButtonGroup.qml
+       kcmkwin/kwindecoration/qml/Buttons.qml
+       kcmkwin/kwindecoration/qml/Previews.qml
+       kcmkwin/kwindecoration/qml/main.qml
+       qml/outline/plasma/outline.qml
+       scripts/enforcedeco/contents/code/main.js
+       tests/libinputtest.cpp
+       tests/normalhintsbasesizetest.cpp
+       tests/screenedgeshowtest.cpp
+       tests/unmapdestroytest.qml
+       tests/waylandclienttest.cpp
+       tests/waylandclienttest.h
+Copyright: 2014, Martin Gräßlin <mgraesslin@kde.org>
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
  .
- This package is distributed in the hope that it will be useful,
+ This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in "/usr/share/common-licenses/GPL-2", likewise, the
+ complete text of the GNU General Public License version 3 can be found in
+ "/usr/share/common-licenses/GPL-3".
+
+Files: cmake/modules/COPYING-CMAKE-SCRIPTS
+       cmake/modules/FindLibinput.cmake
+       cmake/modules/FindUDev.cmake
+       cmake/modules/FindXKB.cmake
+       cmake/modules/Findepoxy.cmake
+Copyright: 2014, Alex Merry <alex.merry@kde.org>
+           2014, Fredrik Höglund <fredrik@kde.org>
+           2014, Martin Gräßlin <mgraesslin@kde.org>
+           2010, Rafael Fernández López <ereslibre@kde.org>
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Files: kcmkwin/kwincompositing/test/modeltest.cpp
        kcmkwin/kwincompositing/test/modeltest.h
-Copyright: 2013 Digia Plc and/or its subsidiary(-ies).
-License: LGPL-2.1 or GPL-3
- ** Commercial License Usage
- ** Licensees holding valid commercial Qt licenses may use this file in
- ** accordance with the commercial license agreement provided with the
- ** Software or, alternatively, in accordance with the terms contained in
- ** a written agreement between you and Digia.  For licensing terms and
- ** conditions see http://qt.digia.com/licensing.  For further information
- ** use the contact form at http://qt.digia.com/contact-us.
- **
- ** GNU Lesser General Public License Usage
- ** Alternatively, this file may be used under the terms of the GNU Lesser
- ** General Public License version 2.1 as published by the Free Software
- ** Foundation and appearing in the file LICENSE.LGPL included in the
- ** packaging of this file.  Please review the following information to
- ** ensure the GNU Lesser General Public License version 2.1 requirements
- ** will be met: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
- **
- ** In addition, as a special exception, Digia gives you certain additional
- ** rights.  These rights are described in the Digia Qt LGPL Exception
- ** version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
- **
- ** GNU General Public License Usage
- ** Alternatively, this file may be used under the terms of the GNU
- ** General Public License version 3.0 as published by the Free Software
- ** Foundation and appearing in the file LICENSE.GPL included in the
- ** packaging of this file.  Please review the following information to
- ** ensure the GNU General Public License version 3.0 requirements will be
- ** met: http://www.gnu.org/copyleft/gpl.html.
-
-Files: scripting/timer.cpp
-Copyright: 2007 Richard J. Moore <rich@kde.org>
-License: LGPL-2
+Copyright: 2013, Digia Plc and/or its subsidiary(-ies)
+License: GPL-3 or LGPL-2.1
+ * $QT_BEGIN_LICENSE:LGPL$
+ * Commercial License Usage
+ * Licensees holding valid commercial Qt licenses may use this file in
+ * accordance with the commercial license agreement provided with the
+ * Software or, alternatively, in accordance with the terms contained in
+ * a written agreement between you and Digia.  For licensing terms and
+ * conditions see http://qt.digia.com/licensing.  For further information
+ * use the contact form at http://qt.digia.com/contact-us.
  *
- *   This program is free software; you can redistribute it and/or modify
- *   it under the terms of the GNU Library General Public License version 2 as
- *   published by the Free Software Foundation
+ * GNU Lesser General Public License Usage
+ * Alternatively, this file may be used under the terms of the GNU Lesser
+ * General Public License version 2.1 as published by the Free Software
+ * Foundation and appearing in the file LICENSE.LGPL included in the
+ * packaging of this file.  Please review the following information to
+ * ensure the GNU Lesser General Public License version 2.1 requirements
+ * will be met: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
  *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details
+ * In addition, as a special exception, Digia gives you certain additional
+ * rights.  These rights are described in the Digia Qt LGPL Exception
+ * version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
  *
- *   You should have received a copy of the GNU Library General Public
- *   License along with this program; if not, write to the
- *   Free Software Foundation, Inc.,
- *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ * GNU General Public License Usage
+ * Alternatively, this file may be used under the terms of the GNU
+ * General Public License version 3.0 as published by the Free Software
+ * Foundation and appearing in the file LICENSE.GPL included in the
+ * packaging of this file.  Please review the following information to
+ * ensure the GNU General Public License version 3.0 requirements will be
+ * met: http://www.gnu.org/copyleft/gpl.html.
+ *
+ *
+ * $QT_END_LICENSE$
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in "/usr/share/common-licenses/GPL-3", likewise, the
+ complete text of the GNU Lesser General Public License version 2.1 can be
+ found in "/usr/share/common-licenses/LGPL-2.1".
 
 Files: kcmkwin/kwinscreenedges/screenpreviewwidget.cpp
        kcmkwin/kwinscreenedges/screenpreviewwidget.h
-Copyright: 2009 Marco Martin <notmart@gmail.com>
+Copyright: 2009, Marco Martin <notmart@gmail.com>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -390,32 +188,68 @@ License: LGPL-2+
  along with this library; see the file COPYING.LIB.  If not, write to
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
-Files: paintredirector.cpp
-       paintredirector.h
-       killer/killer.cpp
-Copyright: 2003, 2009 Lubos Lunak <l.lunak@kde.org>
-           2012 Martin Gräßlin <mgraesslin@kde.org>
-           2005 Sandro Giessl <sandro@giessl.com>
-           1999, 2000    Daniel M. Duley <mosfet@kde.org>
-License: MIT
-  | Permission is hereby granted, free of charge, to any person
-  | obtaining a copy of this software and associated documentation
-  | files (the "Software"), to deal in the Software without
-  | restriction, including without limitation the rights to use,
-  | copy, modify, merge, publish, distribute, sublicense, and/or sell
-  | copies of the Software, and to permit persons to whom the
-  | Software is furnished to do so, subject to the following
-  | conditions:
-  |
-  | The above copyright notice and this permission notice shall be
-  | included in all copies or substantial portions of the Software.
-  |
-  | THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-  | EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
-  | OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-  | NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-  | HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-  | WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-  | FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-  | OTHER DEALINGS IN THE SOFTWARE.
+Files: scripting/timer.cpp
+Copyright: 2007, Richard J. Moore <rich@kde.org>
+License: LGPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License version 2 as
+ published by the Free Software Foundation
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this program; if not, write to the
+ Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+Files: killer/killer.cpp
+Copyright: 2003, Lubos Lunak <l.lunak@kde.org>
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ DEALINGS IN THE SOFTWARE.
+
+Files: debian/*
+Copyright: 2014, Scarlett Clark <scarlett@scarlettgatelyclark.com>
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".

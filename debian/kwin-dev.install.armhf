@@ -1,7 +1,0 @@
-usr/include/
-usr/lib/*/cmake
-usr/lib/*/libkwin4_effect_builtins.so
-usr/lib/*/libkwineffects.so
-usr/lib/*/libkwinglesutils.so
-usr/lib/*/libkwinxrenderutils.so
-usr/share/dbus-1/interfaces/

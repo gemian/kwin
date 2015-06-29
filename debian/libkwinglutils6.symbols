@@ -106,7 +106,7 @@ libkwinglutils.so.6 libkwinglutils6 #MINVER#
  _ZN4KWin16GLTexturePrivate22s_textureObjectCounterE@Base 4:5.1.95+git20150122
  _ZN4KWin16GLTexturePrivate24s_supportsTextureStorageE@Base 4:5.1.95+git20150122
  _ZN4KWin16GLTexturePrivate24s_supportsTextureSwizzleE@Base 4:5.1.95+git20150122
- _ZN4KWin16GLTexturePrivate25s_supportsTextureFormatRGE@Base 4:5.2.1+git20150223.0926
+ _ZN4KWin16GLTexturePrivate25s_supportsTextureFormatRGE@Base 4:5.2.1
  _ZN4KWin16GLTexturePrivate28s_supportsFramebufferObjectsE@Base 4:5.1.95+git20150122
  _ZN4KWin16GLTexturePrivate5s_fboE@Base 4:5.1.95+git20150122
  _ZN4KWin16GLTexturePrivate7cleanupEv@Base 4:5.1.95+git20150122
@@ -171,7 +171,7 @@ libkwinglutils.so.6 libkwinglutils6 #MINVER#
  _ZN4KWin9GLTexture12setYInvertedEb@Base 4:5.1.95+git20150122
  _ZN4KWin9GLTexture15generateMipmapsEv@Base 4:5.1.95+git20150122
  _ZN4KWin9GLTexture15supportsSwizzleEv@Base 4:5.1.95+git20150122
- _ZN4KWin9GLTexture16supportsFormatRGEv@Base 4:5.2.1+git20150223.0926
+ _ZN4KWin9GLTexture16supportsFormatRGEv@Base 4:5.2.1
  _ZN4KWin9GLTexture26framebufferObjectSupportedEv@Base 4:5.1.95+git20150122
  _ZN4KWin9GLTexture4bindEv@Base 4:5.1.95+git20150122
  _ZN4KWin9GLTexture5clearEv@Base 4:5.1.95+git20150122

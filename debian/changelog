@@ -23,12 +23,43 @@ kwin (4:5.2.2a-0ubuntu1) vivid; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 24 Mar 2015 07:33:08 -0700
 
+kwin (4:5.3.1-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.3.0).
+  * Update symbols files.
+  * New upstream release (5.3.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:52:39 +0200
+
+kwin (4:5.2.2-1) experimental; urgency=medium
+
+  * New upstream release (5.2.1).
+  * Split kwin package in common, x11 and wayland.
+  * Update symbols files.
+  * New upstream release (5.2.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 23:17:20 +0100
+
 kwin (4:5.2.1-0ubuntu1) vivid; urgency=medium
 
   * New upstream release 
   * Batchpatch symbols file. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 23 Feb 2015 09:42:26 -0800
+
+kwin (4:5.2.0.1-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Add myself as Uploader.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update copyright information.
+  * Update install files.
+  * Update watch file.
+  * Add basic autopkgtests support.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Feb 2015 09:21:57 +0100
 
 kwin (4:5.2.0.1-0ubuntu1) vivid; urgency=medium
 

@@ -7,5 +7,5 @@ override_dh_strip:
 	$(overridden_command) --dbg-package=kwin-dbg
 
 override_dh_auto_test:
-	dh_installwm openbox\
-	xvfb-run -a dh_auto_test
+	# Disable auto tests at build time
+	:

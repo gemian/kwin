@@ -1,0 +1,3 @@
+#!/bin/sh
+
+xvfb-run -a dbus-launch --exit-with-session dh_auto_test

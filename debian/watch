@@ -1,4 +1,3 @@
 version=3
-http://download.kde.org/unstable/plasma/([\d\.]+)/kwin-(.*)\.tar\.xz
-
-http://download.kde.org/stable/plasma/([\d\.]+)/kwin-(.*)\.tar\.xz
+http://download.kde.org/unstable/plasma/([\d.]+)/kwin-([\d.]+)\.tar\.xz
+http://download.kde.org/stable/plasma/([\d.]+)/kwin-([\d.]+)\.tar\.xz
