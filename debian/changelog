@@ -7,12 +7,6 @@ kwin (4:5.3.2-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 12:20:39 +0200
 
-kwin (4:5.3.2-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 29 Jun 2015 19:34:37 +0200
-
 kwin (4:5.3.1-0ubuntu3) wily; urgency=medium
 
   * No-change rebuild against Qt 5.4.2.
@@ -38,8 +32,8 @@ kwin (4:5.3.1-0ubuntu1) wily; urgency=medium
 
 kwin (4:5.2.2a-0ubuntu1) vivid; urgency=medium
 
-  * New upstream release 
-  * New upstream tar. 
+  * New upstream release
+  * New upstream tar.
   * Append a to version so launchpad accepts new tar.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 24 Mar 2015 07:33:08 -0700
@@ -55,8 +49,8 @@ kwin (4:5.2.2-1) experimental; urgency=medium
 
 kwin (4:5.2.1-0ubuntu1) vivid; urgency=medium
 
-  * New upstream release 
-  * Batchpatch symbols file. 
+  * New upstream release
+  * Batchpatch symbols file.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 23 Feb 2015 09:42:26 -0800
 
