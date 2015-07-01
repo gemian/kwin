@@ -7,6 +7,43 @@ kwin (4:5.3.2-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 12:20:39 +0200
 
+kwin (4:5.3.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 29 Jun 2015 19:34:37 +0200
+
+kwin (4:5.3.1-0ubuntu3) wily; urgency=medium
+
+  * No-change rebuild against Qt 5.4.2.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 16 Jun 2015 00:27:17 -0600
+
+kwin (4:5.3.1-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * Manual merge kubuntu_stable.
+
+  [ Jonathan Riddell ]
+  * Plasma 5.3 beta
+  * new upstream release
+
+  [ Scarlett Clark ]
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 02:34:16 +0200
+
+kwin (4:5.2.2a-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release 
+  * New upstream tar. 
+  * Append a to version so launchpad accepts new tar.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 24 Mar 2015 07:33:08 -0700
+
 kwin (4:5.2.2-1) experimental; urgency=medium
 
   * New upstream release (5.2.1).
