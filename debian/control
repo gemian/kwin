@@ -55,7 +55,7 @@ Build-Depends: cmake (>= 2.8.12),
                libxcursor-dev,
                libxkbcommon-dev (>= 0.4.1),
                pkg-config,
-               pkg-kde-tools (>= 0.15.15ubuntu1~),
+               pkg-kde-tools (>= 0.15.18~),
                plasma-framework-dev (>= 5.8.0~),
                qtbase5-dev (>= 5.4.0~),
                qtbase5-private-dev (>= 5.4.0~),
@@ -235,6 +235,8 @@ Recommends: plasma-framework,
             qml-module-qtquick-layouts,
             qml-module-qtquick-window2,
             qml-module-qtquick2
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: KDE window manager data files
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
