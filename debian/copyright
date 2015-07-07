@@ -14,6 +14,7 @@ Copyright: 2010, Alexandre Pereira <pereira.alex@gmail.com>
            2012, Filip Wieladek <wattos@gmail.com>
            2009-2014, Fredrik Höglund <fredrik@kde.org>
            1989-1991, Free Software Foundation, Inc
+           2014, Hugo Pereira Da Costa <hugo.pereira@free.fr>
            2010, Jorge Mata <matamax123@gmail.com>
            2013, Kai Uwe Broulik <kde@privat.broulik.de>
            2003, Karol Szwed <kszwed@kde.org>
@@ -25,9 +26,10 @@ Copyright: 2010, Alexandre Pereira <pereira.alex@gmail.com>
            2009, Marco Martin <notmart@gmail.com>
            2008-2011, Martin Gräßlin <kde@martin-graesslin.com>
            2012, Martin Gräßlin <m.graesslin@kde.org>
-           2008-2014, Martin Gräßlin <mgraesslin@kde.org>
+           2008-2015, Martin Gräßlin <mgraesslin@kde.org>
            1998-2000, Matthias Ettrich <ettrich@kde.org>
            2009, Michael Zanetti <michael_zanetti@gmx.net>
+           2015, Mika Allan Rauhala <mika.allan.rauhala@gmail.com>
            2011, NVIDIA Corporation
            2010, Nokia Corporation and/or its subsidiary(-ies)
            1997, Patrick Dowler <dowler@morgul.fsh.uvic.ca>
@@ -40,9 +42,70 @@ Copyright: 2010, Alexandre Pereira <pereira.alex@gmail.com>
            2010, Sebastian Sauer <sebsauer@kdab.com>
            2011, Tamas Krutki <ktamasw@gmail.com>
            2011-2012, The KWin team <kwin@kde.org>
+           2014-2015, Thomas Lübking <thomas.luebking@gmail.com>
            2010-2011, Thomas Lübking <thomas.luebking@web.de>
            2001, Waldo Bastian <bastian@kde.org>
+           2007-2014, Free Software Foundation
+           1997-2014, Free Software Foundation, Inc
+           2000, Jesús Bravo Álvarez
+           2008-2009, K Desktop Environment
+           1998, KDE Russian translation Team
+           2000-2001, KDE Team
+           2000-2002, KDE e.v
+           2007, KDE i18n Project for Vietnamese
+           1999-2002, Meni Livne <livne@kde.org>
+           2009, Rosetta Contributors and Canonical Ltd 2009
+           2010, Rosetta Contributors and Canonical Ltd 2010
+           2012, Rosetta Contributors and Canonical Ltd 2012
+           2002-2015, This_file_is_part_of_KDE
+           1999-2005, bởi các nhà phát triển KDE
+           1997-2002, nămcủa Các tác giả KWin và KControl
+           2001, translate.org.za
+           1999-2008, กลุ่มผู้พัฒนา KDE
+           1997-2002, กลุ่มผู้เขียน KWin และ KControl
+           2547, ผู้เขียน KWin และ KControl
 License: GPL-2+
+
+Files: po/ca/kcm-kwin-scripts.po
+       po/ca/kcm_kwindesktop.po
+       po/ca/kcm_kwintabbox.po
+       po/ca/kcmkwincompositing.po
+       po/ca/kcmkwindecoration.po
+       po/ca/kcmkwinrules.po
+       po/ca/kcmkwinscreenedges.po
+       po/ca/kcmkwm.po
+       po/ca/kwin.po
+       po/ca/kwin_clients.po
+       po/ca/kwin_effects.po
+       po/ca/kwin_scripting.po
+       po/ca@valencia/kcm-kwin-scripts.po
+       po/ca@valencia/kcm_kwindesktop.po
+       po/ca@valencia/kcm_kwintabbox.po
+       po/ca@valencia/kcmkwincompositing.po
+       po/ca@valencia/kcmkwinscreenedges.po
+       po/ca@valencia/kwin_effects.po
+       po/ca@valencia/kwin_scripting.po
+       po/uk/kcm-kwin-scripts.po
+       po/uk/kcm_kwindesktop.po
+       po/uk/kcm_kwintabbox.po
+       po/uk/kcmkwincompositing.po
+       po/uk/kcmkwindecoration.po
+       po/uk/kcmkwinrules.po
+       po/uk/kcmkwinscreenedges.po
+       po/uk/kcmkwm.po
+       po/uk/kwin.po
+       po/uk/kwin_clients.po
+       po/uk/kwin_effects.po
+       po/uk/kwin_scripting.po
+Copyright: 1998-2015, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ --
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1', likewise,
+ the complete text of the GNU Lesser General Public License version 3 can be
+ found in `/usr/share/common-licenses/LGPL-3'.
 
 Files: kcmkwin/kwindecoration/declarative-plugin/buttonsmodel.cpp
        kcmkwin/kwindecoration/declarative-plugin/buttonsmodel.h
@@ -76,26 +139,35 @@ Files: kcmkwin/kwindecoration/declarative-plugin/buttonsmodel.cpp
        tests/waylandclienttest.h
 Copyright: 2014, Martin Gräßlin <mgraesslin@kde.org>
 License: GPL-2+3+KDEeV
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License as
- published by the Free Software Foundation; either version 2 of
- the License or (at your option) version 3 or any later version
- accepted by the membership of KDE e.V. (or its successor approved
- by the membership of KDE e.V.), which shall act as a proxy
- defined in Section 14 of version 3 of the license.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program.  If not, see <http://www.gnu.org/licenses/>.
- .
+
+Files: clients/aurorae/themes/plastik/package/metadata.desktop
+       effects/dialogparent/package/metadata.desktop
+       effects/eyeonscreen/package/metadata.desktop
+       effects/fade/package/metadata.desktop
+       effects/fadedesktop/package/metadata.desktop
+       effects/login/package/metadata.desktop
+       effects/maximize/package/metadata.desktop
+       effects/scalein/package/metadata.desktop
+       effects/translucency/package/metadata.desktop
+       effects/windowaperture/package/metadata.desktop
+       effects/wobblywindows/wobblywindows.cpp
+       effects/wobblywindows/wobblywindows.h
+       po/bg/kcmkwindecoration.po
+       po/bg/kcmkwinrules.po
+       po/bg/kcmkwm.po
+       po/bg/kwin.po
+       po/bg/kwin_clients.po
+       scripts/desktopchangeosd/metadata.desktop
+       scripts/enforcedeco/metadata.desktop
+       scripts/minimizeall/metadata.desktop
+       scripts/synchronizeskipswitcher/metadata.desktop
+       scripts/videowall/metadata.desktop
+Copyright: 2008, Cédric Borgese <cedric.borgese@gmail.com>
+License: GPL
+ This file is licensed under the GPL.
+ --
  On Debian systems, the complete text of the GNU General Public License
- version 2 can be found in "/usr/share/common-licenses/GPL-2", likewise, the
- complete text of the GNU General Public License version 3 can be found in
- "/usr/share/common-licenses/GPL-3".
+ can be found in `/usr/share/common-licenses/GPL'.
 
 Files: cmake/modules/COPYING-CMAKE-SCRIPTS
        cmake/modules/FindLibinput.cmake
@@ -130,10 +202,16 @@ License: BSD-3-clause
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+Files: doc/en/windowspecific/index.docbook
+       doc/en_US/windowspecific/index.docbook
+Copyright: see the UserBase https://userbase.kde.org/index.php?title=KWin_Rules&action=history
+           Lauri.Watts
+License: GFDL-1.2+
+
 Files: kcmkwin/kwincompositing/test/modeltest.cpp
        kcmkwin/kwincompositing/test/modeltest.h
 Copyright: 2013, Digia Plc and/or its subsidiary(-ies)
-License: GPL-3 or LGPL-2.1
+License: GPL-3_or_LGPL-2.1-QTexception-1.1
  * $QT_BEGIN_LICENSE:LGPL$
  * Commercial License Usage
  * Licensees holding valid commercial Qt licenses may use this file in
@@ -165,55 +243,29 @@ License: GPL-3 or LGPL-2.1
  *
  *
  * $QT_END_LICENSE$
+ --
  On Debian systems, the complete text of the GNU General Public License
- version 3 can be found in "/usr/share/common-licenses/GPL-3", likewise, the
+ version 3 can be found in `/usr/share/common-licenses/GPL-3', likewise, the
  complete text of the GNU Lesser General Public License version 2.1 can be
- found in "/usr/share/common-licenses/LGPL-2.1".
+ found in `/usr/share/common-licenses/LGPL-2.1'.
 
 Files: kcmkwin/kwinscreenedges/screenpreviewwidget.cpp
        kcmkwin/kwinscreenedges/screenpreviewwidget.h
 Copyright: 2009, Marco Martin <notmart@gmail.com>
 License: LGPL-2+
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- You should have received a copy of the GNU Library General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU Library General Public
- License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
 Files: scripting/timer.cpp
 Copyright: 2007, Richard J. Moore <rich@kde.org>
 License: LGPL-2
- This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU Library General Public License version 2 as
- published by the Free Software Foundation
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details
- .
- You should have received a copy of the GNU Library General Public
- License along with this program; if not, write to the
- Free Software Foundation, Inc.,
- 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU Library General Public
- License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
 Files: killer/killer.cpp
 Copyright: 2003, Lubos Lunak <l.lunak@kde.org>
+License: Expat
+
+Files: debian/*
+Copyright: 2014, Scarlett Clark <scarlett@scarlettgatelyclark.com>
+License: GPL-2+
+
 License: Expat
  Permission is hereby granted, free of charge, to any person obtaining a
  copy of this software and associated documentation files (the "Software"),
@@ -233,10 +285,6 @@ License: Expat
  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  DEALINGS IN THE SOFTWARE.
 
-Files: debian/*
-Copyright: 2014, Scarlett Clark <scarlett@scarlettgatelyclark.com>
-License: GPL-2+
-
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -250,6 +298,65 @@ License: GPL-2+
  .
  You should have received a copy of the GNU General Public License
  along with this program. If not, see <http://www.gnu.org/licenses/>
- .
+ --
  On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ Public License version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ --
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2', likewise, the
+ complete text of the GNU General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License version 2 as
+ published by the Free Software Foundation
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this program; if not, write to the
+ Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ --
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ --
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
