@@ -117,7 +117,7 @@ Description: KDE window manager, common files
 Package: kwin-x11
 Architecture: any
 Depends: kwin-common (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Provides: kwin
+Provides: kwin, x-window-manager
 Description: KDE window manager, X11 version
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -265,3 +265,14 @@ Description: KDE window manager - debug files
  of windows and switching between them.
  .
  This package contains the debugging symbols.
+
+Package: kde-window-manager
+Section: oldlibs
+Priority: extra
+Architecture: all
+Depends: kwin-x11
+Description: transitional package for kwin-x11
+ This transitional package allows one to migrate to the packages providing
+ the X11 version of the KDE window manager.
+ .
+ It can be safely removed after the installation.
