@@ -117,7 +117,7 @@ Description: KDE window manager, common files
 Package: kwin-x11
 Architecture: any
 Depends: kwin-common (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Provides: kwin, x-window-manager
+Provides: kwin
 Description: KDE window manager, X11 version
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
