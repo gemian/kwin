@@ -1,6 +1,6 @@
 kwin (4:5.3.2-3~) UNRELEASED; urgency=medium
 
-  * 
+  * kwin-wayland: Add qtwayland5 dependency, for the wayland qt5 plugin.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Jul 2015 09:53:26 +0200
 
