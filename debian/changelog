@@ -1,3 +1,13 @@
+kwin (4:5.3.2-4) UNRELEASED; urgency=medium
+
+  * Team upload.
+  * Add debian/kwin-x11.links to add symlink for usr/bin/kiwn so that kwin
+    will be properly started with KDE 4 (Plasma 1) (Closes: #793026)
+  * Drop #793026 from the debian/changelog entry for the last upload, since it
+    did not fix the bug
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 31 Jul 2015 03:16:55 -0400
+
 kwin (4:5.3.2-3) unstable; urgency=high
 
   [ Maximiliano Curia ]
@@ -6,7 +16,7 @@ kwin (4:5.3.2-3) unstable; urgency=high
   [ Scott Kitterman ]
   * Urgency high for RC but fix in testing
   * Remove obsolete kwin alternative and add new alternative for kwin_x11 so
-    kwin will work as x-window-manager (Closes: #792849, #793997, #793026)
+    kwin will work as x-window-manager (Closes: #792849, #793997)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 Jul 2015 16:43:28 -0400
 
