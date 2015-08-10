@@ -108,16 +108,10 @@ libkwineffects.so.6 libkwineffects6 #MINVER#
  _ZN4KWin15AnimationEffect9p_animateEPNS_12EffectWindowENS0_9AttributeEjiNS_4FPx2E12QEasingCurveiS4_b@Base 4:5.1.95+git20150122
  _ZN4KWin15AnimationEffectC1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin15AnimationEffectC2Ev@Base 4:5.1.95+git20150122
- _ZN4KWin15AnimationEffectD0Ev@Base 4:5.1.95+git20150122
- _ZN4KWin15AnimationEffectD1Ev@Base 4:5.1.95+git20150122
- _ZN4KWin15AnimationEffectD2Ev@Base 4:5.1.95+git20150122
  _ZN4KWin15ScreenPaintDataC1ERKS0_@Base 4:5.1.95+git20150122
  _ZN4KWin15ScreenPaintDataC1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin15ScreenPaintDataC2ERKS0_@Base 4:5.1.95+git20150122
  _ZN4KWin15ScreenPaintDataC2Ev@Base 4:5.1.95+git20150122
- _ZN4KWin15ScreenPaintDataD0Ev@Base 4:5.1.95+git20150122
- _ZN4KWin15ScreenPaintDataD1Ev@Base 4:5.1.95+git20150122
- _ZN4KWin15ScreenPaintDataD2Ev@Base 4:5.1.95+git20150122
  _ZN4KWin15ScreenPaintDataaSERKS0_@Base 4:5.1.95+git20150122
  _ZN4KWin15ScreenPaintDatamLERK9QVector2D@Base 4:5.1.95+git20150122
  _ZN4KWin15ScreenPaintDatamLERK9QVector3D@Base 4:5.1.95+git20150122
