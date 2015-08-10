@@ -117,6 +117,8 @@ Description: KDE window manager, common files
 Package: kwin-x11
 Architecture: any
 Depends: kwin-common (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Breaks: kde-window-manager (<< 4:5)
+Replaces: kde-window-manager (<< 4:5)
 Provides: kwin
 Description: KDE window manager, X11 version
  KWin (pronounced as one syllable "kwin") is the window
