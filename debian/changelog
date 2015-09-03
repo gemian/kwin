@@ -1,6 +1,11 @@
 kwin (4:5.4.0-1~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.4.0).
+
+  [ Felix Geyer ]
+  * Tighten the dependency of kde-window-manager on kwin-x11 to the version
+    that provides the /usr/bin/kwin symlink.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Sep 2015 23:34:11 +0200
 
