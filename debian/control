@@ -10,10 +10,10 @@ Build-Depends: cmake (>= 2.8.12),
                kinit-dev (>= 5.12.0~),
                kio-dev (>= 5.12.0~),
                kwayland-dev (>= 5.1.95),
-               libgbm-dev,
                libdrm-dev,
                libegl1-mesa-dev (>= 1.2~),
                libepoxy-dev (>= 1.2),
+               libgbm-dev,
                libice-dev,
                libinput-dev (>= 0.10~),
                libkdecorations2-dev,
@@ -66,7 +66,6 @@ Build-Depends: cmake (>= 2.8.12),
                qtscript5-dev (>= 5.4.0~),
                qttools5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/kwin.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kwin.git
