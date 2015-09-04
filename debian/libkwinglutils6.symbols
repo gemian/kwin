@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.2.1+git20150223.0926 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.4.0 amd64
 libkwinglutils.so.6 libkwinglutils6 #MINVER#
  _ZN4KWin10GLPlatform10s_platformE@Base 4:5.1.95+git20150122
  _ZN4KWin10GLPlatform14driverToStringENS_6DriverE@Base 4:5.1.95+git20150122
@@ -35,7 +35,7 @@ libkwinglutils.so.6 libkwinglutils6 #MINVER#
  _ZN4KWin13ShaderManagerC2Ev@Base 4:5.1.95+git20150122
  _ZN4KWin13ShaderManagerD1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin13ShaderManagerD2Ev@Base 4:5.1.95+git20150122
- _ZN4KWin13glReadnPixelsE@Base 4:5.1.95+git20150122
+ (optional=gccinternal)_ZN4KWin13glReadnPixelsE@Base 4:5.1.95+git20150122
  _ZN4KWin13hasEGLVersionEiii@Base 4:5.1.95+git20150122
  _ZN4KWin13hasGLXVersionEiii@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget10initStaticEv@Base 4:5.1.95+git20150122
@@ -98,7 +98,7 @@ libkwinglutils.so.6 libkwinglutils6 #MINVER#
  _ZN4KWin15ColorCorrectionD0Ev@Base 4:5.1.95+git20150122
  _ZN4KWin15ColorCorrectionD1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin15ColorCorrectionD2Ev@Base 4:5.1.95+git20150122
- _ZN4KWin15glGetnUniformfvE@Base 4:5.1.95+git20150122
+ (optional=gccinternal)_ZN4KWin15glGetnUniformfvE@Base 4:5.1.95+git20150122
  _ZN4KWin16GLTexturePrivate10initStaticEv@Base 4:5.1.95+git20150122
  _ZN4KWin16GLTexturePrivate12updateMatrixEv@Base 4:5.1.95+git20150122
  _ZN4KWin16GLTexturePrivate16s_supportsARGB32E@Base 4:5.1.95+git20150122
@@ -119,10 +119,13 @@ libkwinglutils.so.6 libkwinglutils6 #MINVER#
  _ZN4KWin17nearestPowerOfTwoEi@Base 4:5.1.95+git20150122
  _ZN4KWin18glResolveFunctionsENS_23OpenGLPlatformInterfaceE@Base 4:5.1.95+git20150122
  _ZN4KWin19eglResolveFunctionsEv@Base 4:5.1.95+git20150122
+ _ZN4KWin19epoxy_glReadnPixelsE@Base 4:5.4.0
  _ZN4KWin19glTextureUnitsCountE@Base 4:5.1.95+git20150122
  _ZN4KWin19glXSwapIntervalMESAE@Base 4:5.1.95+git20150122
  _ZN4KWin19glxResolveFunctionsEv@Base 4:5.1.95+git20150122
- _ZN4KWin24glGetGraphicsResetStatusE@Base 4:5.1.95+git20150122
+ _ZN4KWin21epoxy_glGetnUniformfvE@Base 4:5.4.0
+ (optional=gccinternal)_ZN4KWin24glGetGraphicsResetStatusE@Base 4:5.1.95+git20150122
+ _ZN4KWin30epoxy_glGetGraphicsResetStatusE@Base 4:5.4.0
  _ZN4KWin6initGLENS_23OpenGLPlatformInterfaceE@Base 4:5.1.95+git20150122
  _ZN4KWin7initEGLEv@Base 4:5.1.95+git20150122
  _ZN4KWin7initGLXEv@Base 4:5.1.95+git20150122
