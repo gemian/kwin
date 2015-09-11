@@ -207,6 +207,15 @@ Files: doc/en/windowspecific/index.docbook
 Copyright: see the UserBase https://userbase.kde.org/index.php?title=KWin_Rules&action=history
            Lauri.Watts
 License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ --
+ The complete text of the GNU Free Documentation License version 1.2
+ can be found in `/usr/share/common-licenses/GFDL-1.2'.
 
 Files: kcmkwin/kwincompositing/test/modeltest.cpp
        kcmkwin/kwincompositing/test/modeltest.h
