@@ -1,6 +1,9 @@
 kwin (4:5.4.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.4.1).
+  * New upstream patch:
+    upstream_fake_a_leave_event_for_the_decoration_when_client_is_left.d
+    iff
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 21:48:38 +0200
 
