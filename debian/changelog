@@ -1,3 +1,14 @@
+kwin (4:5.4.1-2) UNRELEASED; urgency=medium
+
+  [ Luigi Toscano ]
+  * Changes to Recommends for kwin-common:
+    - add libqt5multimedia5-plugins (it enables the playback of the
+      preview of KWin effects);
+    - remove libqt5multimedia5 (it is dependency of the required
+      qml-module-qtmultimedia package).
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Sep 2015 00:24:16 +0200
+
 kwin (4:5.4.1-1) unstable; urgency=medium
 
   * New upstream release (5.4.1).
