@@ -1,9 +1,9 @@
-kwin (4:5.4.3-1~) UNRELEASED; urgency=medium
+kwin (4:5.4.3-1) unstable; urgency=medium
 
   * New upstream release (5.4.3).
   * Update symbols files from buildds logs (4:5.4.2-1).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 05 Nov 2015 16:55:10 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Dec 2015 11:45:37 +0100
 
 kwin (4:5.4.2-1) unstable; urgency=medium
 
