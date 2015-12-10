@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.4.2 alpha amd64 arm64 armel hppa i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 4:5.4.3 armhf
 libkwineffects.so.6 libkwineffects6 #MINVER#
  _ZN4KWin11EffectFrame15enableCrossFadeEb@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrame20setCrossFadeProgressEd@Base 4:5.1.95+git20150122
@@ -198,6 +198,8 @@ libkwineffects.so.6 libkwineffects6 #MINVER#
  _ZN4KWin6EffectD1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin6EffectD2Ev@Base 4:5.1.95+git20150122
  (optional=templinst)_ZN4KWin6MotionI7QPointFE9calculateEi@Base 4:5.1.95+git20150122
+ (optional=templinst)_ZN4KWin6MotionI7QPointFEC1ERKS2_@Base 4:5.4.3
+ (optional=templinst)_ZN4KWin6MotionI7QPointFEC2ERKS2_@Base 4:5.4.3
  _ZN4KWin7effectsE@Base 4:5.1.95+git20150122
  _ZN4KWin8Motion1DC1ERKS0_@Base 4:5.1.95+git20150122
  _ZN4KWin8Motion1DC1Eddd@Base 4:5.1.95+git20150122
