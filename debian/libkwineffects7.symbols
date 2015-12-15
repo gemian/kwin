@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:5.4.3 armhf
-libkwineffects.so.6 libkwineffects6 #MINVER#
+libkwineffects.so.7 libkwineffects7 #MINVER#
  _ZN4KWin11EffectFrame15enableCrossFadeEb@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrame20setCrossFadeProgressEd@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrameC1Ev@Base 4:5.1.95+git20150122

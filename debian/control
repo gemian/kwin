@@ -102,7 +102,7 @@ Description: KDE window manager - devel files
 Package: kwin-common
 Architecture: any
 Depends: kwin-data (= ${source:Version}),
-         libkwineffects6 (= ${binary:Version}),
+         libkwineffects7 (= ${binary:Version}),
          qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtmultimedia,
          ${misc:Depends},
@@ -161,7 +161,7 @@ Description: KDE window manager, wayland version
 Package: libkwin4-effect-builtins1
 Section: libs
 Architecture: any
-Depends: libkwineffects6 (= ${binary:Version}),
+Depends: libkwineffects7 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE window manager effect builtins library
@@ -175,12 +175,10 @@ Description: KDE window manager effect builtins library
  .
  This package is part of the KDE base workspace module.
 
-Package: libkwineffects6
+Package: libkwineffects7
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkwineffects5 (<< 4:5.2.0)
-Replaces: libkwineffects5 (<< 4:5.2.0)
 Description: KDE window manager effects library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -192,14 +190,12 @@ Description: KDE window manager effects library
  .
  This package is part of the KDE base workspace module.
 
-Package: libkwinglutils6
+Package: libkwinglutils7
 Section: libs
 Architecture: alpha amd64 arm64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 m68k mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sh4 sparc sparc64 x32
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kwin-common (<< 4:5.4),
-        libkwin4-effect-builtins1 (<< 4:5.4),
-        libkwinglutils5 (<< 4:5.2.0)
-Replaces: libkwinglutils5 (<< 4:5.2.0)
+        libkwin4-effect-builtins1 (<< 4:5.4)
 Description: KDE window manager gl utils library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -211,12 +207,10 @@ Description: KDE window manager gl utils library
  .
  This package is part of the KDE base workspace module.
 
-Package: libkwinglesutils6
+Package: libkwinglesutils7
 Section: libs
 Architecture: armel armhf
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkwinglesutils5 (<< 4:5.2.0)
-Replaces: libkwinglesutils5 (<< 4:5.2.0)
 Description: KDE window manager gl utils library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
@@ -292,12 +286,10 @@ Description: KDE window manager nested wayland plugin
  .
  This package is part of the KDE base workspace module
 
-Package: libkwinxrenderutils6
+Package: libkwinxrenderutils7
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkwinxrenderutils5 (<< 4:5.2.0)
-Replaces: libkwinxrenderutils5 (<< 4:5.2.0)
 Description: KDE window manager render utils library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
