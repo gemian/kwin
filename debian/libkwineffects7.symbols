@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.4.3 armhf
+# SymbolsHelper-Confirmed: 4:5.5.1 amd64
 libkwineffects.so.7 libkwineffects7 #MINVER#
  _ZN4KWin11EffectFrame15enableCrossFadeEb@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrame20setCrossFadeProgressEd@Base 4:5.1.95+git20150122
@@ -198,8 +198,6 @@ libkwineffects.so.7 libkwineffects7 #MINVER#
  _ZN4KWin6EffectD1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin6EffectD2Ev@Base 4:5.1.95+git20150122
  (optional=templinst)_ZN4KWin6MotionI7QPointFE9calculateEi@Base 4:5.1.95+git20150122
- (optional=templinst)_ZN4KWin6MotionI7QPointFEC1ERKS2_@Base 4:5.4.3
- (optional=templinst)_ZN4KWin6MotionI7QPointFEC2ERKS2_@Base 4:5.4.3
  _ZN4KWin7effectsE@Base 4:5.1.95+git20150122
  _ZN4KWin8Motion1DC1ERKS0_@Base 4:5.1.95+git20150122
  _ZN4KWin8Motion1DC1Eddd@Base 4:5.1.95+git20150122
@@ -284,6 +282,7 @@ libkwineffects.so.7 libkwineffects7 #MINVER#
  _ZNK4KWin12EffectWindow7desktopEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow7isModalEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow7opacityEv@Base 4:5.1.95+git20150122
+ _ZNK4KWin12EffectWindow7surfaceEv@Base 4:5.5.1
  _ZNK4KWin12EffectWindow8geometryEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow8hasAlphaEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow8isDialogEv@Base 4:5.1.95+git20150122
@@ -383,4 +382,3 @@ libkwineffects.so.7 libkwineffects7 #MINVER#
  _ZTVN4KWin6EffectE@Base 4:5.1.95+git20150122
  _ZTVN4KWin9PaintDataE@Base 4:5.1.95+git20150122
  _ZZN4KWin10connectionEvE5s_con@Base 4:5.1.95+git20150122
- _ZZZNK4KWin4FPx28toStringEvENKUlvE_clEvE15qstring_literal@Base 4:5.1.95+git20150122
