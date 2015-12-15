@@ -1,1 +1,2 @@
 usr/bin/kwin_wayland
+usr/lib/*/qt5/plugins/kf5/org.kde.kidletime.platforms/KF5IdleTimeKWinWaylandPrivatePlugin.so

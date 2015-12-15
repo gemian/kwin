@@ -21,3 +21,4 @@ usr/share/locale/*/*/kwin.mo
 usr/share/locale/*/*/kwin_clients.mo
 usr/share/locale/*/*/kwin_effects.mo
 usr/share/locale/*/*/kwin_scripting.mo
+usr/share/locale/*/*/kwin_scripts.mo
