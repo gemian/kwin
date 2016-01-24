@@ -1,4 +1,4 @@
-kwin (4:5.5.2-1~) UNRELEASED; urgency=medium
+kwin (4:5.5.3-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.5.0).
   * Update symbols files from buildds logs (4:5.4.3-1.1).
@@ -6,8 +6,9 @@ kwin (4:5.5.2-1~) UNRELEASED; urgency=medium
   * Follow upstream soversion bump
   * Add virtual backend.
   * New upstream release (5.5.2).
+  * New upstream release (5.5.3).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 04 Jan 2016 21:41:30 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 24 Jan 2016 18:48:40 +0100
 
 kwin (4:5.4.3-1.1) unstable; urgency=medium
 
