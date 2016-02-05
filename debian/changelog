@@ -1,6 +1,6 @@
 kwin (4:5.5.4-2) experimental; urgency=medium
 
-  * Rebuild due to typo in the symbols file. (Closes: #813701)
+  * Rebuild due to typo in symbols file.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 02 Feb 2016 10:29:43 +0100
 
