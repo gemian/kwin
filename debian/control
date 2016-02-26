@@ -192,7 +192,7 @@ Description: KDE window manager effects library
 
 Package: libkwinglutils7
 Section: libs
-Architecture: alpha amd64 arm64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 m68k mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sh4 sparc sparc64 x32
+Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kwin-common (<< 4:5.4), libkwin4-effect-builtins1 (<< 4:5.4)
 Description: KDE window manager gl utils library
