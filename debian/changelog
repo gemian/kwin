@@ -1,3 +1,9 @@
+kwin (4:5.5.4-3) UNRELEASED; urgency=medium
+
+  * Drop kwinglesutils, removed upstream
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Feb 2016 19:54:24 +0100
+
 kwin (4:5.5.4-2) experimental; urgency=medium
 
   * Rebuild due to typo in symbols file.
