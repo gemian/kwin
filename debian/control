@@ -323,24 +323,6 @@ Description: KDE window manager data files
  .
  This package contains the data files
 
-Package: kwin-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Recommends: qtbase5-dbg
-Depends: kwin-x11 (= ${binary:Version}) | kwin-wayland (= ${binary:Version}),
-         ${misc:Depends}
-Description: KDE window manager - debug files
- KWin (pronounced as one syllable "kwin") is the window
- manager for the KDE Plasma Desktop. It gives you complete
- control over your windows, making sure they're not in the way
- but aid you in your task. It paints the window decoration,
- the bar on top of every window with (configurable) buttons
- like close, maximize and minimize. It also handles placing
- of windows and switching between them.
- .
- This package contains the debugging symbols.
-
 Package: kde-window-manager
 Section: oldlibs
 Priority: extra
