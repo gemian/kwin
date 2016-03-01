@@ -1,8 +1,12 @@
-kwin (4:5.5.4-3~) UNRELEASED; urgency=medium
+kwin (4:5.5.5-1~) UNRELEASED; urgency=medium
 
+  [ Debian/Kubuntu Qt/KDE Maintainers ]
   * Drop kwinglesutils, removed upstream
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Feb 2016 19:54:24 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.5.5).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Mar 2016 17:08:07 +0100
 
 kwin (4:5.5.4-2) experimental; urgency=medium
 
