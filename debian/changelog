@@ -1,8 +1,15 @@
-kwin (4:5.5.4-3) UNRELEASED; urgency=medium
+kwin (4:5.6.2-1~1.gbp2e21d0) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @2e21d0c4285e4752380e3637140e2a0d72169b03 **
+
+  [ Debian/Kubuntu Qt/KDE Maintainers ]
   * Drop kwinglesutils, removed upstream
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Feb 2016 19:54:24 +0100
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 06 Apr 2016 23:28:38 +0200
 
 kwin (4:5.5.4-2) experimental; urgency=medium
 
