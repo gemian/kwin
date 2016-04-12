@@ -1,7 +1,8 @@
-# SymbolsHelper-Confirmed: 4:5.5.1 amd64
+# SymbolsHelper-Confirmed: 4:5.6.2 amd64
 libkwineffects.so.8 libkwineffects8 #MINVER#
  _ZN4KWin11EffectFrame15enableCrossFadeEb@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrame20setCrossFadeProgressEd@Base 4:5.1.95+git20150122
+ _ZN4KWin11EffectFrame25setScreenProjectionMatrixERK10QMatrix4x4@Base 4:5.6.2
  _ZN4KWin11EffectFrameC1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrameC2Ev@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrameD0Ev@Base 4:5.1.95+git20150122
@@ -105,13 +106,22 @@ libkwineffects.so.8 libkwineffects8 #MINVER#
  _ZN4KWin15AnimationEffect6cancelEy@Base 4:5.1.95+git20150122
  _ZN4KWin15AnimationEffect7s_clockE@Base 4:5.1.95+git20150122
  _ZN4KWin15AnimationEffect8metaDataENS0_8MetaTypeEj@Base 4:5.1.95+git20150122
+ _ZN4KWin15AnimationEffect8retargetEyNS_4FPx2Ei@Base 4:5.6.2
  _ZN4KWin15AnimationEffect9p_animateEPNS_12EffectWindowENS0_9AttributeEjiNS_4FPx2E12QEasingCurveiS4_b@Base 4:5.1.95+git20150122
  _ZN4KWin15AnimationEffectC1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin15AnimationEffectC2Ev@Base 4:5.1.95+git20150122
+ _ZN4KWin15AnimationEffectD0Ev@Base 4:5.6.2
+ _ZN4KWin15AnimationEffectD1Ev@Base 4:5.6.2
+ _ZN4KWin15AnimationEffectD2Ev@Base 4:5.6.2
+ _ZN4KWin15ScreenPaintDataC1ERK10QMatrix4x4@Base 4:5.6.2
  _ZN4KWin15ScreenPaintDataC1ERKS0_@Base 4:5.1.95+git20150122
  _ZN4KWin15ScreenPaintDataC1Ev@Base 4:5.1.95+git20150122
+ _ZN4KWin15ScreenPaintDataC2ERK10QMatrix4x4@Base 4:5.6.2
  _ZN4KWin15ScreenPaintDataC2ERKS0_@Base 4:5.1.95+git20150122
  _ZN4KWin15ScreenPaintDataC2Ev@Base 4:5.1.95+git20150122
+ _ZN4KWin15ScreenPaintDataD0Ev@Base 4:5.6.2
+ _ZN4KWin15ScreenPaintDataD1Ev@Base 4:5.6.2
+ _ZN4KWin15ScreenPaintDataD2Ev@Base 4:5.6.2
  _ZN4KWin15ScreenPaintDataaSERKS0_@Base 4:5.1.95+git20150122
  _ZN4KWin15ScreenPaintDatamLERK9QVector2D@Base 4:5.1.95+git20150122
  _ZN4KWin15ScreenPaintDatamLERK9QVector3D@Base 4:5.1.95+git20150122
@@ -131,8 +141,10 @@ libkwineffects.so.8 libkwineffects8 #MINVER#
  _ZN4KWin15WindowPaintData19setProjectionMatrixERK10QMatrix4x4@Base 4:5.1.95+git20150122
  _ZN4KWin15WindowPaintData20setCrossFadeProgressEd@Base 4:5.1.95+git20150122
  _ZN4KWin15WindowPaintDataC1EPNS_12EffectWindowE@Base 4:5.1.95+git20150122
+ _ZN4KWin15WindowPaintDataC1EPNS_12EffectWindowERK10QMatrix4x4@Base 4:5.6.2
  _ZN4KWin15WindowPaintDataC1ERKS0_@Base 4:5.1.95+git20150122
  _ZN4KWin15WindowPaintDataC2EPNS_12EffectWindowE@Base 4:5.1.95+git20150122
+ _ZN4KWin15WindowPaintDataC2EPNS_12EffectWindowERK10QMatrix4x4@Base 4:5.6.2
  _ZN4KWin15WindowPaintDataC2ERKS0_@Base 4:5.1.95+git20150122
  _ZN4KWin15WindowPaintDataD0Ev@Base 4:5.1.95+git20150122
  _ZN4KWin15WindowPaintDataD1Ev@Base 4:5.1.95+git20150122
@@ -234,6 +246,7 @@ libkwineffects.so.8 libkwineffects8 #MINVER#
  _ZNK4KWin10WindowQuad12smoothNeededEv@Base 4:5.1.95+git20150122
  _ZNK4KWin11EffectFrame11isCrossFadeEv@Base 4:5.1.95+git20150122
  _ZNK4KWin11EffectFrame17crossFadeProgressEv@Base 4:5.1.95+git20150122
+ _ZNK4KWin11EffectFrame22screenProjectionMatrixEv@Base 4:5.6.2
  _ZNK4KWin12EffectWindow10activitiesEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow10isComboBoxEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow10isUserMoveEv@Base 4:5.1.95+git20150122
@@ -250,6 +263,7 @@ libkwineffects.so.8 libkwineffects8 #MINVER#
  _ZNK4KWin12EffectWindow12contentsRectEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow12iconGeometryEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow12isCurrentTabEv@Base 4:5.1.95+git20150122
+ _ZNK4KWin12EffectWindow12isFullScreenEv@Base 4:5.6.2
  _ZNK4KWin12EffectWindow12isOnActivityE7QString@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow12isUserResizeEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow13hasDecorationEv@Base 4:5.1.95+git20150122
@@ -319,12 +333,15 @@ libkwineffects.so.8 libkwineffects8 #MINVER#
  _ZNK4KWin15AnimationEffect8clipRectERK5QRectRKNS_7AniDataE@Base 4:5.1.95+git20150122
  _ZNK4KWin15AnimationEffect8isActiveEv@Base 4:5.1.95+git20150122
  _ZNK4KWin15AnimationEffect8progressERKNS_7AniDataE@Base 4:5.1.95+git20150122
+ _ZNK4KWin15AnimationEffect8validateENS0_9AttributeERjPNS_4FPx2ES4_PKNS_12EffectWindowE@Base 4:5.6.2
+ _ZNK4KWin15ScreenPaintData16projectionMatrixEv@Base 4:5.6.2
  _ZNK4KWin15WindowPaintData10brightnessEv@Base 4:5.1.95+git20150122
  _ZNK4KWin15WindowPaintData10saturationEv@Base 4:5.1.95+git20150122
  _ZNK4KWin15WindowPaintData13setSaturationEd@Base 4:5.1.95+git20150122
  _ZNK4KWin15WindowPaintData15modelViewMatrixEv@Base 4:5.1.95+git20150122
  _ZNK4KWin15WindowPaintData16projectionMatrixEv@Base 4:5.1.95+git20150122
  _ZNK4KWin15WindowPaintData17crossFadeProgressEv@Base 4:5.1.95+git20150122
+ _ZNK4KWin15WindowPaintData22screenProjectionMatrixEv@Base 4:5.6.2
  _ZNK4KWin15WindowPaintData6screenEv@Base 4:5.1.95+git20150122
  _ZNK4KWin15WindowPaintData7opacityEv@Base 4:5.1.95+git20150122
  _ZNK4KWin15WindowPaintData9setScreenEi@Base 4:5.1.95+git20150122

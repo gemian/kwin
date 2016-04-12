@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.5.1 amd64
+# SymbolsHelper-Confirmed: 4:5.6.2 amd64
 libkwinglutils.so.8 libkwinglutils8 #MINVER#
  _ZN4KWin10GLPlatform10s_platformE@Base 4:5.1.95+git20150122
  _ZN4KWin10GLPlatform14driverToStringENS_6DriverE@Base 4:5.1.95+git20150122
@@ -16,19 +16,13 @@ libkwinglutils.so.8 libkwinglutils8 #MINVER#
  _ZN4KWin12checkGLErrorEPKc@Base 4:5.1.95+git20150122
  _ZN4KWin12hasGLVersionEiii@Base 4:5.1.95+git20150122
  _ZN4KWin13ShaderManager10pushShaderE6QFlagsINS_11ShaderTraitEE@Base 4:5.1.95+git20150122
- _ZN4KWin13ShaderManager10pushShaderENS0_10ShaderTypeEb@Base 4:5.1.95+git20150122
  _ZN4KWin13ShaderManager10pushShaderEPNS_8GLShaderE@Base 4:5.1.95+git20150122
- _ZN4KWin13ShaderManager11initShadersEv@Base 4:5.1.95+git20150122
- _ZN4KWin13ShaderManager11resetShaderENS0_10ShaderTypeE@Base 4:5.1.95+git20150122
- _ZN4KWin13ShaderManager11resetShaderEPNS_8GLShaderENS0_10ShaderTypeE@Base 4:5.1.95+git20150122
  _ZN4KWin13ShaderManager14generateShaderE6QFlagsINS_11ShaderTraitEE@Base 4:5.1.95+git20150122
- _ZN4KWin13ShaderManager15resetAllShadersEv@Base 4:5.1.95+git20150122
  _ZN4KWin13ShaderManager15s_shaderManagerE@Base 4:5.1.95+git20150122
- _ZN4KWin13ShaderManager16loadVertexShaderENS0_10ShaderTypeERK7QString@Base 4:5.1.95+git20150122
- _ZN4KWin13ShaderManager18loadFragmentShaderENS0_10ShaderTypeERK7QString@Base 4:5.1.95+git20150122
  _ZN4KWin13ShaderManager18loadShaderFromCodeERK10QByteArrayS3_@Base 4:5.1.95+git20150122
- _ZN4KWin13ShaderManager19s_virtualScreenSizeE@Base 4:5.1.95+git20150122
+ _ZN4KWin13ShaderManager20generateCustomShaderE6QFlagsINS_11ShaderTraitEERK10QByteArrayS6_@Base 4:5.6.2
  _ZN4KWin13ShaderManager21bindFragDataLocationsEPNS_8GLShaderE@Base 4:5.1.95+git20150122
+ _ZN4KWin13ShaderManager27generateShaderFromResourcesE6QFlagsINS_11ShaderTraitEERK7QStringS6_@Base 4:5.6.2
  _ZN4KWin13ShaderManager6shaderE6QFlagsINS_11ShaderTraitEE@Base 4:5.1.95+git20150122
  _ZN4KWin13ShaderManager7cleanupEv@Base 4:5.1.95+git20150122
  _ZN4KWin13ShaderManager8instanceEv@Base 4:5.1.95+git20150122
@@ -240,7 +234,7 @@ libkwinglutils.so.8 libkwinglutils8 #MINVER#
  _ZNK4KWin13ShaderManager20generateVertexSourceE6QFlagsINS_11ShaderTraitEE@Base 4:5.1.95+git20150122
  _ZNK4KWin13ShaderManager22bindAttributeLocationsEPNS_8GLShaderE@Base 4:5.1.95+git20150122
  _ZNK4KWin13ShaderManager22generateFragmentSourceE6QFlagsINS_11ShaderTraitEE@Base 4:5.1.95+git20150122
- _ZNK4KWin13ShaderManager7isValidEv@Base 4:5.1.95+git20150122
+#MISSING: 4:5.6.2# _ZNK4KWin13ShaderManager7isValidEv@Base 4:5.1.95+git20150122
  _ZNK4KWin14GLVertexBuffer10isUseColorEv@Base 4:5.1.95+git20150122
  _ZNK4KWin15ColorCorrection10metaObjectEv@Base 4:5.1.95+git20150122
  _ZNK4KWin15ColorCorrection9isEnabledEv@Base 4:5.1.95+git20150122
