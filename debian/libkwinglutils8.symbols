@@ -234,7 +234,6 @@ libkwinglutils.so.8 libkwinglutils8 #MINVER#
  _ZNK4KWin13ShaderManager20generateVertexSourceE6QFlagsINS_11ShaderTraitEE@Base 4:5.1.95+git20150122
  _ZNK4KWin13ShaderManager22bindAttributeLocationsEPNS_8GLShaderE@Base 4:5.1.95+git20150122
  _ZNK4KWin13ShaderManager22generateFragmentSourceE6QFlagsINS_11ShaderTraitEE@Base 4:5.1.95+git20150122
-#MISSING: 4:5.6.2# _ZNK4KWin13ShaderManager7isValidEv@Base 4:5.1.95+git20150122
  _ZNK4KWin14GLVertexBuffer10isUseColorEv@Base 4:5.1.95+git20150122
  _ZNK4KWin15ColorCorrection10metaObjectEv@Base 4:5.1.95+git20150122
  _ZNK4KWin15ColorCorrection9isEnabledEv@Base 4:5.1.95+git20150122
