@@ -1,6 +1,6 @@
-kwin (4:5.6.2-1~4.gbp1b176b) UNRELEASED; urgency=medium
+kwin (4:5.6.2-1~5.gbpcb1a88) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @1b176ba976d7294137258beba9b95064859c95e0 **
+  ** SNAPSHOT build @cb1a8815f85a2bbdde789be359602915e4a852a9 **
 
   [ Debian/Kubuntu Qt/KDE Maintainers ]
   * Drop kwinglesutils, removed upstream
@@ -10,6 +10,7 @@ kwin (4:5.6.2-1~4.gbp1b176b) UNRELEASED; urgency=medium
   * Refresh patches
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
+  * Revert the mark private symbols
 
   [ Maximiliano Curia ]
   * Revert "Add missing closes"
@@ -29,7 +30,7 @@ kwin (4:5.6.2-1~4.gbp1b176b) UNRELEASED; urgency=medium
   [ Mark headers hook ]
   * Mark private headers
 
- -- Mark headers hook <maxy+jenkins@gnuservers.com.ar>  Tue, 12 Apr 2016 20:01:39 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 17 Apr 2016 13:48:54 +0200
 
 kwin (4:5.5.5-1~) UNRELEASED; urgency=medium
 
