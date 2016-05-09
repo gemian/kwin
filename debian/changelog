@@ -1,6 +1,6 @@
-kwin (4:5.6.2-1~2.gbp0ac1f3) UNRELEASED; urgency=medium
+kwin (4:5.6.3-1~1.gbp6410de) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @0ac1f37649b8cb7ebe3bda1908a20b07f9d85e98 **
+  ** SNAPSHOT build @6410de479c2571665f750028f4b55b9c01ad3d30 **
 
   [ Debian/Kubuntu Qt/KDE Maintainers ]
   * Drop kwinglesutils, removed upstream
@@ -9,8 +9,30 @@ kwin (4:5.6.2-1~2.gbp0ac1f3) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * Refresh patches
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
+  * Revert the mark private symbols
+  * Revert the mark private symbols
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 12 Apr 2016 10:42:22 +0200
+  [ Maximiliano Curia ]
+  * Revert "Add missing closes"
+  * Keep unreleased with preview versions
+  * uscan no longer supports this kind of watch files.
+  * New upstream release (5.5.5).
+  * Automatic update with ddeb_migration3.py
+  * Add upstream metadata (DEP-12)
+  * Follow upstream soversion bumps
+  * Update symbols files
+
+  [ Automatic packaging ]
+  * Drop missing symbol
+
+  [ Maximiliano Curia ]
+
+  [ Mark headers hook ]
+  * Mark private headers
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 19 Apr 2016 20:28:31 +0200
 
 kwin (4:5.5.5-1~) UNRELEASED; urgency=medium
 
