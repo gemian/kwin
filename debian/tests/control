@@ -1,6 +1,7 @@
 Tests: testsuite
 Depends: @, debhelper, cmake,
-         xvfb, xauth, dbus-x11, xserver-xephyr, libkf5service-bin, kded5
+         xvfb, xauth, dbus-x11, xserver-xephyr, libkf5service-bin, kded5,
+         xwayland
 Restrictions: build-needed
 
 Tests: acc
