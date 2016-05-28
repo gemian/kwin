@@ -1,4 +1,4 @@
-kwin (4:5.6.4-1) unstable; urgency=medium
+kwin (4:5.6.4-1) experimental; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
@@ -17,10 +17,11 @@ kwin (4:5.6.4-1) unstable; urgency=medium
   * Follow upstream soversion bumps
   * Update symbols files
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Add new lintian-override about ldconfig-trigger for libkdeinit5_kwin_x11.so
+  * Update testsuite
 
   [ Debian/Kubuntu Qt/KDE Maintainers ]
   * Drop kwinglesutils, removed upstream
-
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 21:45:59 +0200
 
