@@ -1,3 +1,11 @@
+kwin (4:5.6.4-2~1.gbp48aca3) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @48aca3ef60415ae826c5732568949b48b3f092ae **
+
+  * Update copyright information
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 29 May 2016 15:28:22 +0200
+
 kwin (4:5.6.4-1) experimental; urgency=medium
 
   [ Automatic packaging ]
