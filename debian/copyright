@@ -4,12 +4,10 @@ Source: git://anongit.kde.org/kwin
 
 Files: *
 Copyright: 2010, Alexandre Pereira <pereira.alex@gmail.com>
-           2010, Andreas Demmer <ademmer@opensuse.org>
            2013, Antonis Tsiapaliokas <kok3rs@gmail.com>
            2011, Arthur Arlt <a.arlt@stud.uni-heidelberg.de>
            2012, Casian Andrei <skeletk13@gmail.com>
            2007, Christian Nitschkowski <christian.nitschkowski@kdemail.net>
-           2011-2012, Cédric Bellegarde <gnumdk@gmail.com>
            2008, Cédric Borgese <cedric.borgese@gmail.com>
            2012, Filip Wieladek <wattos@gmail.com>
            2009-2014, Fredrik Höglund <fredrik@kde.org>
@@ -18,15 +16,14 @@ Copyright: 2010, Alexandre Pereira <pereira.alex@gmail.com>
            2010, Jorge Mata <matamax123@gmail.com>
            2013, Kai Uwe Broulik <kde@privat.broulik.de>
            2003, Karol Szwed <kszwed@kde.org>
-           2011, Lionel Chauvin <megabigbug@yahoo.fr>
            2001-2008, Lubos Lunak <l.lunak@kde.org>
            2008, Lubos Lunak <l.lunak@suse.cz>
            2008-2010, Lucas Murray <lmurray@undefinedfire.com>
-           2014, Marco Martin <mart@kde.org>
+           2014-2016, Marco Martin <mart@kde.org>
            2009, Marco Martin <notmart@gmail.com>
            2008-2011, Martin Gräßlin <kde@martin-graesslin.com>
            2012, Martin Gräßlin <m.graesslin@kde.org>
-           2008-2015, Martin Gräßlin <mgraesslin@kde.org>
+           2008-2016, Martin Gräßlin <mgraesslin@kde.org>
            1998-2000, Matthias Ettrich <ettrich@kde.org>
            2009, Michael Zanetti <michael_zanetti@gmx.net>
            2015, Mika Allan Rauhala <mika.allan.rauhala@gmail.com>
@@ -57,7 +54,7 @@ Copyright: 2010, Alexandre Pereira <pereira.alex@gmail.com>
            2009, Rosetta Contributors and Canonical Ltd 2009
            2010, Rosetta Contributors and Canonical Ltd 2010
            2012, Rosetta Contributors and Canonical Ltd 2012
-           2002-2015, This_file_is_part_of_KDE
+           2002-2016, This_file_is_part_of_KDE
            1999-2005, bởi các nhà phát triển KDE
            1997-2002, nămcủa Các tác giả KWin và KControl
            2001, translate.org.za
@@ -78,13 +75,20 @@ Files: po/ca/kcm-kwin-scripts.po
        po/ca/kwin_clients.po
        po/ca/kwin_effects.po
        po/ca/kwin_scripting.po
+       po/ca/kwin_scripts.po
        po/ca@valencia/kcm-kwin-scripts.po
        po/ca@valencia/kcm_kwindesktop.po
        po/ca@valencia/kcm_kwintabbox.po
        po/ca@valencia/kcmkwincompositing.po
+       po/ca@valencia/kcmkwindecoration.po
+       po/ca@valencia/kcmkwinrules.po
        po/ca@valencia/kcmkwinscreenedges.po
+       po/ca@valencia/kcmkwm.po
+       po/ca@valencia/kwin.po
+       po/ca@valencia/kwin_clients.po
        po/ca@valencia/kwin_effects.po
        po/ca@valencia/kwin_scripting.po
+       po/ca@valencia/kwin_scripts.po
        po/uk/kcm-kwin-scripts.po
        po/uk/kcm_kwindesktop.po
        po/uk/kcm_kwintabbox.po
@@ -97,7 +101,8 @@ Files: po/ca/kcm-kwin-scripts.po
        po/uk/kwin_clients.po
        po/uk/kwin_effects.po
        po/uk/kwin_scripting.po
-Copyright: 1998-2015, This_file_is_part_of_KDE
+       po/uk/kwin_scripts.po
+Copyright: 1998-2016, This_file_is_part_of_KDE
 License: LGPL-2.1+3+KDEeV
  This file is distributed under the license LGPL version 2.1 or
  version 3 or later versions approved by the membership of KDE e.V.
@@ -147,6 +152,7 @@ Files: clients/aurorae/themes/plastik/package/metadata.desktop
        effects/fadedesktop/package/metadata.desktop
        effects/login/package/metadata.desktop
        effects/maximize/package/metadata.desktop
+       effects/morphingpopups/package/metadata.desktop
        effects/scalein/package/metadata.desktop
        effects/translucency/package/metadata.desktop
        effects/windowaperture/package/metadata.desktop
@@ -170,13 +176,20 @@ License: GPL
  can be found in `/usr/share/common-licenses/GPL'.
 
 Files: cmake/modules/COPYING-CMAKE-SCRIPTS
+       cmake/modules/FindFontconfig.cmake
+       cmake/modules/FindLibdrm.cmake
        cmake/modules/FindLibinput.cmake
+       cmake/modules/FindQt5PlatformSupport.cmake
        cmake/modules/FindUDev.cmake
        cmake/modules/FindXKB.cmake
+       cmake/modules/FindXwayland.cmake
        cmake/modules/Findepoxy.cmake
+       cmake/modules/Findgbm.cmake
+       cmake/modules/Findlibhybris.cmake
 Copyright: 2014, Alex Merry <alex.merry@kde.org>
            2014, Fredrik Höglund <fredrik@kde.org>
-           2014, Martin Gräßlin <mgraesslin@kde.org>
+           2006-2007, Laurent Montel <montel@kde.org>
+           2014-2016, Martin Gräßlin <mgraesslin@kde.org>
            2010, Rafael Fernández López <ereslibre@kde.org>
 License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without
@@ -202,20 +215,21 @@ License: BSD-3-clause
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-Files: doc/en/windowspecific/index.docbook
-       doc/en_US/windowspecific/index.docbook
-Copyright: see the UserBase https://userbase.kde.org/index.php?title=KWin_Rules&action=history
-           Lauri.Watts
-License: GFDL-1.2+
- Permission is granted to copy, distribute and/or modify this document
- under the terms of the GNU Free Documentation License, Version 1.2
- or any later version published by the Free Software Foundation;
- with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
- A copy of the license is included in the section entitled "GNU
- Free Documentation License".
- --
- The complete text of the GNU Free Documentation License version 1.2
- can be found in `/usr/share/common-licenses/GFDL-1.2'.
+Files: backends/hwcomposer/egl_hwcomposer_backend.cpp
+       backends/hwcomposer/egl_hwcomposer_backend.h
+       backends/hwcomposer/hwcomposer_backend.cpp
+       backends/hwcomposer/hwcomposer_backend.h
+       backends/hwcomposer/logging.cpp
+       backends/hwcomposer/logging.h
+       backends/hwcomposer/screens_hwcomposer.cpp
+       backends/hwcomposer/screens_hwcomposer.h
+Copyright: 2015, Martin Gräßlin <mgraesslin@kde.org>
+License: GPL-3+
+
+Files: kcmkwin/kwinscreenedges/screenpreviewwidget.cpp
+       kcmkwin/kwinscreenedges/screenpreviewwidget.h
+Copyright: 2009, Marco Martin <notmart@gmail.com>
+License: LGPL-2+
 
 Files: kcmkwin/kwincompositing/test/modeltest.cpp
        kcmkwin/kwincompositing/test/modeltest.h
@@ -258,18 +272,27 @@ License: GPL-3_or_LGPL-2.1-QTexception-1.1
  complete text of the GNU Lesser General Public License version 2.1 can be
  found in `/usr/share/common-licenses/LGPL-2.1'.
 
-Files: kcmkwin/kwinscreenedges/screenpreviewwidget.cpp
-       kcmkwin/kwinscreenedges/screenpreviewwidget.h
-Copyright: 2009, Marco Martin <notmart@gmail.com>
-License: LGPL-2+
+Files: killer/killer.cpp
+Copyright: 2003, Lubos Lunak <l.lunak@kde.org>
+License: Expat
 
 Files: scripting/timer.cpp
 Copyright: 2007, Richard J. Moore <rich@kde.org>
 License: LGPL-2
 
-Files: killer/killer.cpp
-Copyright: 2003, Lubos Lunak <l.lunak@kde.org>
-License: Expat
+Files: doc/en/windowspecific/index.docbook
+Copyright: see the UserBase https://userbase.kde.org/index.php?title=KWin_Rules&action=history
+           Lauri.Watts
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ --
+ The complete text of the GNU Free Documentation License version 1.2
+ can be found in `/usr/share/common-licenses/GFDL-1.2'.
 
 Files: debian/*
 Copyright: 2014, Scarlett Clark <scarlett@scarlettgatelyclark.com>
@@ -331,6 +354,20 @@ License: GPL-2+3+KDEeV
  On Debian systems, the complete text of the GNU General Public License
  version 2 can be found in `/usr/share/common-licenses/GPL-2', likewise, the
  complete text of the GNU General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3'.
+
+License: GPL-3+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 3 can be found in
  `/usr/share/common-licenses/GPL-3'.
 
 License: LGPL-2
