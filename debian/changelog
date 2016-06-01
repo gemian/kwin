@@ -1,10 +1,9 @@
-kwin (4:5.6.4-2~1.gbp48aca3) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @48aca3ef60415ae826c5732568949b48b3f092ae **
+kwin (4:5.6.4-2) unstable; urgency=medium
 
   * Update copyright information
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 29 May 2016 15:28:22 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 01 Jun 2016 10:42:19 +0200
 
 kwin (4:5.6.4-1) experimental; urgency=medium
 
