@@ -141,7 +141,8 @@ Description: KDE window manager, X11 version
 
 Package: kwin-wayland
 Architecture: any
-Depends: kwin-common (= ${binary:Version}),
+Depends: kwayland-integration,
+         kwin-common (= ${binary:Version}),
          kwin-wayland-backend-drm (= ${binary:Version}) | kwin-wayland-backend,
          qtwayland5,
          ${misc:Depends},
