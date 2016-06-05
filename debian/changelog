@@ -1,12 +1,10 @@
-kwin (4:5.6.4-3~1.gbpd4162e) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @d4162ec2e0784a0ce02d76604b5b0cbf1fbc987b **
+kwin (4:5.6.4-3) unstable; urgency=medium
 
   * Add kwayland windowsystem platform plugin dependency
   * Add XInput build dependency
   * Add xwayland runtime dependency in kwin-wayland
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 03 Jun 2016 15:28:39 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 05 Jun 2016 14:27:18 +0200
 
 kwin (4:5.6.4-2) unstable; urgency=medium
 
