@@ -1,3 +1,11 @@
+kwin (4:5.6.5-1~1.gbpf35bed) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @f35bede402918fe89af647987bf916bd85e01e16 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 14 Jun 2016 20:28:53 +0200
+
 kwin (4:5.6.4-3) unstable; urgency=medium
 
   * Add kwayland windowsystem platform plugin dependency
