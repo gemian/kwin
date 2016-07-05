@@ -1,3 +1,11 @@
+kwin (4:5.7.0-1~1.gbp9b183d) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @9b183df605a7e4e0e3a0b0e5a14f532b39e38dcf **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 05 Jul 2016 14:28:54 +0200
+
 kwin (4:5.6.5-1) unstable; urgency=medium
 
   * New upstream release.
