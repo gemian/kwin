@@ -1,10 +1,17 @@
-kwin (4:5.7.0-1~1.gbp9b183d) UNRELEASED; urgency=medium
+kwin (4:5.7.0-1~2.gbp289390) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @2893908649ea11f62dc74b78589cb45198d419c6 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @9b183df605a7e4e0e3a0b0e5a14f532b39e38dcf **
 
   * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 05 Jul 2016 14:28:54 +0200
+  [ Jonathan Riddell ]
+  * add KWinX11Platform.so to kwin-x11
+
+ -- Jonathan Riddell <jr@jriddell.org>  Sun, 10 Jul 2016 08:19:28 +0200
 
 kwin (4:5.6.5-1) unstable; urgency=medium
 
