@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.1.95+git20150122 amd64
+# SymbolsHelper-Confirmed: 4:5.7.0 amd64
 libkwinxrenderutils.so.8 libkwinxrenderutils8 #MINVER#
  _ZN4KWin11preMultiplyERK6QColorf@Base 4:5.1.95+git20150122
  _ZN4KWin11xRenderFillERK18xcb_render_color_t@Base 4:5.1.95+git20150122
@@ -11,6 +11,7 @@ libkwinxrenderutils.so.8 libkwinxrenderutils8 #MINVER#
  _ZN4KWin12XRenderUtils14findPictFormatEj@Base 4:5.1.95+git20150122
  _ZN4KWin12XRenderUtils18findPictFormatInfoEj@Base 4:5.1.95+git20150122
  _ZN4KWin12XRenderUtils4initEP16xcb_connection_tj@Base 4:5.1.95+git20150122
+ _ZN4KWin12XRenderUtils7cleanupEv@Base 4:5.7.0
  _ZN4KWin14XRenderPicture9fromImageERK6QImage@Base 4:5.1.95+git20150122
  _ZN4KWin14XRenderPictureC1ERK6QImage@Base 4:5.1.95+git20150122
  _ZN4KWin14XRenderPictureC1Eji@Base 4:5.1.95+git20150122
