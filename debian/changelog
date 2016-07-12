@@ -1,3 +1,11 @@
+kwin (4:5.7.1-1~1.gbpe0f8d2) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e0f8d26e71b0da2a047a1164401a25e50da8b250 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 20:28:58 +0200
+
 kwin (4:5.7.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
