@@ -1,7 +1,7 @@
 Tests: testsuite
 Depends: @, debhelper, cmake,
          xvfb, xauth, dbus-x11, xserver-xephyr, libkf5service-bin, kded5,
-         xwayland, oxygen5-icon-theme, mesa-utils
+         xwayland, oxygen-icon-theme, mesa-utils
 Restrictions: build-needed
 
 Tests: acc

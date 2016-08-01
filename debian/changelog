@@ -1,5 +1,8 @@
 kwin (4:5.7.0-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * autopkgtest: switch from oxygen5-icon-theme back to the canonical
+    oxygen-icon-theme.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Aug 2016 21:27:33 +0200
 
