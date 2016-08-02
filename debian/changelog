@@ -1,12 +1,14 @@
-kwin (4:5.7.2-1~1.gbp092698) UNRELEASED; urgency=medium
+kwin (4:5.7.2-1~2.gbpee0ea6) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @09269865f28bea0876649fb98bea4870e38906c0 **
+  ** SNAPSHOT build @ee0ea607697efc3ef84600d116680a6ac05eaf21 **
 
   [ Pino Toscano ]
   * autopkgtest: switch from oxygen5-icon-theme back to the canonical
     oxygen-icon-theme.
+  * start a new changelog entry for 4:5.7.0-2
+  * autopkgtest: switch from oxygen5-icon-theme to oxygen-icon-theme
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Aug 2016 21:27:33 +0200
+ -- Pino Toscano <pino@debian.org>  Tue, 02 Aug 2016 13:54:12 +0200
 
 kwin (4:5.7.0-1) unstable; urgency=medium
 
