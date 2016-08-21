@@ -108,7 +108,7 @@ Depends: kwin-data (= ${source:Version}),
          qml-module-qtmultimedia,
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: libqt5multimedia5-plugins
+Recommends: libqt5multimedia5-plugins, plasma-desktop
 Suggests: kwin-addons
 Breaks: kwin (<= 4:5.3.1-0ubuntu3)
 Replaces: kwin (<= 4:5.3.1-0ubuntu3)
