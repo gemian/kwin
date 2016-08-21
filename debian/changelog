@@ -1,6 +1,6 @@
-kwin (4:5.7.3-1~1.gbpccea53) UNRELEASED; urgency=medium
+kwin (4:5.7.3-1~2.gbp2d01bc) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @ccea53a469b04a8c651462136bb49f5266861e81 **
+  ** SNAPSHOT build @2d01bcdc97bf11e00073559d56b307cee9b14291 **
 
   [ Pino Toscano ]
   * autopkgtest: switch from oxygen5-icon-theme back to the canonical
@@ -9,7 +9,11 @@ kwin (4:5.7.3-1~1.gbpccea53) UNRELEASED; urgency=medium
   * autopkgtest: switch from oxygen5-icon-theme to oxygen-icon-theme
   * UNRELEASED
 
- -- Pino Toscano <jenkins@gnuservers.com.ar>  Fri, 05 Aug 2016 14:28:38 +0200
+  [ Maximiliano Curia ]
+  * Add plasma-desktop recommends.
+    Thanks to HJ (Closes: 834954)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 21 Aug 2016 11:28:20 +0200
 
 kwin (4:5.7.0-1) unstable; urgency=medium
 
