@@ -1,6 +1,6 @@
-kwin (4:5.7.4-1~1.gbp32e4ba) UNRELEASED; urgency=medium
+kwin (4:5.7.4-1~2.gbp435cc1) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @32e4bac86529df987c8bb63df6eb0d553169b4ba **
+  ** SNAPSHOT build @435cc1fb2c967df365d7dd02bae3d13244920330 **
 
   [ Pino Toscano ]
   * autopkgtest: switch from oxygen5-icon-theme back to the canonical
@@ -13,8 +13,9 @@ kwin (4:5.7.4-1~1.gbp32e4ba) UNRELEASED; urgency=medium
   * Add plasma-desktop recommends.
     Thanks to HJ (Closes: 834954)
   * UNRELEASED
+  * Bump group breaks (5.7)
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 24 Aug 2016 20:28:27 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 26 Aug 2016 11:28:19 +0200
 
 kwin (4:5.7.0-1) unstable; urgency=medium
 
