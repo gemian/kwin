@@ -1,21 +1,16 @@
-kwin (4:5.7.4-1~2.gbp435cc1) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @435cc1fb2c967df365d7dd02bae3d13244920330 **
+kwin (4:5.7.4-1) unstable; urgency=medium
 
   [ Pino Toscano ]
   * autopkgtest: switch from oxygen5-icon-theme back to the canonical
     oxygen-icon-theme.
-  * start a new changelog entry for 4:5.7.0-2
-  * autopkgtest: switch from oxygen5-icon-theme to oxygen-icon-theme
-  * UNRELEASED
 
   [ Maximiliano Curia ]
   * Add plasma-desktop recommends.
     Thanks to HJ (Closes: 834954)
-  * UNRELEASED
+  * New upstream release (5.7.4)
   * Bump group breaks (5.7)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 26 Aug 2016 11:28:19 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 27 Aug 2016 00:12:30 +0200
 
 kwin (4:5.7.0-1) unstable; urgency=medium
 
