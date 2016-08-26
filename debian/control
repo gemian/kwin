@@ -126,7 +126,7 @@ Description: KDE window manager, common files
 Package: kwin-x11
 Architecture: any
 Depends: kwin-common (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Breaks: kde-window-manager (<< 4:5)
+Breaks: kde-window-manager (<< 4:5), kwin-addons (<< 4:5.7)
 Replaces: kde-window-manager (<< 4:5)
 Provides: kwin
 Description: KDE window manager, X11 version
@@ -160,6 +160,7 @@ Description: KDE window manager, wayland version
  of windows and switching between them.
  .
  This package is part of the KDE base workspace module.
+Breaks: plasma-workspace-wayland (<< 4:5.7)
 
 Package: libkwin4-effect-builtins1
 Section: libs
