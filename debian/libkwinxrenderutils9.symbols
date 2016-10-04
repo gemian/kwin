@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:5.7.0 amd64
-libkwinxrenderutils.so.8 libkwinxrenderutils8 #MINVER#
+libkwinxrenderutils.so.9 libkwinxrenderutils9 #MINVER#
  _ZN4KWin11preMultiplyERK6QColorf@Base 4:5.1.95+git20150122
  _ZN4KWin11xRenderFillERK18xcb_render_color_t@Base 4:5.1.95+git20150122
  _ZN4KWin11xRenderFillERK6QColor@Base 4:5.1.95+git20150122

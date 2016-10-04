@@ -103,7 +103,7 @@ Description: KDE window manager - devel files
 Package: kwin-common
 Architecture: any
 Depends: kwin-data (= ${source:Version}),
-         libkwineffects8 (= ${binary:Version}),
+         libkwineffects9 (= ${binary:Version}),
          qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtmultimedia,
          ${misc:Depends},
@@ -165,7 +165,7 @@ Breaks: plasma-workspace-wayland (<< 4:5.7)
 Package: libkwin4-effect-builtins1
 Section: libs
 Architecture: any
-Depends: libkwineffects8 (= ${binary:Version}),
+Depends: libkwineffects9 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE window manager effect builtins library
@@ -179,7 +179,7 @@ Description: KDE window manager effect builtins library
  .
  This package is part of the KDE base workspace module.
 
-Package: libkwineffects8
+Package: libkwineffects9
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -194,7 +194,7 @@ Description: KDE window manager effects library
  .
  This package is part of the KDE base workspace module.
 
-Package: libkwinglutils8
+Package: libkwinglutils9
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -210,7 +210,7 @@ Description: KDE window manager gl utils library
  .
  This package is part of the KDE base workspace module.
 
-Package: libkwinxrenderutils8
+Package: libkwinxrenderutils9
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
