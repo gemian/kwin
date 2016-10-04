@@ -1,17 +1,20 @@
-kwin (4:5.8.0-1~1.gbp2e716a) UNRELEASED; urgency=medium
+kwin (4:5.8.0-1~2.gbp0095ee) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @2e716a178aa63a6949973e7f3d1b6829f5f40283 **
+  ** SNAPSHOT build @0095eea654ec18bffaaf1e5a1d92d09edbe14196 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @3a24a9e366422006a2b62f9a985ed88f2bf8a5a8 **
 
   * UNRELEASED
   * Update symbols files.
+  * Follow upstream soversion bump
+  * Update install files
+  * Update symbols files.
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:44:34 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 04 Oct 2016 19:17:48 +0200
 
 kwin (4:5.7.4-1) unstable; urgency=medium
 
