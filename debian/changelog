@@ -6,6 +6,7 @@ kwin (4:5.8.0-1~1.gbp2e716a) UNRELEASED; urgency=medium
   ** SNAPSHOT build @3a24a9e366422006a2b62f9a985ed88f2bf8a5a8 **
 
   * UNRELEASED
+  * Update symbols files.
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake

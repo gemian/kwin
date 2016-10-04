@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.6.2 amd64 armhf
+# SymbolsHelper-Confirmed: 4:5.8.0 amd64
 libkwineffects.so.9 libkwineffects9 #MINVER#
  _ZN4KWin11EffectFrame15enableCrossFadeEb@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrame20setCrossFadeProgressEd@Base 4:5.1.95+git20150122
@@ -44,10 +44,12 @@ libkwineffects.so.9 libkwineffects9 #MINVER#
  _ZN4KWin14EffectsHandler11qt_metacastEPKc@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler11tabBoxAddedEi@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler11windowAddedEPNS_12EffectWindowE@Base 4:5.1.95+git20150122
+ _ZN4KWin14EffectsHandler11windowShownEPNS_12EffectWindowE@Base 4:5.8.0
  _ZN4KWin14EffectsHandler12effectConfigERK7QString@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler12mouseChangedERK6QPointS3_6QFlagsIN2Qt11MouseButtonEES7_S4_INS5_16KeyboardModifierEES9_@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler12tabBoxClosedEv@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler12windowClosedEPNS_12EffectWindowE@Base 4:5.1.95+git20150122
+ _ZN4KWin14EffectsHandler12windowHiddenEPNS_12EffectWindowE@Base 4:5.8.0
  _ZN4KWin14EffectsHandler13activityAddedERK7QString@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler13tabBoxUpdatedEv@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler13windowDamagedEPNS_12EffectWindowERK5QRect@Base 4:5.1.95+git20150122
@@ -189,6 +191,7 @@ libkwineffects.so.9 libkwineffects9 #MINVER#
  _ZN4KWin6Effect11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.95+git20150122
  _ZN4KWin6Effect11qt_metacastEPKc@Base 4:5.1.95+git20150122
  _ZN4KWin6Effect11reconfigureE6QFlagsINS0_15ReconfigureFlagEE@Base 4:5.1.95+git20150122
+ _ZN4KWin6Effect11touchMotionEjRK7QPointFj@Base 4:5.8.0
  _ZN4KWin6Effect13animationTimeERK12KConfigGroupRK7QStringi@Base 4:5.1.95+git20150122
  _ZN4KWin6Effect13animationTimeEi@Base 4:5.1.95+git20150122
  _ZN4KWin6Effect14prePaintScreenERNS_18ScreenPrePaintDataEi@Base 4:5.1.95+git20150122
@@ -202,8 +205,11 @@ libkwineffects.so.9 libkwineffects9 #MINVER#
  _ZN4KWin6Effect21windowInputMouseEventEP6QEvent@Base 4:5.1.95+git20150122
  _ZN4KWin6Effect26setPositionTransformationsERNS_15WindowPaintDataER5QRectPNS_12EffectWindowERKS3_N2Qt15AspectRatioModeE@Base 4:5.1.95+git20150122
  _ZN4KWin6Effect5proxyEv@Base 4:5.1.95+git20150122
+ _ZN4KWin6Effect7performENS0_7FeatureERK5QListI8QVariantE@Base 4:5.8.0
+ _ZN4KWin6Effect7touchUpEjj@Base 4:5.8.0
  _ZN4KWin6Effect8providesENS0_7FeatureE@Base 4:5.1.95+git20150122
  _ZN4KWin6Effect9cursorPosEv@Base 4:5.1.95+git20150122
+ _ZN4KWin6Effect9touchDownEjRK7QPointFj@Base 4:5.8.0
  _ZN4KWin6EffectC1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin6EffectC2Ev@Base 4:5.1.95+git20150122
  _ZN4KWin6EffectD0Ev@Base 4:5.1.95+git20150122

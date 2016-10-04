@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.6.2 amd64
+# SymbolsHelper-Confirmed: 4:5.8.0 amd64
 libkwinglutils.so.9 libkwinglutils9 #MINVER#
  _ZN4KWin10GLPlatform10s_platformE@Base 4:5.1.95+git20150122
  _ZN4KWin10GLPlatform14driverToStringENS_6DriverE@Base 4:5.1.95+git20150122
@@ -32,6 +32,8 @@ libkwinglutils.so.9 libkwinglutils9 #MINVER#
  _ZN4KWin13ShaderManagerC2Ev@Base 4:5.1.95+git20150122
  _ZN4KWin13ShaderManagerD1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin13ShaderManagerD2Ev@Base 4:5.1.95+git20150122
+ _ZN4KWin13eglExtensionsEv@Base 4:5.8.0
+ _ZN4KWin13glxExtensionsEv@Base 4:5.8.0
  _ZN4KWin13hasEGLVersionEiii@Base 4:5.1.95+git20150122
  _ZN4KWin13hasGLXVersionEiii@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget10initStaticEv@Base 4:5.1.95+git20150122
@@ -111,6 +113,7 @@ libkwinglutils.so.9 libkwinglutils9 #MINVER#
  _ZN4KWin16GLTexturePrivateD0Ev@Base 4:5.1.95+git20150122
  _ZN4KWin16GLTexturePrivateD1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin16GLTexturePrivateD2Ev@Base 4:5.1.95+git20150122
+ _ZN4KWin16openGLExtensionsEv@Base 4:5.8.0
  _ZN4KWin17nearestPowerOfTwoEi@Base 4:5.1.95+git20150122
  _ZN4KWin18glResolveFunctionsENS_23OpenGLPlatformInterfaceE@Base 4:5.1.95+git20150122
  _ZN4KWin19eglResolveFunctionsEv@Base 4:5.1.95+git20150122
@@ -222,6 +225,7 @@ libkwinglutils.so.9 libkwinglutils9 #MINVER#
  _ZNK4KWin10GLPlatform6driverEv@Base 4:5.1.95+git20150122
  _ZNK4KWin10GLPlatform6isGLESEv@Base 4:5.1.95+git20150122
  _ZNK4KWin10GLPlatform7isIntelEv@Base 4:5.1.95+git20150122
+ _ZNK4KWin10GLPlatform8isAdrenoEv@Base 4:5.8.0
  _ZNK4KWin10GLPlatform8isNvidiaEv@Base 4:5.1.95+git20150122
  _ZNK4KWin10GLPlatform8isRadeonEv@Base 4:5.1.95+git20150122
  _ZNK4KWin10GLPlatform8isVMwareEv@Base 4:5.1.95+git20150122
@@ -261,4 +265,5 @@ libkwinglutils.so.9 libkwinglutils9 #MINVER#
  _ZTVN4KWin15ColorCorrectionE@Base 4:5.1.95+git20150122
  _ZTVN4KWin16GLTexturePrivateE@Base 4:5.1.95+git20150122
  _ZTVN4KWin9GLTextureE@Base 4:5.1.95+git20150122
+ _ZZN4KWin10connectionEvE5s_con@Base 4:5.8.0
  _ZZN4KWin7displayEvE9s_display@Base 4:5.1.95+git20150122
