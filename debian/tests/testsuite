@@ -7,4 +7,4 @@ fi
 mkdir -p "$HOME"/.config || true
 mkdir -p "$HOME"/.kde-unit-test || true
 
-xvfb-run -a dbus-launch --exit-with-session dh_auto_test
+xvfb-run -a dbus-run-session -- dh_auto_test
