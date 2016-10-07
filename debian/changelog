@@ -1,22 +1,17 @@
-kwin (4:5.8.0-1~3.gbp7461e6) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @7461e6cbc83492cae7785ba88db89f052d8deb1c **
+kwin (4:5.8.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @3a24a9e366422006a2b62f9a985ed88f2bf8a5a8 **
-
-  * UNRELEASED
+  * New upstream release (5.8.0)
   * Update symbols files.
   * Follow upstream soversion bump
   * Update install files
-  * Update symbols files.
   * Replace dbus-launch with dbus-run-session in tests
+  * Bump group breaks (5.8)
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 05 Oct 2016 21:28:27 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Oct 2016 14:08:55 +0200
 
 kwin (4:5.7.4-1) unstable; urgency=medium
 
