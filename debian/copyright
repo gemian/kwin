@@ -18,7 +18,7 @@ Copyright: 2010, Alexandre Pereira <pereira.alex@gmail.com>
            2003, Karol Szwed <kszwed@kde.org>
            2001-2008, Lubos Lunak <l.lunak@kde.org>
            2008, Lubos Lunak <l.lunak@suse.cz>
-           2008-2010, Lucas Murray <lmurray@undefinedfire.com>
+           2008-2009, Lucas Murray <lmurray@undefinedfire.com>
            2014-2016, Marco Martin <mart@kde.org>
            2009, Marco Martin <notmart@gmail.com>
            2008-2011, Martin Gräßlin <kde@martin-graesslin.com>
@@ -35,6 +35,7 @@ Copyright: 2010, Alexandre Pereira <pereira.alex@gmail.com>
            2001, Rik Hemsley (rikkus) <rik@kde.org>
            2006-2007, Rivo Laks <rivolaks@hot.ee>
            2010, Rohan Prabhu <rohan@rohanprabhu.com>
+           2016, Roman Gilg <subdiff@gmail.com>
            2003-2005, Sandro Giessl <sandro@giessl.com>
            2010, Sebastian Sauer <sebsauer@kdab.com>
            2011, Tamas Krutki <ktamasw@gmail.com>
@@ -55,12 +56,7 @@ Copyright: 2010, Alexandre Pereira <pereira.alex@gmail.com>
            2010, Rosetta Contributors and Canonical Ltd 2010
            2012, Rosetta Contributors and Canonical Ltd 2012
            2002-2016, This_file_is_part_of_KDE
-           1999-2005, bởi các nhà phát triển KDE
-           1997-2002, nămcủa Các tác giả KWin và KControl
            2001, translate.org.za
-           1999-2008, กลุ่มผู้พัฒนา KDE
-           1997-2002, กลุ่มผู้เขียน KWin และ KControl
-           2547, ผู้เขียน KWin และ KControl
 License: GPL-2+
 
 Files: po/ca/kcm-kwin-scripts.po
@@ -142,11 +138,11 @@ Files: kcmkwin/kwindecoration/declarative-plugin/buttonsmodel.cpp
        tests/unmapdestroytest.qml
        tests/waylandclienttest.cpp
        tests/waylandclienttest.h
-Copyright: 2014, Martin Gräßlin <mgraesslin@kde.org>
+       tests/x11shadowreader.cpp
+Copyright: 2014-2016, Martin Gräßlin <mgraesslin@kde.org>
 License: GPL-2+3+KDEeV
 
-Files: clients/aurorae/themes/plastik/package/metadata.desktop
-       effects/dialogparent/package/metadata.desktop
+Files: effects/dialogparent/package/metadata.desktop
        effects/eyeonscreen/package/metadata.desktop
        effects/fade/package/metadata.desktop
        effects/fadedesktop/package/metadata.desktop
@@ -158,6 +154,7 @@ Files: clients/aurorae/themes/plastik/package/metadata.desktop
        effects/windowaperture/package/metadata.desktop
        effects/wobblywindows/wobblywindows.cpp
        effects/wobblywindows/wobblywindows.h
+       plugins/kdecorations/aurorae/themes/plastik/package/metadata.desktop
        po/bg/kcmkwindecoration.po
        po/bg/kcmkwinrules.po
        po/bg/kcmkwm.po
