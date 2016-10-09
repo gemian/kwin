@@ -1,3 +1,11 @@
+kwin (4:5.8.0-2~1.gbpd8709a) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @d8709a5b343611e38484ff6efa4cca6bc74295aa **
+
+  * Update copyright information
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 09 Oct 2016 18:28:49 +0200
+
 kwin (4:5.8.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
