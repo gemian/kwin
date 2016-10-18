@@ -1,3 +1,11 @@
+kwin (4:5.8.2-1~1.gbpde3400) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @de3400f912fb970d71257833a2714fe4d7fb13e4 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 18 Oct 2016 20:29:06 +0200
+
 kwin (4:5.8.1-1) unstable; urgency=medium
 
   * Update copyright information
