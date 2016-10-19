@@ -1,10 +1,12 @@
-kwin (4:5.8.2-1~1.gbpde3400) UNRELEASED; urgency=medium
+kwin (4:5.8.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @de3400f912fb970d71257833a2714fe4d7fb13e4 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 18 Oct 2016 20:29:06 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.8.2)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 15:26:03 +0200
 
 kwin (4:5.8.1-1) unstable; urgency=medium
 
