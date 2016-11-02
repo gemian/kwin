@@ -3,11 +3,11 @@ Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake (>= 2.8.12),
+Build-Depends: breeze-dev (>= 4:5.8.3~),
+               cmake (>= 2.8.12),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.3.0~),
                kinit-dev (>= 5.26.0~),
-               breeze-dev,
                kscreenlocker-dev,
                libdrm-dev (>= 2.4.62~),
                libegl1-mesa-dev (>= 1.2~),
