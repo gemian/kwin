@@ -1,8 +1,16 @@
-kwin (4:5.8.3-1~1.gbpf24b13) UNRELEASED; urgency=medium
+kwin (4:5.8.3-1~2.gbp6c6a94) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @6c6a943840914c0a459cddb312c4715ff20b3432 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @f24b13b2b981d6c6df1c22419d5c21e471e6b52a **
 
   * UNRELEASED
+  * Add breeze-dev build dependency.
+    Thanks to Martin Graesslin for the report (Closes: 842912)
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
 
  -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 01 Nov 2016 17:29:05 +0100
 
