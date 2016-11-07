@@ -41,7 +41,7 @@ Build-Depends: breeze-dev (>= 4:5.8.3~),
                libkf5widgetsaddons-dev (>= 5.26.0~),
                libkf5windowsystem-dev (>= 5.26.0~),
                libkf5xmlgui-dev (>= 5.26.0~),
-               libqt5x11extras5-dev (>= 5.5.0~),
+               libqt5x11extras5-dev (>= 5.7.0~),
                libsm-dev,
                libudev-dev [linux-any],
                libwayland-dev (>= 1.2),
@@ -66,11 +66,11 @@ Build-Depends: breeze-dev (>= 4:5.8.3~),
                libxkbcommon-dev (>= 0.5.0~),
                pkg-config,
                pkg-kde-tools (>= 0.15.18~),
-               qtbase5-dev (>= 5.5.0~),
-               qtbase5-private-dev (>= 5.4.0~),
-               qtdeclarative5-dev (>= 5.5.0~),
-               qtscript5-dev (>= 5.5.0~),
-               qttools5-dev (>= 5.5.0~)
+               qtbase5-dev (>= 5.7.0~),
+               qtbase5-private-dev (>= 5.7.0~),
+               qtdeclarative5-dev (>= 5.7.0~),
+               qtscript5-dev (>= 5.7.0~),
+               qttools5-dev (>= 5.7.0~)
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/kwin.git
@@ -84,8 +84,8 @@ Depends: kwin-common (= ${binary:Version}),
          libepoxy-dev (>= 1.2),
          libkf5coreaddons-dev (>= 5.26.0~),
          libkf5windowsystem-dev (>= 5.26.0~),
-         libqt5x11extras5-dev (>= 5.5.0~),
-         qtbase5-dev (>= 5.5.0~),
+         libqt5x11extras5-dev (>= 5.7.0~),
+         qtbase5-dev (>= 5.7.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: kde-workspace-dev
