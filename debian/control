@@ -129,7 +129,7 @@ Architecture: any
 Depends: kwin-common (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Breaks: kde-window-manager (<< 4:5), kwin-addons (<< 4:5.8)
 Replaces: kde-window-manager (<< 4:5)
-Provides: kwin
+Provides: kwin, x-window-manager
 Description: KDE window manager, X11 version
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
