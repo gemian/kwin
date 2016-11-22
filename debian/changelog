@@ -1,6 +1,6 @@
-kwin (4:5.8.3-1~4.gbp8a6257) UNRELEASED; urgency=medium
+kwin (4:5.8.4-1~1.gbpba598a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8a6257b9c96462f2a7f224f5b0b6aec142254b20 **
+  ** SNAPSHOT build @ba598ad42026c0912d6aa28c7a7ab7577c9a5b57 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @f24b13b2b981d6c6df1c22419d5c21e471e6b52a **
@@ -13,8 +13,9 @@ kwin (4:5.8.3-1~4.gbp8a6257) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 01 Nov 2016 17:29:05 +0100
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 22 Nov 2016 19:19:37 +0100
 
 kwin (4:5.8.2-1) unstable; urgency=medium
 
