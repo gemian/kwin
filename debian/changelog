@@ -1,11 +1,7 @@
-kwin (4:5.8.4-1~1.gbpba598a) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @ba598ad42026c0912d6aa28c7a7ab7577c9a5b57 **
+kwin (4:5.8.4-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @f24b13b2b981d6c6df1c22419d5c21e471e6b52a **
-
-  * UNRELEASED
+  * New upstream release (5.8.4)
   * Add breeze-dev build dependency.
     Thanks to Martin Graesslin for the report (Closes: 842912)
   * Bump qt buid deps and deps to 5.7
@@ -13,9 +9,8 @@ kwin (4:5.8.4-1~1.gbpba598a) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 22 Nov 2016 19:19:37 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 18:36:53 +0100
 
 kwin (4:5.8.2-1) unstable; urgency=medium
 
