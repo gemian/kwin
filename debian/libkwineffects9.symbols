@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.8.0 amd64
+# SymbolsHelper-Confirmed: 4:5.8.5 amd64
 libkwineffects.so.9 libkwineffects9 #MINVER#
  _ZN4KWin11EffectFrame15enableCrossFadeEb@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrame20setCrossFadeProgressEd@Base 4:5.1.95+git20150122
@@ -62,6 +62,7 @@ libkwineffects.so.9 libkwineffects9 #MINVER#
  _ZN4KWin14EffectsHandler15windowActivatedEPNS_12EffectWindowE@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler15windowMinimizedEPNS_12EffectWindowE@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler16staticMetaObjectE@Base 4:5.1.95+git20150122
+ _ZN4KWin14EffectsHandler17windowDataChangedEPNS_12EffectWindowEi@Base 4:5.8.5
  _ZN4KWin14EffectsHandler17windowUnminimizedEPNS_12EffectWindowE@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler18cursorShapeChangedEv@Base 4:5.3.0
  _ZN4KWin14EffectsHandler20numberScreensChangedEv@Base 4:5.1.95+git20150122

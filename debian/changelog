@@ -1,6 +1,7 @@
 kwin (4:5.8.5-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.8.5).
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Dec 2016 15:24:18 +0100
 
