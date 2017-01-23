@@ -217,7 +217,8 @@ Package: libkwinglutils11
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kwin-common (<< 4:5.4), libkwin4-effect-builtins1 (<< 4:5.4),
+Breaks: kwin-common (<< 4:5.4),
+        libkwin4-effect-builtins1 (<< 4:5.4),
         libkwinglutils10,
         libkwinglutils5 (<< 4:5.2.0),
         libkwinglutils6 (<< 4:5.4.1+git20150907),
