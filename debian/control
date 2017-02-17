@@ -151,7 +151,6 @@ Architecture: any
 Depends: kwayland-integration,
          kwin-common (= ${binary:Version}),
          kwin-wayland-backend-drm (= ${binary:Version}) | kwin-wayland-backend-fbdev (= ${binary:Version}) | kwin-wayland-backend-x11 (= ${binary:Version}) | kwin-wayland-backend-virtual (= ${binary:Version}) | kwin-wayland-backend-wayland (= ${binary:Version}),
-         qtwayland5,
          xwayland,
          ${misc:Depends},
          ${shlibs:Depends}
