@@ -3,7 +3,7 @@ kwin (4:5.8.5-2) unstable; urgency=medium
   * Be more strict about runtime dependencies.
     Thanks to Ben Longbons for reporting (Closes: 848523)
   * Drop forced qtwayland runtime dependency.
-    Thanks to Martin Graesslin for repoting (Closes: 855410)
+    Thanks to Martin Graesslin for reporting (Closes: 855410)
   * Update kwin-wayland description about being a preview release.
     Thanks to Ben Longbons for reporting (Closes: 848524)
 
