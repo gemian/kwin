@@ -1,8 +1,8 @@
-kwin (4:5.8.6-1~) UNRELEASED; urgency=medium
+kwin (4:5.8.6-1) unstable; urgency=medium
 
   * New upstream release (5.8.6) (Closes: 846508)
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Mar 2017 11:48:48 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 24 Mar 2017 14:38:54 +0100
 
 kwin (4:5.8.5-2) unstable; urgency=medium
 
