@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:5.8.0 amd64
-libkwinglutils.so.9 libkwinglutils9 #MINVER#
+libkwinglutils.so.11 libkwinglutils11 #MINVER#
  _ZN4KWin10GLPlatform10s_platformE@Base 4:5.1.95+git20150122
  _ZN4KWin10GLPlatform14driverToStringENS_6DriverE@Base 4:5.1.95+git20150122
  _ZN4KWin10GLPlatform15driverToString8ENS_6DriverE@Base 4:5.5.1

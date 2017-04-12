@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:5.8.5 amd64
-libkwineffects.so.9 libkwineffects9 #MINVER#
+libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZN4KWin11EffectFrame15enableCrossFadeEb@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrame20setCrossFadeProgressEd@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrame25setScreenProjectionMatrixERK10QMatrix4x4@Base 4:5.6.2
