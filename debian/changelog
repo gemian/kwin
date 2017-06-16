@@ -1,3 +1,83 @@
+kwin (4:5.8.7-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.8.7)
+      + move the view at the correct index at startup
+        using the same trick as elsewhere, set the currentIndex
+        and move the view to currentIndex right at startup
+        the only way to be sure is onContentHeightChanged
+        as there are no signals for when "the view has been
+        populated and settled up"
+      + [kcm_kwindecoration] Respect theme colors in buttons
+      + Fix crash on dragging titlebar buttons in System Settings
+        Currently, if user tries to move one of buttons to the left, ending up
+        dragging one button onto another, crash occurs.
+        In addition, this patch replaces verbose replacement(remove/insert) with
+        more elegant QVector<T>::move(int, int)
+        Fixes KDE#374153
+      + [platforms/drm] Explicitly request event context version 2
+        Libdrm 2.4.78 introduces a version 2 and if KWin gets built against it
+        our code would break. Given that this change is for Plasma/5.8 branch.
+        (https://phabricator.kde.org/T5839)
+      + Fix KWin decoration KCM showing correct index at startup
+        The KCM has a context property of the currently set theme index. This is
+        set before the decorations model is populated, so it is currently always
+        -1.
+        This model is populated after the constructor but before
+        KCModule::load().
+        KCModule::load is called from KCModule::showEvent so before
+        QQuickGridView will start doing anything with delegates.
+        This fixes the problem simply and also avoid parsing the config file
+        multiple times.
+        This bug was introduced in 5.9.4:
+        Someone made a (tested) change to make sure the view scrolled to the
+        right place on startup.
+        I then made a (tested) commit fixing the crash on exit
+        The author then updated his patch to my changes, but now in a way that
+        didn't work.
+      + Sort the themes in decoration KCM
+        Even though we're using a QSortFilterProxy model, by default it doesn't
+        actually sort anything until instructed to.
+        This patch turns sorting on.
+      + Improve the x11 timestamp handling
+        So far KWin only updated the x11 timestamp if the new timestamp is larger
+        than the existing one. While this is a useful thing it creates problems
+        when the 32 bit msec based time stamp wraps around which happens after
+        running an X server for 49 days. After the timestamp wrapped around KWin
+        would not update the timestamp any more and thus some calls might fail.
+        Most prominent victims are keyboard and pointer grab which fails as the
+        timestamp is either larger than the server timestamp or smaller than the
+        last grab timestamp.
+        Another problem related to timestamp handling is KWin getting broken by
+        wrong timestamps sent by applications. A prominent example is clusterssh
+        which used to send a timestamp as unix time which is larger than the
+        x timestamp and thus our timestamp gets too large.
+        This change addresses these problems by allowing to reset the timestamp.
+        This is only used from updateXTime (which is normally invoked before we
+        do things like grabKeyboard). Thus we make QX11Info::getTimestamp the
+        ultimate trusted source for timestamps.
+        Fixes KDE#377901 KDE#348569
+      + Fix regression for timestamp handling for Xwayland windows
+        Change 0bec9ad7337536e319c17c5684d97e1156399fdb introduced a regrssion
+        on Wayland. On Wayland getTimestamp always returns 0, thus the X11
+        timestamp gets reset again and again. This results in broken interaction
+        for Xwayland windows as the broken unit tests show.
+        This change addresses the regression by ignoring a value of 0.
+        It means the addressed bug is still present on Wayland for X11 windows
+        as the timestamp doesn't get updated properly. This requires further
+        changes.
+      + fix occassional crash caused by needlessly delayed signals (bko#363224)
+        As pointed out by the Valgrind trace in #363224, delaying the signal causes
+        the EffectWindow* argument to become invalid before the connected slot is
+        called (this is because Qt discards only delayed signal->slot calls where
+        the receiver gets deleted meanwhile, not the sender and definitely not
+        a random argument.
+        If the supposed glitches really happen, they should get fixed correctly,
+        and for all cases (I doubt only desktop number would be involved but
+        not e.g. shaded or minimized states).
+        Related to KDE#363224
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Jun 2017 11:03:29 +0200
+
 kwin (4:5.8.6-1) unstable; urgency=medium
 
   * New upstream release (5.8.6) (Closes: 846508)
