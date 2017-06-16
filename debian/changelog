@@ -1,4 +1,4 @@
-kwin (4:5.8.7-1~) UNRELEASED; urgency=medium
+kwin (4:5.8.7-1) unstable; urgency=medium
 
   * New upstream release (5.8.7)
       + move the view at the correct index at startup
@@ -76,7 +76,7 @@ kwin (4:5.8.7-1~) UNRELEASED; urgency=medium
         not e.g. shaded or minimized states).
         Related to KDE#363224
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Jun 2017 11:03:29 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Jun 2017 13:43:10 +0200
 
 kwin (4:5.8.6-1) unstable; urgency=medium
 
