@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.8.5 amd64
+# SymbolsHelper-Confirmed: 4:5.10.3.1 amd64
 libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZN4KWin11EffectFrame15enableCrossFadeEb@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrame20setCrossFadeProgressEd@Base 4:5.1.95+git20150122
@@ -45,7 +45,6 @@ libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZN4KWin14EffectsHandler11tabBoxAddedEi@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler11windowAddedEPNS_12EffectWindowE@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler11windowShownEPNS_12EffectWindowE@Base 4:5.8.0
- _ZN4KWin14EffectsHandler12effectConfigERK7QString@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler12mouseChangedERK6QPointS3_6QFlagsIN2Qt11MouseButtonEES7_S4_INS5_16KeyboardModifierEES9_@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler12tabBoxClosedEv@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler12windowClosedEPNS_12EffectWindowE@Base 4:5.1.95+git20150122
@@ -79,6 +78,7 @@ libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZN4KWin14EffectsHandler22desktopPresenceChangedEPNS_12EffectWindowEii@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler23currentTabAboutToChangeEPNS_12EffectWindowES2_@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler24virtualScreenSizeChangedEv@Base 4:5.1.95+git20150122
+ _ZN4KWin14EffectsHandler25windowUnresponsiveChangedEPNS_12EffectWindowEb@Base 4:5.10.3.1
  _ZN4KWin14EffectsHandler26windowGeometryShapeChangedEPNS_12EffectWindowERK5QRect@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler26windowStepUserMovedResizedEPNS_12EffectWindowERK5QRect@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler27windowMaximizedStateChangedEPNS_12EffectWindowEbb@Base 4:5.1.95+git20150122
@@ -116,10 +116,10 @@ libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZN4KWin15AnimationEffectD0Ev@Base 4:5.6.2
  _ZN4KWin15AnimationEffectD1Ev@Base 4:5.6.2
  _ZN4KWin15AnimationEffectD2Ev@Base 4:5.6.2
- _ZN4KWin15ScreenPaintDataC1ERK10QMatrix4x4@Base 4:5.6.2
+ _ZN4KWin15ScreenPaintDataC1ERK10QMatrix4x4RK5QRect@Base 4:5.10.3.1
  _ZN4KWin15ScreenPaintDataC1ERKS0_@Base 4:5.1.95+git20150122
  _ZN4KWin15ScreenPaintDataC1Ev@Base 4:5.1.95+git20150122
- _ZN4KWin15ScreenPaintDataC2ERK10QMatrix4x4@Base 4:5.6.2
+ _ZN4KWin15ScreenPaintDataC2ERK10QMatrix4x4RK5QRect@Base 4:5.10.3.1
  _ZN4KWin15ScreenPaintDataC2ERKS0_@Base 4:5.1.95+git20150122
  _ZN4KWin15ScreenPaintDataC2Ev@Base 4:5.1.95+git20150122
  _ZN4KWin15ScreenPaintDataD0Ev@Base 4:5.6.2
@@ -280,6 +280,7 @@ libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZNK4KWin12EffectWindow14isNormalWindowEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow14isNotificationEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow14isSkipSwitcherEv@Base 4:5.1.95+git20150122
+ _ZNK4KWin12EffectWindow14isUnresponsiveEv@Base 4:5.10.3.1
  _ZNK4KWin12EffectWindow15isOnAllDesktopsEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow15isSpecialWindowEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow16expandedGeometryEv@Base 4:5.1.95+git20150122
@@ -343,6 +344,7 @@ libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZNK4KWin15AnimationEffect8isActiveEv@Base 4:5.1.95+git20150122
  _ZNK4KWin15AnimationEffect8progressERKNS_7AniDataE@Base 4:5.1.95+git20150122
  _ZNK4KWin15AnimationEffect8validateENS0_9AttributeERjPNS_4FPx2ES4_PKNS_12EffectWindowE@Base 4:5.6.2
+ _ZNK4KWin15ScreenPaintData14outputGeometryEv@Base 4:5.10.3.1
  _ZNK4KWin15ScreenPaintData16projectionMatrixEv@Base 4:5.6.2
  _ZNK4KWin15WindowPaintData10brightnessEv@Base 4:5.1.95+git20150122
  _ZNK4KWin15WindowPaintData10saturationEv@Base 4:5.1.95+git20150122

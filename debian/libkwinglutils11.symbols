@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.8.0 amd64
+# SymbolsHelper-Confirmed: 4:5.10.3.1 amd64
 libkwinglutils.so.11 libkwinglutils11 #MINVER#
  _ZN4KWin10GLPlatform10s_platformE@Base 4:5.1.95+git20150122
  _ZN4KWin10GLPlatform14driverToStringENS_6DriverE@Base 4:5.1.95+git20150122
@@ -32,10 +32,6 @@ libkwinglutils.so.11 libkwinglutils11 #MINVER#
  _ZN4KWin13ShaderManagerC2Ev@Base 4:5.1.95+git20150122
  _ZN4KWin13ShaderManagerD1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin13ShaderManagerD2Ev@Base 4:5.1.95+git20150122
- _ZN4KWin13eglExtensionsEv@Base 4:5.8.0
- _ZN4KWin13glxExtensionsEv@Base 4:5.8.0
- _ZN4KWin13hasEGLVersionEiii@Base 4:5.1.95+git20150122
- _ZN4KWin13hasGLXVersionEiii@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget10initStaticEv@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget10sSupportedE@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget13attachTextureERKNS_9GLTextureE@Base 4:5.1.95+git20150122
@@ -47,6 +43,9 @@ libkwinglutils.so.11 libkwinglutils11 #MINVER#
  _ZN4KWin14GLRenderTarget19blitFromFramebufferERK5QRectS3_j@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget19isRenderTargetBoundEv@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget19s_virtualScreenSizeE@Base 4:5.1.95+git20150122
+ _ZN4KWin14GLRenderTarget20s_virtualScreenScaleE@Base 4:5.10.3.1
+ _ZN4KWin14GLRenderTarget23s_virtualScreenGeometryE@Base 4:5.10.3.1
+ _ZN4KWin14GLRenderTarget23s_virtualScreenViewportE@Base 4:5.10.3.1
  _ZN4KWin14GLRenderTarget6enableEv@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget7cleanupEv@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget7disableEv@Base 4:5.1.95+git20150122
@@ -64,8 +63,8 @@ libkwinglutils.so.11 libkwinglutils11 #MINVER#
  _ZN4KWin14GLVertexBuffer14setVertexCountEi@Base 4:5.1.95+git20150122
  _ZN4KWin14GLVertexBuffer15setAttribLayoutEPKNS_14GLVertexAttribEii@Base 4:5.1.95+git20150122
  _ZN4KWin14GLVertexBuffer15streamingBufferEv@Base 4:5.1.95+git20150122
- _ZN4KWin14GLVertexBuffer19s_virtualScreenSizeE@Base 4:5.1.95+git20150122
  _ZN4KWin14GLVertexBuffer20supportsIndexedQuadsEv@Base 4:5.1.95+git20150122
+ _ZN4KWin14GLVertexBuffer23s_virtualScreenGeometryE@Base 4:5.10.3.1
  (subst)_ZN4KWin14GLVertexBuffer3mapE{size_t}@Base 4:5.1.95+git20150122
  _ZN4KWin14GLVertexBuffer4drawERK7QRegionjiib@Base 4:5.1.95+git20150122
  _ZN4KWin14GLVertexBuffer4drawEjii@Base 4:5.1.95+git20150122
@@ -82,20 +81,6 @@ libkwinglutils.so.11 libkwinglutils11 #MINVER#
  _ZN4KWin14GLVertexBufferD1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin14GLVertexBufferD2Ev@Base 4:5.1.95+git20150122
  _ZN4KWin14hasGLExtensionERK10QByteArray@Base 4:5.1.95+git20150122
- _ZN4KWin15ColorCorrection10setEnabledEb@Base 4:5.1.95+git20150122
- _ZN4KWin15ColorCorrection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.1.95+git20150122
- _ZN4KWin15ColorCorrection11qt_metacastEPKc@Base 4:5.1.95+git20150122
- _ZN4KWin15ColorCorrection12errorOccuredEv@Base 4:5.1.95+git20150122
- _ZN4KWin15ColorCorrection14setupForOutputEi@Base 4:5.1.95+git20150122
- _ZN4KWin15ColorCorrection16staticMetaObjectE@Base 4:5.1.95+git20150122
- _ZN4KWin15ColorCorrection21prepareFragmentShaderERK10QByteArray@Base 4:5.1.95+git20150122
- _ZN4KWin15ColorCorrection5resetEv@Base 4:5.1.95+git20150122
- _ZN4KWin15ColorCorrection7changedEv@Base 4:5.1.95+git20150122
- _ZN4KWin15ColorCorrectionC1EP7QObject@Base 4:5.1.95+git20150122
- _ZN4KWin15ColorCorrectionC2EP7QObject@Base 4:5.1.95+git20150122
- _ZN4KWin15ColorCorrectionD0Ev@Base 4:5.1.95+git20150122
- _ZN4KWin15ColorCorrectionD1Ev@Base 4:5.1.95+git20150122
- _ZN4KWin15ColorCorrectionD2Ev@Base 4:5.1.95+git20150122
  _ZN4KWin16GLTexturePrivate10initStaticEv@Base 4:5.1.95+git20150122
  _ZN4KWin16GLTexturePrivate12updateMatrixEv@Base 4:5.1.95+git20150122
  _ZN4KWin16GLTexturePrivate16s_supportsARGB32E@Base 4:5.1.95+git20150122
@@ -114,18 +99,11 @@ libkwinglutils.so.11 libkwinglutils11 #MINVER#
  _ZN4KWin16GLTexturePrivateD1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin16GLTexturePrivateD2Ev@Base 4:5.1.95+git20150122
  _ZN4KWin16openGLExtensionsEv@Base 4:5.8.0
- _ZN4KWin17nearestPowerOfTwoEi@Base 4:5.1.95+git20150122
- _ZN4KWin18glResolveFunctionsENS_23OpenGLPlatformInterfaceE@Base 4:5.1.95+git20150122
- _ZN4KWin19eglResolveFunctionsEv@Base 4:5.1.95+git20150122
+ _ZN4KWin18glResolveFunctionsESt8functionIFPFvvEPKcEE@Base 4:5.10.3.1
  _ZN4KWin19epoxy_glReadnPixelsE@Base 4:5.4.0
- _ZN4KWin19glTextureUnitsCountE@Base 4:5.1.95+git20150122
- _ZN4KWin19glXSwapIntervalMESAE@Base 4:5.1.95+git20150122
- _ZN4KWin19glxResolveFunctionsEv@Base 4:5.1.95+git20150122
  _ZN4KWin21epoxy_glGetnUniformfvE@Base 4:5.4.0
  _ZN4KWin30epoxy_glGetGraphicsResetStatusE@Base 4:5.4.0
- _ZN4KWin6initGLENS_23OpenGLPlatformInterfaceE@Base 4:5.1.95+git20150122
- _ZN4KWin7initEGLEv@Base 4:5.1.95+git20150122
- _ZN4KWin7initGLXEv@Base 4:5.1.95+git20150122
+ _ZN4KWin6initGLESt8functionIFPFvvEPKcEE@Base 4:5.10.3.1
  _ZN4KWin8GLShader10setUniformENS0_10IntUniformEi@Base 4:5.1.95+git20150122
  _ZN4KWin8GLShader10setUniformENS0_11Vec2UniformERK9QVector2D@Base 4:5.1.95+git20150122
  _ZN4KWin8GLShader10setUniformENS0_11Vec4UniformERK9QVector4D@Base 4:5.1.95+git20150122
@@ -149,7 +127,6 @@ libkwinglutils.so.11 libkwinglutils11 #MINVER#
  _ZN4KWin8GLShader10setUniformEii@Base 4:5.1.95+git20150122
  _ZN4KWin8GLShader12setAttributeEPKcf@Base 4:5.1.95+git20150122
  _ZN4KWin8GLShader13loadFromFilesERK7QStringS3_@Base 4:5.1.95+git20150122
- _ZN4KWin8GLShader13sColorCorrectE@Base 4:5.1.95+git20150122
  _ZN4KWin8GLShader15uniformLocationEPKc@Base 4:5.1.95+git20150122
  _ZN4KWin8GLShader16resolveLocationsEv@Base 4:5.1.95+git20150122
  _ZN4KWin8GLShader17attributeLocationEPKc@Base 4:5.1.95+git20150122
@@ -239,8 +216,6 @@ libkwinglutils.so.11 libkwinglutils11 #MINVER#
  _ZNK4KWin13ShaderManager22bindAttributeLocationsEPNS_8GLShaderE@Base 4:5.1.95+git20150122
  _ZNK4KWin13ShaderManager22generateFragmentSourceE6QFlagsINS_11ShaderTraitEE@Base 4:5.1.95+git20150122
  _ZNK4KWin14GLVertexBuffer10isUseColorEv@Base 4:5.1.95+git20150122
- _ZNK4KWin15ColorCorrection10metaObjectEv@Base 4:5.1.95+git20150122
- _ZNK4KWin15ColorCorrection9isEnabledEv@Base 4:5.1.95+git20150122
  _ZNK4KWin8GLShader13prepareSourceEjRK10QByteArray@Base 4:5.1.95+git20150122
  _ZNK4KWin8GLShader7compileEjjRK10QByteArray@Base 4:5.1.95+git20150122
  _ZNK4KWin9GLTexture11isYInvertedEv@Base 4:5.1.95+git20150122
@@ -255,15 +230,11 @@ libkwinglutils.so.11 libkwinglutils11 #MINVER#
  _ZNK4KWin9GLTexture7isDirtyEv@Base 4:5.1.95+git20150122
  _ZNK4KWin9GLTexture7textureEv@Base 4:5.1.95+git20150122
  _ZTI11QSharedData@Base 4:5.1.95+git20150122
- _ZTIN4KWin15ColorCorrectionE@Base 4:5.1.95+git20150122
  _ZTIN4KWin16GLTexturePrivateE@Base 4:5.1.95+git20150122
  _ZTIN4KWin9GLTextureE@Base 4:5.1.95+git20150122
  _ZTS11QSharedData@Base 4:5.1.95+git20150122
- _ZTSN4KWin15ColorCorrectionE@Base 4:5.1.95+git20150122
  _ZTSN4KWin16GLTexturePrivateE@Base 4:5.1.95+git20150122
  _ZTSN4KWin9GLTextureE@Base 4:5.1.95+git20150122
- _ZTVN4KWin15ColorCorrectionE@Base 4:5.1.95+git20150122
  _ZTVN4KWin16GLTexturePrivateE@Base 4:5.1.95+git20150122
  _ZTVN4KWin9GLTextureE@Base 4:5.1.95+git20150122
  _ZZN4KWin10connectionEvE5s_con@Base 4:5.8.0
- _ZZN4KWin7displayEvE9s_display@Base 4:5.1.95+git20150122
