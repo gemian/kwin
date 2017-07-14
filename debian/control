@@ -128,8 +128,8 @@ Description: KDE window manager, common files
 Package: kwin-x11
 Architecture: any
 Depends: kwin-common (= ${binary:Version}),
-         libkwinglutils9 (= ${binary:Version}),
-         libkwinxrenderutils9 (= ${binary:Version}),
+         libkwinglutils11 (= ${binary:Version}),
+         libkwinxrenderutils11 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: kde-window-manager (<< 4:5), kwin-addons (<< 4:5.10)
