@@ -79,7 +79,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/kwin.git
 
 Package: kde-window-manager
 Section: oldlibs
-Priority: extra
+Priority: optional
 Architecture: all
 Depends: kwin-x11 (>= 4:5.3.2-4~)
 Description: transitional package for kwin-x11
