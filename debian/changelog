@@ -17,6 +17,15 @@ kwin (4:5.10.4-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Aug 2017 13:33:17 +0200
 
+kwin (4:5.8.7-2) unstable; urgency=medium
+
+  * Team upload.
+  * Backport upstream patch to fix build with modularized Qt PlatformSupport.
+    (Closes: #873078)
+  * Backport upstream patch to fix ‘undefined reference to qCompare’ error.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 25 Aug 2017 14:06:50 +0300
+
 kwin (4:5.8.7-1) unstable; urgency=medium
 
   * New upstream release (5.8.7)
