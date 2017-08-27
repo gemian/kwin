@@ -1,4 +1,4 @@
-kwin (4:5.10.4-1~) UNRELEASED; urgency=medium
+kwin (4:5.10.5-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.3.1).
@@ -10,12 +10,13 @@ kwin (4:5.10.4-1~) UNRELEASED; urgency=medium
   * Bump kdecorations build dep to 5.10
   * Update symbols files after soversion bump
   * New upstream release (5.10.4).
+  * New upstream release (5.10.5).
 
   [ Jonathan Riddell ]
   * update for new soversion
   * update .install
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Aug 2017 13:33:17 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 27 Aug 2017 12:52:12 +0200
 
 kwin (4:5.8.7-2) unstable; urgency=medium
 
