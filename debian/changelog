@@ -1,4 +1,4 @@
-kwin (4:5.10.5-1~) UNRELEASED; urgency=medium
+kwin (4:5.10.5-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.3.1).
@@ -11,12 +11,14 @@ kwin (4:5.10.5-1~) UNRELEASED; urgency=medium
   * Update symbols files after soversion bump
   * New upstream release (5.10.4).
   * New upstream release (5.10.5).
+  * Drop upstream patches
+  * Release to experimental
 
   [ Jonathan Riddell ]
   * update for new soversion
   * update .install
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 27 Aug 2017 12:52:12 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Aug 2017 15:29:21 +0200
 
 kwin (4:5.8.7-2) unstable; urgency=medium
 
