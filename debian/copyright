@@ -59,46 +59,12 @@ Copyright: 2010, Alexandre Pereira <pereira.alex@gmail.com>
            2001, translate.org.za
 License: GPL-2+
 
-Files: po/ca/kcm-kwin-scripts.po
-       po/ca/kcm_kwindesktop.po
-       po/ca/kcm_kwintabbox.po
-       po/ca/kcmkwincompositing.po
-       po/ca/kcmkwindecoration.po
-       po/ca/kcmkwinrules.po
-       po/ca/kcmkwinscreenedges.po
-       po/ca/kcmkwm.po
-       po/ca/kwin.po
-       po/ca/kwin_clients.po
-       po/ca/kwin_effects.po
-       po/ca/kwin_scripting.po
-       po/ca/kwin_scripts.po
-       po/ca@valencia/kcm-kwin-scripts.po
-       po/ca@valencia/kcm_kwindesktop.po
-       po/ca@valencia/kcm_kwintabbox.po
-       po/ca@valencia/kcmkwincompositing.po
-       po/ca@valencia/kcmkwindecoration.po
-       po/ca@valencia/kcmkwinrules.po
-       po/ca@valencia/kcmkwinscreenedges.po
-       po/ca@valencia/kcmkwm.po
-       po/ca@valencia/kwin.po
-       po/ca@valencia/kwin_clients.po
-       po/ca@valencia/kwin_effects.po
-       po/ca@valencia/kwin_scripting.po
-       po/ca@valencia/kwin_scripts.po
-       po/uk/kcm-kwin-scripts.po
-       po/uk/kcm_kwindesktop.po
-       po/uk/kcm_kwintabbox.po
-       po/uk/kcmkwincompositing.po
-       po/uk/kcmkwindecoration.po
-       po/uk/kcmkwinrules.po
-       po/uk/kcmkwinscreenedges.po
-       po/uk/kcmkwm.po
-       po/uk/kwin.po
-       po/uk/kwin_clients.po
-       po/uk/kwin_effects.po
-       po/uk/kwin_scripting.po
-       po/uk/kwin_scripts.po
+Files: po/ca/*
+       po/ca@valencia/*
+       po/uk/*
 Copyright: 1998-2016, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+
 License: LGPL-2.1+3+KDEeV
  This file is distributed under the license LGPL version 2.1 or
  version 3 or later versions approved by the membership of KDE e.V.
@@ -108,7 +74,9 @@ License: LGPL-2.1+3+KDEeV
  the complete text of the GNU Lesser General Public License version 3 can be
  found in `/usr/share/common-licenses/LGPL-3'.
 
-Files: kcmkwin/kwindecoration/declarative-plugin/buttonsmodel.cpp
+Files: autotests/onscreennotificationtest.cpp
+       autotests/onscreennotificationtest.h
+       kcmkwin/kwindecoration/declarative-plugin/buttonsmodel.cpp
        kcmkwin/kwindecoration/declarative-plugin/buttonsmodel.h
        kcmkwin/kwindecoration/declarative-plugin/plugin.cpp
        kcmkwin/kwindecoration/declarative-plugin/plugin.h
@@ -126,27 +94,35 @@ Files: kcmkwin/kwindecoration/declarative-plugin/buttonsmodel.cpp
        kcmkwin/kwindecoration/decorationmodel.h
        kcmkwin/kwindecoration/kcm.cpp
        kcmkwin/kwindecoration/kcm.h
-       kcmkwin/kwindecoration/qml/ButtonGroup.qml
-       kcmkwin/kwindecoration/qml/Buttons.qml
-       kcmkwin/kwindecoration/qml/Previews.qml
-       kcmkwin/kwindecoration/qml/main.qml
-       qml/outline/plasma/outline.qml
-       scripts/enforcedeco/contents/code/main.js
+       kcmkwin/kwindecoration/qml/*
+       onscreennotification.cpp
+       onscreennotification.h
+       osd.cpp
+       osd.h
+       popup_input_filter.cpp
+       popup_input_filter.h
+       qml/onscreennotification/plasma/main.qml
+       qml/outline/*
+       scripts/enforcedeco/*
        tests/libinputtest.cpp
        tests/normalhintsbasesizetest.cpp
+       tests/pointergesturestest.cpp
+       tests/pointergesturestest.qml
        tests/screenedgeshowtest.cpp
        tests/unmapdestroytest.qml
        tests/waylandclienttest.cpp
        tests/waylandclienttest.h
        tests/x11shadowreader.cpp
-Copyright: 2014-2016, Martin Gräßlin <mgraesslin@kde.org>
+Copyright: 2014-2017, Martin Graesslin <mgraesslin@kde.org>
 License: GPL-2+3+KDEeV
 
 Files: effects/dialogparent/package/metadata.desktop
        effects/eyeonscreen/package/metadata.desktop
        effects/fade/package/metadata.desktop
        effects/fadedesktop/package/metadata.desktop
+       effects/frozenapp/package/metadata.desktop
        effects/login/package/metadata.desktop
+       effects/logout/package/metadata.desktop
        effects/maximize/package/metadata.desktop
        effects/morphingpopups/package/metadata.desktop
        effects/scalein/package/metadata.desktop
@@ -167,27 +143,20 @@ Files: effects/dialogparent/package/metadata.desktop
        scripts/videowall/metadata.desktop
 Copyright: 2008, Cédric Borgese <cedric.borgese@gmail.com>
 License: GPL
+
+License: GPL
  This file is licensed under the GPL.
  --
  On Debian systems, the complete text of the GNU General Public License
  can be found in `/usr/share/common-licenses/GPL'.
 
-Files: cmake/modules/COPYING-CMAKE-SCRIPTS
-       cmake/modules/FindFontconfig.cmake
-       cmake/modules/FindLibdrm.cmake
-       cmake/modules/FindLibinput.cmake
-       cmake/modules/FindQt5PlatformSupport.cmake
-       cmake/modules/FindUDev.cmake
-       cmake/modules/FindXKB.cmake
-       cmake/modules/FindXwayland.cmake
-       cmake/modules/Findepoxy.cmake
-       cmake/modules/Findgbm.cmake
-       cmake/modules/Findlibhybris.cmake
+Files: cmake/*
 Copyright: 2014, Alex Merry <alex.merry@kde.org>
            2014, Fredrik Höglund <fredrik@kde.org>
            2006-2007, Laurent Montel <montel@kde.org>
            2014-2016, Martin Gräßlin <mgraesslin@kde.org>
            2010, Rafael Fernández López <ereslibre@kde.org>
+           2016, Takahiro Hashimoto <kenya888@gmail.com>
 License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
@@ -212,20 +181,19 @@ License: BSD-3-clause
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-Files: backends/hwcomposer/egl_hwcomposer_backend.cpp
-       backends/hwcomposer/egl_hwcomposer_backend.h
-       backends/hwcomposer/hwcomposer_backend.cpp
-       backends/hwcomposer/hwcomposer_backend.h
-       backends/hwcomposer/logging.cpp
-       backends/hwcomposer/logging.h
-       backends/hwcomposer/screens_hwcomposer.cpp
-       backends/hwcomposer/screens_hwcomposer.h
-Copyright: 2015, Martin Gräßlin <mgraesslin@kde.org>
-License: GPL-3+
-
 Files: kcmkwin/kwinscreenedges/screenpreviewwidget.cpp
        kcmkwin/kwinscreenedges/screenpreviewwidget.h
-Copyright: 2009, Marco Martin <notmart@gmail.com>
+       packageplugins/aurorae/aurorae.cpp
+       packageplugins/aurorae/aurorae.h
+       packageplugins/decoration/decoration.cpp
+       packageplugins/decoration/decoration.h
+       packageplugins/scripts/scripts.cpp
+       packageplugins/scripts/scripts.h
+       packageplugins/windowswitcher/windowswitcher.cpp
+       packageplugins/windowswitcher/windowswitcher.h
+Copyright: 2017, Demitrius Belai <demitriusbelai@gmail.com>
+           2017, Marco Martin <mart@kde.org>
+           2009, Marco Martin <notmart@gmail.com>
 License: LGPL-2+
 
 Files: kcmkwin/kwincompositing/test/modeltest.cpp
@@ -269,6 +237,17 @@ License: GPL-3_or_LGPL-2.1-QTexception-1.1
  complete text of the GNU Lesser General Public License version 2.1 can be
  found in `/usr/share/common-licenses/LGPL-2.1'.
 
+Files: plugins/platforms/hwcomposer/egl_hwcomposer_backend.cpp
+       plugins/platforms/hwcomposer/egl_hwcomposer_backend.h
+       plugins/platforms/hwcomposer/hwcomposer_backend.cpp
+       plugins/platforms/hwcomposer/hwcomposer_backend.h
+       plugins/platforms/hwcomposer/logging.cpp
+       plugins/platforms/hwcomposer/logging.h
+       plugins/platforms/hwcomposer/screens_hwcomposer.cpp
+       plugins/platforms/hwcomposer/screens_hwcomposer.h
+Copyright: 2015, Martin Gräßlin <mgraesslin@kde.org>
+License: GPL-3+
+
 Files: killer/killer.cpp
 Copyright: 2003, Lubos Lunak <l.lunak@kde.org>
 License: Expat
@@ -280,6 +259,8 @@ License: LGPL-2
 Files: doc/en/windowspecific/index.docbook
 Copyright: see the UserBase https://userbase.kde.org/index.php?title=KWin_Rules&action=history
            Lauri.Watts
+License: GFDL-1.2+
+
 License: GFDL-1.2+
  Permission is granted to copy, distribute and/or modify this document
  under the terms of the GNU Free Documentation License, Version 1.2
