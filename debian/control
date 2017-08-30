@@ -15,6 +15,7 @@ Build-Depends: breeze-dev (>= 4:5.9.0~),
                libepoxy-dev (>= 1.2),
                libfontconfig1-dev,
                libfreetype6-dev,
+               libhybris-dev [armhf arm64 i386 amd64],
                libgbm-dev,
                libice-dev,
                libinput-dev (>= 1.9~),
@@ -209,6 +210,22 @@ Description: KDE window manager fbdev plugin
  of windows and switching between them.
  .
  This package is part of the KDE base workspace module
+
+Package: kwin-wayland-backend-hwcomposer
+Section: libs
+Architecture: armhf arm64 i386 amd64
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Provides: kwin-wayland-backend
+Description: KDE window manager hwcompositor plugin
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
 
 Package: kwin-wayland-backend-virtual
 Section: libs
