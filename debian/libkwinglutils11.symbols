@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.10.3.1 amd64
+# SymbolsHelper-Confirmed: 4:5.11.4 amd64
 libkwinglutils.so.11 libkwinglutils11 #MINVER#
  _ZN4KWin10GLPlatform10s_platformE@Base 4:5.1.95+git20150122
  _ZN4KWin10GLPlatform14driverToStringENS_6DriverE@Base 4:5.1.95+git20150122
@@ -63,6 +63,7 @@ libkwinglutils.so.11 libkwinglutils11 #MINVER#
  _ZN4KWin14GLVertexBuffer14setVertexCountEi@Base 4:5.1.95+git20150122
  _ZN4KWin14GLVertexBuffer15setAttribLayoutEPKNS_14GLVertexAttribEii@Base 4:5.1.95+git20150122
  _ZN4KWin14GLVertexBuffer15streamingBufferEv@Base 4:5.1.95+git20150122
+ _ZN4KWin14GLVertexBuffer20s_virtualScreenScaleE@Base 4:5.11.4
  _ZN4KWin14GLVertexBuffer20supportsIndexedQuadsEv@Base 4:5.1.95+git20150122
  _ZN4KWin14GLVertexBuffer23s_virtualScreenGeometryE@Base 4:5.10.3.1
  (subst)_ZN4KWin14GLVertexBuffer3mapE{size_t}@Base 4:5.1.95+git20150122

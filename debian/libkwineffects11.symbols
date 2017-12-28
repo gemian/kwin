@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.10.3.1 amd64
+# SymbolsHelper-Confirmed: 4:5.11.4 amd64
 libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZN4KWin11EffectFrame15enableCrossFadeEb@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrame20setCrossFadeProgressEd@Base 4:5.1.95+git20150122
@@ -69,6 +69,7 @@ libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZN4KWin14EffectsHandler20stackingOrderChangedEv@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler20windowOpacityChangedEPNS_12EffectWindowEdd@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler20windowPaddingChangedEPNS_12EffectWindowERK5QRect@Base 4:5.1.95+git20150122
+ _ZN4KWin14EffectsHandler20xcbConnectionChangedEv@Base 4:5.11.4
  _ZN4KWin14EffectsHandler21numberDesktopsChangedEj@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler21screenEdgeApproachingENS_14ElectricBorderEdRK5QRect@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler21screenGeometryChangedERK5QSize@Base 4:5.1.95+git20150122
