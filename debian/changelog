@@ -1,8 +1,13 @@
-kwin (4:5.11.4-1~) UNRELEASED; urgency=medium
+kwin (4:5.11.4-1) experimental; urgency=medium
 
   * New upstream release (5.11.4).
+  * Bump Standards-Version to 4.1.2.
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+  * Update install files
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Dec 2017 15:40:43 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 03 Jan 2018 16:49:03 -0300
 
 kwin (4:5.10.5-2) sid; urgency=medium
 
