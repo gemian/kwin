@@ -98,7 +98,9 @@ Depends: kwin-data (= ${source:Version}),
          ${shlibs:Depends},
 Recommends: libqt5multimedia5-plugins, plasma-desktop
 Suggests: kwin-addons
-Breaks: kwin (<= 4:5.3.1-0ubuntu3)
+Breaks: kwin (<= 4:5.3.1-0ubuntu3),
+        plasma-workspace (<< 4:5.10),
+        plasma-workspace-dev (<< 4:5.10),
 Replaces: kwin (<= 4:5.3.1-0ubuntu3)
 Description: KDE window manager, common files
  KWin (pronounced as one syllable "kwin") is the window
