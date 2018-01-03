@@ -99,8 +99,8 @@ Depends: kwin-data (= ${source:Version}),
 Recommends: libqt5multimedia5-plugins, plasma-desktop
 Suggests: kwin-addons
 Breaks: kwin (<= 4:5.3.1-0ubuntu3),
-        plasma-workspace (<< 4:5.10),
-        plasma-workspace-dev (<< 4:5.10),
+        plasma-workspace (<< 4:5.11),
+        plasma-workspace-dev (<< 4:5.11),
 Replaces: kwin (<= 4:5.3.1-0ubuntu3)
 Description: KDE window manager, common files
  KWin (pronounced as one syllable "kwin") is the window
@@ -180,7 +180,7 @@ Description: KDE window manager, wayland version, PREVIEW release
  This package provides the wayland version, which is still a work in progress
  project, and is available as a PREVIEW release. Don't expect the same
  stability as with the x11 version.
-Breaks: plasma-workspace-wayland (<< 4:5.10)
+Breaks: plasma-workspace-wayland (<< 4:5.11)
 
 Package: kwin-wayland-backend-drm
 Section: libs
@@ -270,7 +270,7 @@ Depends: kwin-common (= ${binary:Version}),
          libkwinxrenderutils11 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
-Breaks: kde-window-manager (<< 4:5), kwin-addons (<< 4:5.10)
+Breaks: kde-window-manager (<< 4:5), kwin-addons (<< 4:5.11)
 Replaces: kde-window-manager (<< 4:5)
 Provides: kwin, x-window-manager
 Description: KDE window manager, X11 version
