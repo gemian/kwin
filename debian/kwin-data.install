@@ -1,4 +1,5 @@
 usr/share/config.kcfg/kwin.kcfg
+usr/share/config.kcfg/kwin_colorcorrect.kcfg
 usr/share/doc/*/*/kcontrol/
 usr/share/icons/*/*/apps/kwin.*
 usr/share/knotifications5/kwin.notifyrc
