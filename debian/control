@@ -120,7 +120,9 @@ Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: plasma-framework,
             qml-module-qtmultimedia,
+            qml-module-qtquick-controls,
             qml-module-qtquick-layouts,
+            qml-module-qtquick-virtualkeyboard,
             qml-module-qtquick-window2,
             qml-module-qtquick2,
 Breaks: ${kde-l10n:all}
