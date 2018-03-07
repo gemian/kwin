@@ -1,9 +1,10 @@
-kwin (4:5.12.3-1~) UNRELEASED; urgency=medium
+kwin (4:5.12.3-1) sid; urgency=medium
 
   * New upstream release (5.12.2).
   * New upstream release (5.12.3).
+  * Release to sid
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 07 Mar 2018 11:09:54 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 07 Mar 2018 19:14:08 +0100
 
 kwin (4:5.12.1-1) sid; urgency=medium
 
