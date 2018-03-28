@@ -1,8 +1,11 @@
-kwin (4:5.12.4-1~) UNRELEASED; urgency=medium
+kwin (4:5.12.4-1) unstable; urgency=medium
 
   * New upstream release (5.12.4).
+  * Add a misc depends to kde-window-manager
+  * Drop kde-window-manager transitional package
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Mar 2018 13:54:33 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Mar 2018 18:12:47 +0200
 
 kwin (4:5.12.3-1) sid; urgency=medium
 
