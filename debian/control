@@ -83,7 +83,7 @@ Package: kde-window-manager
 Section: oldlibs
 Priority: optional
 Architecture: all
-Depends: kwin-x11 (>= 4:5.3.2-4~)
+Depends: kwin-x11 (>= 4:5.3.2-4~), ${misc:Depends}
 Description: transitional package for kwin-x11
  This transitional package allows one to migrate to the packages providing
  the X11 version of the KDE window manager.
