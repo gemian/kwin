@@ -1,3 +1,10 @@
+kwin (4:5.12.5-1~) UNRELEASED; urgency=medium
+
+  * Bump Standards-Version to 4.1.4.
+  * New upstream release (5.12.5).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 06 May 2018 17:05:22 +0200
+
 kwin (4:5.12.4-1) unstable; urgency=medium
 
   * New upstream release (5.12.4).
