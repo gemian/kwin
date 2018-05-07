@@ -85,6 +85,7 @@ Depends: kwin-data (= ${source:Version}),
          libkwineffects11 (= ${binary:Version}),
          qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtmultimedia,
+         libkf5globalaccel-bin,
          ${misc:Depends},
          ${shlibs:Depends},
 Recommends: libqt5multimedia5-plugins, plasma-desktop
