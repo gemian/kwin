@@ -82,10 +82,10 @@ Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kwin.git
 Package: kwin-common
 Architecture: any
 Depends: kwin-data (= ${source:Version}),
+         libkf5globalaccel-bin,
          libkwineffects11 (= ${binary:Version}),
          qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtmultimedia,
-         libkf5globalaccel-bin,
          ${misc:Depends},
          ${shlibs:Depends},
 Recommends: libqt5multimedia5-plugins, plasma-desktop
@@ -134,6 +134,7 @@ Architecture: any
 Depends: kwin-common (= ${binary:Version}),
          libegl1-mesa-dev (>= 1.2~),
          libepoxy-dev (>= 1.2),
+         libkf5config-dev (>= 5.42.0~),
          libkf5coreaddons-dev (>= 5.42.0~),
          libkf5windowsystem-dev (>= 5.42.0~),
          libqt5x11extras5-dev (>= 5.9.0~),
