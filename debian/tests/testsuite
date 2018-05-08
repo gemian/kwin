@@ -5,6 +5,7 @@ export LANG=C.UTF-8
 [ -e debian/tests.home ] || mkdir debian/tests.home
 export HOME="$(pwd)/debian/tests.home"
 export XDG_RUNTIME_DIR=$(mktemp -d --suffix=runtime)
+export KDE_FORK_SLAVES=true
 
 cleanup () {
     rm -rf debian/tests.home
@@ -17,4 +18,4 @@ mkdir -p "$HOME"/.config || true
 mkdir -p "$HOME"/.kde-unit-test || true
 
 xvfb-run -a --server-args="-screen 0 1024x768x24+32 +extension RANDR +extension RENDER +extension GLX" \
-    dbus-run-session -- dh_auto_test
+    dbus-run-session -- dh_auto_test --no-parallel
