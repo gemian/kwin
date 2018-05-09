@@ -1,9 +1,15 @@
-kwin (4:5.12.5-1~) UNRELEASED; urgency=medium
+kwin (4:5.12.5-1) unstable; urgency=medium
 
   * Bump Standards-Version to 4.1.4.
   * New upstream release (5.12.5).
+  * testsuite: fix most of the test running environment
+  * Add patch: Disable-testShadeWobblyWindows.patch
+  * Add missing -dev dependency
+  * Run the tests sequentialy
+  * Use https for the debian/copyright
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 06 May 2018 17:05:22 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 May 2018 13:24:01 +0200
 
 kwin (4:5.12.4-1) unstable; urgency=medium
 
