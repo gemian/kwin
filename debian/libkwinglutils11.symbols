@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.11.4 amd64
+# SymbolsHelper-Confirmed: 4:5.13.1 amd64
 libkwinglutils.so.11 libkwinglutils11 #MINVER#
  _ZN4KWin10GLPlatform10s_platformE@Base 4:5.1.95+git20150122
  _ZN4KWin10GLPlatform14driverToStringENS_6DriverE@Base 4:5.1.95+git20150122
@@ -36,10 +36,12 @@ libkwinglutils.so.11 libkwinglutils11 #MINVER#
  _ZN4KWin14GLRenderTarget10sSupportedE@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget13attachTextureERKNS_9GLTextureE@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget13blitSupportedEv@Base 4:5.1.95+git20150122
+ _ZN4KWin14GLRenderTarget13detachTextureEv@Base 4:5.13.1
  _ZN4KWin14GLRenderTarget15popRenderTargetEv@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget15s_blitSupportedE@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget15s_renderTargetsE@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget16pushRenderTargetEPS0_@Base 4:5.1.95+git20150122
+ _ZN4KWin14GLRenderTarget17pushRenderTargetsE6QStackIPS0_E@Base 4:5.13.1
  _ZN4KWin14GLRenderTarget19blitFromFramebufferERK5QRectS3_j@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget19isRenderTargetBoundEv@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget19s_virtualScreenSizeE@Base 4:5.1.95+git20150122
@@ -51,7 +53,9 @@ libkwinglutils.so.11 libkwinglutils11 #MINVER#
  _ZN4KWin14GLRenderTarget7disableEv@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTarget7initFBOEv@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTargetC1ERKNS_9GLTextureE@Base 4:5.1.95+git20150122
+ _ZN4KWin14GLRenderTargetC1Ev@Base 4:5.13.1
  _ZN4KWin14GLRenderTargetC2ERKNS_9GLTextureE@Base 4:5.1.95+git20150122
+ _ZN4KWin14GLRenderTargetC2Ev@Base 4:5.13.1
  _ZN4KWin14GLRenderTargetD1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin14GLRenderTargetD2Ev@Base 4:5.1.95+git20150122
  _ZN4KWin14GLVertexBuffer10bindArraysEv@Base 4:5.1.95+git20150122
