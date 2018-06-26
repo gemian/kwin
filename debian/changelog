@@ -1,12 +1,14 @@
-kwin (4:5.13.1-1~1) UNRELEASED; urgency=medium
+kwin (4:5.13.1-1) unstable; urgency=medium
 
   * New upstream release (5.13.1).
   * Update build-deps and deps with the info from cmake
   * Force build against the new kdecoration soversion
   * Update symbols files.
   * Ignore cursor weird behaviour under a containerized xvfb
+  * Bump group breaks (4:5.13)
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 26 Jun 2018 11:12:09 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 26 Jun 2018 13:43:07 +0200
 
 kwin (4:5.12.5-1) unstable; urgency=medium
 
