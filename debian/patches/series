@@ -1,1 +1,2 @@
 Disable-testShadeWobblyWindows.patch
+Ignore-cursor-weird-behaviour-under-a-containerized-xvfb.patch
