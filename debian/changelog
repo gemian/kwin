@@ -1,3 +1,9 @@
+kwin (4:5.13.2-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.13.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jun 2018 09:27:48 +0200
+
 kwin (4:5.13.1-1) unstable; urgency=medium
 
   * New upstream release (5.13.1).
