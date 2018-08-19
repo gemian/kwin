@@ -1,10 +1,9 @@
-kwin (4:5.13.4-1~2) UNRELEASED; urgency=medium
+kwin (4:5.13.4-1~3) UNRELEASED; urgency=medium
 
-  * New upstream release (5.13.2).
   * New upstream release (5.13.4).
-  * disable MouseMark effect loading test
+  * disable MouseMark and TrackMouse effects loading test
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Aug 2018 16:42:58 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Aug 2018 18:07:16 +0200
 
 kwin (4:5.13.1-1) unstable; urgency=medium
 
