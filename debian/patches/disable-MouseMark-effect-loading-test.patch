@@ -3,11 +3,11 @@ Date: Sun, 19 Aug 2018 15:29:41 +0200
 Subject: disable MouseMark effect loading test
 
 ---
- autotests/test_builtin_effectloader.cpp | 3 ++-
- 1 file changed, 2 insertions(+), 1 deletion(-)
+ autotests/test_builtin_effectloader.cpp | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
 
 diff --git a/autotests/test_builtin_effectloader.cpp b/autotests/test_builtin_effectloader.cpp
-index 6dd3313..bf7a17f 100644
+index 6dd3313..1d4434b 100644
 --- a/autotests/test_builtin_effectloader.cpp
 +++ b/autotests/test_builtin_effectloader.cpp
 @@ -100,7 +100,8 @@ void TestBuiltInEffectLoader::testHasEffect_data()
@@ -20,3 +20,12 @@ index 6dd3313..bf7a17f 100644
      QTest::newRow("PresentWindows")                 << QStringLiteral("presentwindows")    << true;
      QTest::newRow("Resize")                         << QStringLiteral("resize")            << true;
      QTest::newRow("ScreenEdge")                     << QStringLiteral("screenedge")        << true;
+@@ -322,7 +323,7 @@ void TestBuiltInEffectLoader::testLoadEffect_data()
+     QTest::newRow("Magnifier")                      << QStringLiteral("magnifier")         << true  << xc;
+     QTest::newRow("MinimizeAnimation")              << QStringLiteral("minimizeanimation") << true  << xc;
+     QTest::newRow("MouseClick")                     << QStringLiteral("mouseclick")        << true  << xc;
+-    QTest::newRow("MouseMark")                      << QStringLiteral("mousemark")         << true  << xc;
++    // QTest::newRow("MouseMark")                      << QStringLiteral("mousemark")         << true  << xc;
+     QTest::newRow("PresentWindows")                 << QStringLiteral("presentwindows")    << true  << xc;
+     QTest::newRow("Resize")                         << QStringLiteral("resize")            << true  << xc;
+     QTest::newRow("ScreenEdge")                     << QStringLiteral("screenedge")        << true  << xc;
