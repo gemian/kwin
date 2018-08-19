@@ -1,3 +1,3 @@
 Disable-testShadeWobblyWindows.patch
 Ignore-cursor-weird-behaviour-under-a-containerized-xvfb.patch
-disable-MouseMark-effect-loading-test.patch
+disable-MouseMark-and-TrackMouse-effects-loading-test.patch
