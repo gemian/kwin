@@ -82,7 +82,7 @@ Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kwin.git
 
 Package: kwin-common
 Architecture: any
-Depends: kwin-data (= ${source:Version}),
+Depends: kwin-data (= ${binary:Version}),
          libkf5globalaccel-bin,
          libkwineffects11 (= ${binary:Version}),
          qml-module-org-kde-kquickcontrolsaddons,
