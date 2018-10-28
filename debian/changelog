@@ -1,6 +1,6 @@
-kwin (4:5.13.5-1+b1) UNRELEASED; urgency=medium
+kwin (4:5.13.5-2) UNRELEASED; urgency=medium
 
-  * Rebuild for Qt 5.11.2
+  * kwin-data: Depend on binary:Version
 
  -- Jonah Brüchert <jbb@kaidan.im>  Tue, 23 Oct 2018 23:26:49 +0200
 
