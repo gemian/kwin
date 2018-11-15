@@ -9,7 +9,7 @@ Debian autopkgtest infrastructure
  1 file changed, 3 insertions(+), 1 deletion(-)
 
 diff --git a/autotests/integration/effects/CMakeLists.txt b/autotests/integration/effects/CMakeLists.txt
-index 10446bb..e9b5b36 100644
+index 0297f2c..8c8a6c2 100644
 --- a/autotests/integration/effects/CMakeLists.txt
 +++ b/autotests/integration/effects/CMakeLists.txt
 @@ -1,7 +1,9 @@
