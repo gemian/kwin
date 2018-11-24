@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.14.3 amd64
+# SymbolsHelper-Confirmed: 4:5.14.3 amd64 armel armhf i386 mips mipsel
 libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZN4KWin11EffectFrame15enableCrossFadeEb@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrame20setCrossFadeProgressEd@Base 4:5.1.95+git20150122
@@ -241,17 +241,17 @@ libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZN4KWin8Motion2DC2ERKS0_@Base 4:5.1.95+git20150122
  _ZN4KWin8Motion2DD1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin8Motion2DD2Ev@Base 4:5.1.95+git20150122
- _ZN4KWin8TimeLine10setElapsedENSt6chrono8durationIlSt5ratioILl1ELl1000EEEE@Base 4:5.14.3
- _ZN4KWin8TimeLine11setDurationENSt6chrono8durationIlSt5ratioILl1ELl1000EEEE@Base 4:5.14.3
+ (subst)_ZN4KWin8TimeLine10setElapsedENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEE@Base 4:5.14.3
+ (subst)_ZN4KWin8TimeLine11setDurationENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEE@Base 4:5.14.3
  _ZN4KWin8TimeLine12setDirectionENS0_9DirectionE@Base 4:5.14.3
  _ZN4KWin8TimeLine14setEasingCurveEN12QEasingCurve4TypeE@Base 4:5.14.3
  _ZN4KWin8TimeLine14setEasingCurveERK12QEasingCurve@Base 4:5.14.3
  _ZN4KWin8TimeLine15toggleDirectionEv@Base 4:5.14.3
  _ZN4KWin8TimeLine5resetEv@Base 4:5.14.3
- _ZN4KWin8TimeLine6updateENSt6chrono8durationIlSt5ratioILl1ELl1000EEEE@Base 4:5.14.3
- _ZN4KWin8TimeLineC1ENSt6chrono8durationIlSt5ratioILl1ELl1000EEEENS0_9DirectionE@Base 4:5.14.3
+ (subst)_ZN4KWin8TimeLine6updateENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEE@Base 4:5.14.3
+ (subst)_ZN4KWin8TimeLineC1ENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEENS0_9DirectionE@Base 4:5.14.3
  _ZN4KWin8TimeLineC1ERKS0_@Base 4:5.14.3
- _ZN4KWin8TimeLineC2ENSt6chrono8durationIlSt5ratioILl1ELl1000EEEENS0_9DirectionE@Base 4:5.14.3
+ (subst)_ZN4KWin8TimeLineC2ENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEENS0_9DirectionE@Base 4:5.14.3
  _ZN4KWin8TimeLineC2ERKS0_@Base 4:5.14.3
  _ZN4KWin8TimeLineD1Ev@Base 4:5.14.3
  _ZN4KWin8TimeLineD2Ev@Base 4:5.14.3
