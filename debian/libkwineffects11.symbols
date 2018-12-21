@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.11.4 amd64
+# SymbolsHelper-Confirmed: 4:5.14.3 amd64 armel armhf i386 mips mipsel
 libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZN4KWin11EffectFrame15enableCrossFadeEb@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrame20setCrossFadeProgressEd@Base 4:5.1.95+git20150122
@@ -86,6 +86,7 @@ libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZN4KWin14EffectsHandler27windowStartUserMovedResizedEPNS_12EffectWindowE@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler28virtualScreenGeometryChangedEv@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandler28windowFinishUserMovedResizedEPNS_12EffectWindowE@Base 4:5.1.95+git20150122
+ _ZN4KWin14EffectsHandler29activeFullScreenEffectChangedEv@Base 4:5.14.3
  _ZN4KWin14EffectsHandler8tabAddedEPNS_12EffectWindowES2_@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandlerC1ENS_15CompositingTypeE@Base 4:5.1.95+git20150122
  _ZN4KWin14EffectsHandlerC2ENS_15CompositingTypeE@Base 4:5.1.95+git20150122
@@ -220,6 +221,13 @@ libkwineffects.so.11 libkwineffects11 #MINVER#
  (optional=templinst)_ZN4KWin6MotionI7QPointFE9calculateEi@Base 4:5.1.95+git20150122
  (optional=templinst|arch=armhf)_ZN4KWin6MotionI7QPointFEC1ERKS2_@Base 4:5.6.2
  (optional=templinst|arch=armhf)_ZN4KWin6MotionI7QPointFEC2ERKS2_@Base 4:5.6.2
+ _ZN4KWin7AniData4listERK7QString@Base 4:5.14.3
+ _ZN4KWin7AniDataC1ENS_15AnimationEffect9AttributeEiiRKNS_4FPx2E12QEasingCurveiS5_bb@Base 4:5.14.3
+ _ZN4KWin7AniDataC1ERK7QString@Base 4:5.14.3
+ _ZN4KWin7AniDataC1Ev@Base 4:5.14.3
+ _ZN4KWin7AniDataC2ENS_15AnimationEffect9AttributeEiiRKNS_4FPx2E12QEasingCurveiS5_bb@Base 4:5.14.3
+ _ZN4KWin7AniDataC2ERK7QString@Base 4:5.14.3
+ _ZN4KWin7AniDataC2Ev@Base 4:5.14.3
  _ZN4KWin7effectsE@Base 4:5.1.95+git20150122
  _ZN4KWin8Motion1DC1ERKS0_@Base 4:5.1.95+git20150122
  _ZN4KWin8Motion1DC1Eddd@Base 4:5.1.95+git20150122
@@ -233,6 +241,21 @@ libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZN4KWin8Motion2DC2ERKS0_@Base 4:5.1.95+git20150122
  _ZN4KWin8Motion2DD1Ev@Base 4:5.1.95+git20150122
  _ZN4KWin8Motion2DD2Ev@Base 4:5.1.95+git20150122
+ (subst)_ZN4KWin8TimeLine10setElapsedENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEE@Base 4:5.14.3
+ (subst)_ZN4KWin8TimeLine11setDurationENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEE@Base 4:5.14.3
+ _ZN4KWin8TimeLine12setDirectionENS0_9DirectionE@Base 4:5.14.3
+ _ZN4KWin8TimeLine14setEasingCurveEN12QEasingCurve4TypeE@Base 4:5.14.3
+ _ZN4KWin8TimeLine14setEasingCurveERK12QEasingCurve@Base 4:5.14.3
+ _ZN4KWin8TimeLine15toggleDirectionEv@Base 4:5.14.3
+ _ZN4KWin8TimeLine5resetEv@Base 4:5.14.3
+ (subst)_ZN4KWin8TimeLine6updateENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEE@Base 4:5.14.3
+ (subst)_ZN4KWin8TimeLineC1ENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEENS0_9DirectionE@Base 4:5.14.3
+ _ZN4KWin8TimeLineC1ERKS0_@Base 4:5.14.3
+ (subst)_ZN4KWin8TimeLineC2ENSt6chrono8durationI{int64_t}St5ratioIL{int64_t}1EL{int64_t}1000EEEENS0_9DirectionE@Base 4:5.14.3
+ _ZN4KWin8TimeLineC2ERKS0_@Base 4:5.14.3
+ _ZN4KWin8TimeLineD1Ev@Base 4:5.14.3
+ _ZN4KWin8TimeLineD2Ev@Base 4:5.14.3
+ _ZN4KWin8TimeLineaSERKS0_@Base 4:5.14.3
  _ZN4KWin9PaintData15setRotationAxisEN2Qt4AxisE@Base 4:5.1.95+git20150122
  _ZN4KWin9PaintData15setRotationAxisERK9QVector3D@Base 4:5.1.95+git20150122
  _ZN4KWin9PaintData15setXTranslationEd@Base 4:5.1.95+git20150122
@@ -323,6 +346,7 @@ libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZNK4KWin12EffectWindow9isUtilityEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow9isVisibleEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow9keepAboveEv@Base 4:5.1.95+git20150122
+ _ZNK4KWin12EffectWindow9keepBelowEv@Base 4:5.14.3
  _ZNK4KWin12PaintClipper8Iterator12boundingRectEv@Base 4:5.1.95+git20150122
  _ZNK4KWin14EffectsHandler10metaObjectEv@Base 4:5.1.95+git20150122
  _ZNK4KWin14EffectsHandler15compositingTypeEv@Base 4:5.1.95+git20150122
@@ -341,6 +365,7 @@ libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZNK4KWin15AnimationEffect10metaObjectEv@Base 4:5.1.95+git20150122
  _ZNK4KWin15AnimationEffect12interpolatedERKNS_7AniDataEi@Base 4:5.1.95+git20150122
  _ZNK4KWin15AnimationEffect5debugERK7QString@Base 4:5.1.95+git20150122
+ _ZNK4KWin15AnimationEffect5stateEv@Base 4:5.14.3
  _ZNK4KWin15AnimationEffect8clipRectERK5QRectRKNS_7AniDataE@Base 4:5.1.95+git20150122
  _ZNK4KWin15AnimationEffect8isActiveEv@Base 4:5.1.95+git20150122
  _ZNK4KWin15AnimationEffect8progressERKNS_7AniDataE@Base 4:5.1.95+git20150122
@@ -369,6 +394,16 @@ libkwineffects.so.11 libkwineffects11 #MINVER#
  _ZNK4KWin6Effect28requestedEffectChainPositionEv@Base 4:5.1.95+git20150122
  _ZNK4KWin6Effect5debugERK7QString@Base 4:5.1.95+git20150122
  _ZNK4KWin6Effect8isActiveEv@Base 4:5.1.95+git20150122
+ _ZNK4KWin7AniData8toStringEv@Base 4:5.14.3
+ _ZNK4KWin7AniData9debugInfoEv@Base 4:5.14.3
+ _ZNK4KWin8TimeLine11easingCurveEv@Base 4:5.14.3
+ _ZNK4KWin8TimeLine4doneEv@Base 4:5.14.3
+ _ZNK4KWin8TimeLine5valueEv@Base 4:5.14.3
+ _ZNK4KWin8TimeLine7elapsedEv@Base 4:5.14.3
+ _ZNK4KWin8TimeLine7runningEv@Base 4:5.14.3
+ _ZNK4KWin8TimeLine8durationEv@Base 4:5.14.3
+ _ZNK4KWin8TimeLine8progressEv@Base 4:5.14.3
+ _ZNK4KWin8TimeLine9directionEv@Base 4:5.14.3
  _ZNK4KWin9PaintData11translationEv@Base 4:5.1.95+git20150122
  _ZNK4KWin9PaintData12rotationAxisEv@Base 4:5.1.95+git20150122
  _ZNK4KWin9PaintData12xTranslationEv@Base 4:5.1.95+git20150122

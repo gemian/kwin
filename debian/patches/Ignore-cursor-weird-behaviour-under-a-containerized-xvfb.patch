@@ -8,10 +8,10 @@ Subject: Ignore cursor weird behaviour under a containerized xvfb
  2 files changed, 20 insertions(+), 6 deletions(-)
 
 diff --git a/autotests/integration/move_resize_window_test.cpp b/autotests/integration/move_resize_window_test.cpp
-index 8b71765..604b84e 100644
+index 3c3b350..5b395bc 100644
 --- a/autotests/integration/move_resize_window_test.cpp
 +++ b/autotests/integration/move_resize_window_test.cpp
-@@ -644,8 +644,6 @@ void MoveResizeWindowTest::testNetMove()
+@@ -645,8 +645,6 @@ void MoveResizeWindowTest::testNetMove()
      QVERIFY(moveStartSpy.isValid());
      QSignalSpy moveEndSpy(client, &Client::clientFinishUserMovedResized);
      QVERIFY(moveEndSpy.isValid());
@@ -20,7 +20,7 @@ index 8b71765..604b84e 100644
      QVERIFY(!workspace()->getMovingClient());
  
      // use NETRootInfo to trigger a move request
-@@ -657,8 +655,20 @@ void MoveResizeWindowTest::testNetMove()
+@@ -658,8 +656,20 @@ void MoveResizeWindowTest::testNetMove()
      QCOMPARE(workspace()->getMovingClient(), client);
      QVERIFY(client->isMove());
      QCOMPARE(client->geometryRestore(), origGeo);
