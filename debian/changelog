@@ -1,4 +1,10 @@
-kwin (4:5.14.3-3) UNRELEASED; urgency=medium
+kwin (4:5.14.3-4) UNRELEASED; urgency=medium
+
+  * Rebuild for qtbase-abi-5-11-3
+
+ -- Jonah Brüchert <jbb@kaidan.im>  Sat, 05 Jan 2019 20:43:41 +0100
+
+kwin (4:5.14.3-3) unstable; urgency=medium
 
   * kwin-data: Depend on binary:Version
 
