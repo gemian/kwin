@@ -1,4 +1,10 @@
-kwin (4:5.14.3-4) UNRELEASED; urgency=medium
+kwin (4:5.14.3-5) UNRELEASED; urgency=medium
+
+  * Add kwin-wayland-backend-hwcomposer to possible backends
+
+ -- Jonah Brüchert <jbb@kaidan.im>  Sun, 06 Jan 2019 11:23:35 +0100
+
+kwin (4:5.14.3-4) unstable; urgency=medium
 
   * Rebuild for qtbase-abi-5-11-3
 
