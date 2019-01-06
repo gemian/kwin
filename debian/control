@@ -159,7 +159,7 @@ Package: kwin-wayland
 Architecture: any
 Depends: kwayland-integration (>= 5.14),
          kwin-common (= ${binary:Version}),
-         kwin-wayland-backend-drm (= ${binary:Version}) | kwin-wayland-backend-fbdev (= ${binary:Version}) | kwin-wayland-backend-x11 (= ${binary:Version}) | kwin-wayland-backend-virtual (= ${binary:Version}) | kwin-wayland-backend-wayland (= ${binary:Version}),
+         kwin-wayland-backend-drm (= ${binary:Version}) | kwin-wayland-backend-fbdev (= ${binary:Version}) | kwin-wayland-backend-x11 (= ${binary:Version}) | kwin-wayland-backend-virtual (= ${binary:Version}) | kwin-wayland-backend-wayland (= ${binary:Version}) | kwin-wayland-backend-hwcomposer (= ${binary:Version}),
          libcap2-bin [linux-any],
          xwayland,
          ${misc:Depends},
