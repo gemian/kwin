@@ -214,7 +214,7 @@ Description: KDE window manager fbdev plugin
 Package: kwin-wayland-backend-hwcomposer
 Section: libs
 Architecture: armhf arm64 i386 amd64
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}, kwin-common (= ${binary:Version})
 Provides: kwin-wayland-backend
 Description: KDE window manager hwcompositor plugin
  KWin (pronounced as one syllable "kwin") is the window
