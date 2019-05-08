@@ -314,17 +314,19 @@ Description: KDE window manager effect builtins library
  .
  This package is part of the KDE base workspace module.
 
-Package: libkwineffects11
+Package: libkwineffects12
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libkwineffects10,
+        libkwineffects11,
         libkwineffects5 (<< 4:5.2.0),
         libkwineffects6 (<< 4:5.4.1+git20150907),
         libkwineffects7 (<< 4:5.5.80+git20160203),
         libkwineffects8,
         libkwineffects9,
 Replaces: libkwineffects10,
+          libkwineffects11,
           libkwineffects5 (<< 4:5.2.0),
           libkwineffects6 (<< 4:5.4.1+git20150907),
           libkwineffects7 (<< 4:5.5.80+git20160203),
@@ -341,19 +343,21 @@ Description: KDE window manager effects library
  .
  This package is part of the KDE base workspace module.
 
-Package: libkwinglutils11
+Package: libkwinglutils12
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kwin-common (<< 4:5.4),
         libkwin4-effect-builtins1 (<< 4:5.4),
         libkwinglutils10,
+        libkwinglutils11,
         libkwinglutils5 (<< 4:5.2.0),
         libkwinglutils6 (<< 4:5.4.1+git20150907),
         libkwinglutils7 (<< 4.5.5.80+git20160203),
         libkwinglutils8,
         libkwinglutils9,
 Replaces: libkwinglutils10,
+          libkwinglutils11,
           libkwinglutils5 (<< 4:5.2.0),
           libkwinglutils6 (<< 4:5.4.1+git20150907),
           libkwinglutils7 (<< 4:5.5.80+git20160203),
@@ -370,17 +374,19 @@ Description: KDE window manager gl utils library
  .
  This package is part of the KDE base workspace module.
 
-Package: libkwinxrenderutils11
+Package: libkwinxrenderutils12
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libkwinxrenderutils10,
+        libkwinxrenderutils11,
         libkwinxrenderutils5 (<< 4:5.2.0),
         libkwinxrenderutils6 (<< 4:5.4.1+git20150907),
         libkwinxrenderutils7 (<< 4:5.5.80+git20160203),
         libkwinxrenderutils8,
         libkwinxrenderutils9,
 Replaces: libkwinxrenderutils10,
+          libkwinxrenderutils11,
           libkwinxrenderutils5 (<< 4:5.2.0),
           libkwinxrenderutils6 (<< 4:5.4.1+git20150907),
           libkwinxrenderutils7 (<< 4:5.5.80+git20160203),
