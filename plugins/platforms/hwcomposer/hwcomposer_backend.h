@@ -56,12 +56,15 @@ public:
     bool isValid() const;
 
     QSize pixelSize() const override;
+    QSize panelPixelSize() const;
     void updateDpms(KWayland::Server::OutputInterface::DpmsMode mode) override;
 Q_SIGNALS:
     void dpmsModeRequested(KWayland::Server::OutputInterface::DpmsMode mode);
 private:
     QSize m_pixelSize;
+    QSize m_panelPixelSize;
     hwc_composer_device_1_t *m_device;
+    int m_hal_transform_rot = 0;
 };
 
 class HwcomposerBackend : public Platform
@@ -81,6 +84,7 @@ public:
     Outputs enabledOutputs() const override;
 
     QSize size() const;
+    QSize panelSize() const;
     QSize screenSize() const override;
 
     int scale() const;

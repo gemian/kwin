@@ -115,7 +115,12 @@ bool EglHwcomposerBackend::initRenderingContext()
     }
     setSurface(surface);
 
-    return makeContextCurrent();
+    if (!makeContextCurrent())
+        return false;
+    // For some reason SceneOpenGL::screenGeometryChanged doesn't get called on start
+    glViewport(0, 0, m_backend->size().width(), m_backend->size().height());
+
+    return true;
 }
 
 bool EglHwcomposerBackend::makeContextCurrent()
