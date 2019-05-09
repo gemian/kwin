@@ -263,6 +263,14 @@ QSize HwcomposerBackend::size() const
     return QSize();
 }
 
+QSize HwcomposerBackend::panelSize() const
+{
+    if (m_output) {
+        return m_output->panelPixelSize();
+    }
+    return QSize();
+}
+
 QSize HwcomposerBackend::screenSize() const
 {
     if (m_output) {
@@ -422,7 +430,7 @@ static void initLayer(hwc_layer_1_t *layer, const hwc_rect_t &rect, int layerCom
 }
 
 HwcomposerWindow::HwcomposerWindow(HwcomposerBackend *backend)
-    : HWComposerNativeWindow(backend->size().width(), backend->size().height(), HAL_PIXEL_FORMAT_RGBA_8888)
+    : HWComposerNativeWindow(backend->panelSize().width(), backend->panelSize().height(), HAL_PIXEL_FORMAT_RGBA_8888)
     , m_backend(backend)
 {
     setBufferCount(3);
@@ -440,8 +448,8 @@ HwcomposerWindow::HwcomposerWindow(HwcomposerBackend *backend)
     const hwc_rect_t rect = {
         0,
         0,
-        m_backend->size().width(),
-        m_backend->size().height()
+        m_backend->panelSize().width(),
+        m_backend->panelSize().height()
     };
     initLayer(&list->hwLayers[0], rect, HWC_FRAMEBUFFER);
     initLayer(&list->hwLayers[1], rect, HWC_FRAMEBUFFER_TARGET);
@@ -506,7 +514,15 @@ HwcomposerOutput::HwcomposerOutput(hwc_composer_device_1_t *device)
     if (pixel.isEmpty()) {
         return;
     }
-    m_pixelSize = pixel;
+
+    m_hal_transform_rot = qEnvironmentVariableIntValue("HYBRIS_HAL_TRANSFORM_ROT");
+    if (m_hal_transform_rot == HAL_TRANSFORM_ROT_90 || m_hal_transform_rot == HAL_TRANSFORM_ROT_270) {
+        m_panelPixelSize = pixel;
+        m_pixelSize = QSize(pixel.height(), pixel.width());
+    } else {
+        m_pixelSize = pixel;
+        m_panelPixelSize = m_pixelSize;
+    }
 
     if (attr_values[2] != 0 && attr_values[3] != 0) {
          static const qreal factor = 25.4;
@@ -542,6 +558,11 @@ HwcomposerOutput::~HwcomposerOutput()
 QSize HwcomposerOutput::pixelSize() const
 {
     return m_pixelSize;
+}
+
+QSize HwcomposerOutput::panelPixelSize() const
+{
+    return m_panelPixelSize;
 }
 
 bool HwcomposerOutput::isValid() const
